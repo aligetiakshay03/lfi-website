@@ -1,0 +1,49 @@
+{
+  "heroSectionData": {
+    "heading1": "Insurance ",
+    "subheading1": "Revolutionizing Insurance with Advanced Technology",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Insurance BG.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Systems that help both clients & administration",
+    "para1": "Transforming day-to-day operations like billing, invoices, and claims management into quick, AI-assisted tasks.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "AI-Powered Claims Processing",
+        "desc": "Automate claims management with AI-driven solutions to speed up resolution, enhance accuracy, and reduce errors and fraud.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI-Powered Claims Processing.png"
+      },
+      {
+        "title": "Automated Billing Solutions",
+        "desc": "Streamline billing processes by automating invoices and payments, eliminating paperwork and simplifying transactions.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated Billing Solutions.png"
+      },
+      {
+        "title": "Intelligent Customer Service",
+        "desc": "Utilize AI and ML for virtual assistants and chatbots, providing 24/7 support for inquiries, policy updates, and claims filing, boosting client satisfaction.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Intelligent Customer Service.png"
+      },
+      {
+        "title": "Predictive Analytics for Risk Assessment",
+        "desc": "Harness predictive analytics for tailored risk assessment, ensuring personalized coverage based on in-depth understanding of individual needs.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Predictive Analytics for Risk Assessment.png"
+      },
+      {
+        "title": "Digital Document Management",
+        "desc": "Implement digital solutions for managing policy documents and claims forms, creating a sustainable, paperless environment.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Digital Document Management.png"
+      }
+    ]
+  }
+}

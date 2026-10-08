@@ -1,0 +1,105 @@
+{
+  "heroSectionData": {
+    "heading1": "Digital Transformation",
+    "subheading1": "Transporting your business to the future",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/digital-transformation.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Preparing you for a digital world",
+    "para1": "Digital transformation is the adoption of digital technologies by a corporation to improve business processes, customer value, and innovation.\n"
+  },
+  "Projectflow": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Modernizing your business operations"
+  },
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "Cards": [
+    {
+      "logo": "",
+      "bgcolor": "bg-[#FFEF9C]",
+      "heading": "Application Modernization",
+      "content": "Using contemporary IT to transform outdated applications to increase agility and efficiency."
+    },
+    {
+      "logo": "",
+      "bgcolor": "bg-[#FFE2C9]",
+      "heading": "Business Restructuring",
+      "content": "Increasing flexibility inside internal processes while reducing crucial hardware, maintenance strain, and high ownership costs."
+    },
+    {
+      "logo": "",
+      "bgcolor": "bg-[#CDDCFF]",
+      "heading": "Develop Digital Strategy",
+      "content": "This is the planning and strategy phase where we design a vision for the implementation of the digital transformation process."
+    },
+    {
+      "logo": "",
+      "bgcolor": "bg-[#FFE2C9]",
+      "heading": "Digital Applications",
+      "content": "One of the most important aspects of the approach is the adoption of digital practises throughout the application lifecycle."
+    },
+    {
+      "logo": "",
+      "bgcolor": "bg-[#CDDCFF]",
+      "heading": "Explicit User Experience",
+      "content": "Minimize the gap between the customer and ongoing product and service development."
+    },
+    {
+      "logo": "",
+      "bgcolor": "",
+      "heading": "Infrastructure Upgrade",
+      "content": "Establishing a link between digital capabilities and existing enterprise infrastructure that is designed to be updated on a regular basis."
+    }
+  ],
+  "MediaSection": {
+    "status": "COVID 19",
+    "title": "Evolution point for digital transformation",
+    "description": "While there’s no doubt to the fact that the COVID-19 pandemic has been disastrous and tragic, it has helped us learn and grow in ways that were unprecedented. Surveys have witnessed nearly 95% global leaders undertaking a digital transformation as a result of the pandemic.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/media-section.jpg",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/pie-chart.png"
+  },
+  "digitalEvolutionMediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Finding the way to your digital evolution",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/digital-evolution.png"
+  },
+  "UseCases": {
+    "status1": "USE CASES",
+    "heading1": "Breakthroughs across sectors"
+  },
+  "UseCasesCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (7).png",
+      "heading": "Artificial Intelligence",
+      "content": "AI-assisted digital transformation can help you increase productivity and make data-driven decisions. We employ artificial intelligence to discover new patterns in a variety of datasets, allowing us to make more exact forecasts."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880319 (1).png",
+      "heading": "Internet of Things",
+      "content": "We create customised IoT solutions with effective integration methods using IoT technologies. Using proprietary technologies and extensible IoT platforms, we deliver measurable business value."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880320 (1).png",
+      "heading": "Blockchain",
+      "content": "Our Digital Transformation Services make it easier for your company to use blockchain and get the benefits of safe, open, verifiable, and completely decentralized digital transactions."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880324 (1).png",
+      "heading": "Enterprise Mobility",
+      "content": "Corporations stand a chance to increase revenue, improve employee efficiency, and increase customer loyalty by implementing enterprise mobility. To develop and deliver mobile-first enterprise solutions to our clients, we engage in mobile app solutions."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880323 (1).png",
+      "heading": "Robotic Process Automation",
+      "content": "We employ breakthrough robotic process automation tech to create cost-effective systems that automate monotonous and ordinary processes, allowing organizations to focus on value-added activities."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880322 (1).png",
+      "heading": "Augmented Reality",
+      "content": "For your customers, we create unique and tailored user experiences. We assist you in digitally transforming your business through Augmented Reality adoption, which can improve customer experience and commitment."
+    }
+  ]
+}

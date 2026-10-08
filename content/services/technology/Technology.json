@@ -1,0 +1,44 @@
+{
+  "heroSectionData": {
+    "heading1": "Technology Services",
+    "subheading1": "Facilitating change by mobilizing technology",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Adaptation and research for newer technologies",
+    "para1": "We research and study all the upcoming technologies to develop models that will make the technological transformation easier in the future.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Big data engineering",
+      "descriptions": "Building and managing big data infrastructure and tools that lets engineers interact with massive data processing systems and databases in large-scale computing environments.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/big-data.png",
+      "button": {
+        "link": "/services/technology/big-data",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "AI & Machine learning",
+      "descriptions": "Machine learning supported by AI systems that learn computer algorithms by studying data, automatically making improvements without human guidance.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/product-discovery.png",
+      "button": {
+        "link": "/services/technology/ai-ml",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to Us"
+  },
+  "messageBannerData2": {
+    "title": "Want a new work experience?",
+    "url": "/contact-us",
+    "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+    "urlMessage": "Join Us"
+  }
+}

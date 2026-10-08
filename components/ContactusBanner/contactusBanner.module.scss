@@ -1,0 +1,272 @@
+.banner {
+    background-color: #2D58C0;
+    color: #e6eced;
+    padding: 40px 408px 40px 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 202px;
+    align-items: center;
+
+    .svgicon {
+        position: relative;
+        min-width: 36px;
+        max-width: 36px;
+        min-height: 36px;
+        max-height: 36px;
+    }
+
+    /* Official brand mark container — soft frosted glass chip. */
+    .brandIcon {
+        display: grid;
+        place-items: center;
+        flex: none;
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.88);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+            box-shadow 240ms ease,
+            background 240ms ease,
+            border-color 240ms ease;
+
+        svg {
+            width: 26px;
+            height: 26px;
+            display: block;
+            transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+        }
+    }
+
+    .textContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+        align-self: stretch;
+        max-width: 1313px;
+    }
+
+    .title {
+
+        color: #E6ECED;
+        font-family: "MonsalGothicMedium";
+        font-size: 56px;
+        font-style: normal;
+        line-height: 105%;
+
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        gap: 557.5px;
+
+    }
+
+    .iconItem {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        text-align: left;
+        transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+
+        &:hover,
+        &:focus-visible {
+            transform: translateY(-2px);
+
+            .brandIcon {
+                background: rgba(255, 255, 255, 0.96);
+                border-color: rgba(255, 255, 255, 0.95);
+                box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25),
+                    0 0 16px var(--brand-glow, rgba(255, 255, 255, 0.4));
+
+                svg {
+                    transform: scale(1.06);
+                }
+            }
+        }
+    }
+
+    .iconmaintext {
+        color: var(--Linkfields-Light-Grey, #E6ECED);
+        font-family: "libre-franklin", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .iconsubtext {
+        color: var(--Linkfields-Light-Grey, #E6ECED);
+        font-family: "libre-franklin", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.64px;
+    }
+
+
+}
+
+@media (max-width: 1919px) {
+    .banner {
+
+        .title {
+            font-size: 36px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1700px) {
+    .banner {
+
+
+
+
+        .textContent {
+
+            gap: 38px;
+            // margin-left: 70px;
+        }
+
+        .icons {
+            gap: 357.5px !important;
+        }
+
+        .iconmaintext {
+
+            font-size: 12px;
+            // font-weight: 500;
+
+        }
+
+        .iconsubtext {
+            font-size: 10px;
+            // font-weight: 300;
+
+        }
+    }
+}
+
+@media (max-width: 1560px) {
+    .banner {
+        padding: 40px 80px;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .banner {
+
+        .icons {
+            gap: 257.5px !important;
+        }
+
+    }
+
+}
+
+@media (max-width: 1025px) {
+    .banner {
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .banner {
+
+        .icons {
+            gap: 107.5px !important;
+        }
+    }
+
+}
+
+//   @media screen and (max-width: 600px) {
+//     .banner {
+//         padding: 37px 10vw 37px 0px; 
+
+//         .textContent{
+//             margin-left: 0px!important;
+//             gap: 20px;
+
+//         }
+
+//         .icons {
+//             flex-direction: column;
+//             gap: 57.5px !important; 
+//         }
+//   }
+
+//   }
+@media screen and (max-width: 768px) {
+    .banner {
+        // padding: 50px;
+
+        .title {
+            font-size: 32px;
+            // font-weight: 200;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .banner {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        // padding: 20px;
+
+
+
+        .textContent {
+            // margin-left: 0px!important;
+
+            gap: 20px !important;
+        }
+
+        .icons {
+            // flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 4px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .banner {
+        // padding: 20px;
+
+
+
+        .textContent {
+            // margin-left: 0px!important;
+
+            gap: 20px !important;
+        }
+
+        .icons {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px !important;
+        }
+    }
+}

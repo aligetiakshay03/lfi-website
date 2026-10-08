@@ -1,0 +1,293 @@
+.section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 88px 0 28px;
+  background: var(--lf-cream-glow), var(--lf-ivory);
+  overflow: hidden;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: clamp(28px, 4vh, 48px);
+}
+
+.title {
+  margin: 14px 0 0;
+  color: var(--lf-text-dark);
+}
+
+.introWrap {
+  max-width: 480px;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* ---------- Rail ---------- */
+
+.rail {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  padding-left: max(var(--lf-gutter), calc((100vw - var(--lf-max)) / 2 + var(--lf-gutter)));
+}
+
+.track {
+  display: flex;
+  gap: 18px;
+  width: max-content;
+  padding-right: var(--lf-gutter);
+  will-change: transform;
+}
+
+.card {
+  position: relative;
+  flex: none;
+  width: clamp(280px, 26vw, 460px);
+  height: min(58vh, 540px);
+  min-height: 360px;
+  border-radius: 22px var(--lf-radius-xl) 22px 22px;
+  overflow: hidden;
+  background: #151515;
+  box-shadow: var(--lf-shadow-card);
+  transition: width 0.7s var(--lf-ease-out), transform 0.6s var(--lf-ease-out);
+}
+
+// Active panel is larger; previews stay compact.
+.cardActive {
+  width: clamp(340px, 36vw, 620px);
+}
+
+.cardLink {
+  position: absolute;
+  inset: 0;
+  display: block;
+  color: inherit;
+
+  &:focus-visible {
+    outline-offset: -3px;
+  }
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+}
+
+.img {
+  object-fit: cover;
+  transform: scale(1.06);
+  filter: saturate(0.75) brightness(0.8);
+  transition: transform 1.2s var(--lf-ease-out), filter 0.8s ease;
+}
+
+.cardActive .img {
+  transform: scale(1);
+  filter: saturate(1) brightness(0.95);
+}
+
+.card:hover .img {
+  transform: scale(1.04);
+}
+
+.shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(8, 8, 8, 0.92) 0%, rgba(8, 8, 8, 0.35) 45%, rgba(8, 8, 8, 0.1) 100%);
+}
+
+.body {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: clamp(20px, 2.4vw, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.num {
+  font-family: var(--lf-font-display);
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  color: var(--lf-orange);
+}
+
+.name {
+  margin: 0;
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.4rem);
+  line-height: 1.05;
+  color: #fff;
+  transition: transform 0.6s var(--lf-ease-out);
+}
+
+.card:hover .name {
+  transform: translateX(6px);
+}
+
+.more {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.7s var(--lf-ease-out), opacity 0.5s ease;
+
+  > * {
+    min-height: 0;
+  }
+}
+
+.cardActive .more {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.desc {
+  margin: 6px 0 0;
+  overflow: hidden;
+  font-family: var(--lf-font-body);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--lf-grey-2);
+  max-width: 48ch;
+}
+
+.read {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  overflow: hidden;
+  font-family: var(--lf-font-display);
+  font-size: 0.9rem;
+  color: var(--lf-orange);
+
+  svg {
+    transition: transform 0.4s var(--lf-ease-out);
+  }
+}
+
+.card:hover .read svg {
+  transform: translateX(4px);
+}
+
+.endCard {
+  flex: none;
+  width: clamp(260px, 22vw, 360px);
+  height: min(58vh, 540px);
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 28px;
+
+  p {
+    margin: 0;
+    font-size: clamp(1.4rem, 1.1rem + 0.8vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.12;
+    color: #fff;
+  }
+
+  :global(.lf-btn) {
+    --btn-bg: #fff;
+    --btn-fg: var(--lf-ink-strong);
+    box-shadow: 0 14px 28px -14px rgba(0, 0, 0, 0.4);
+  }
+
+  :global(.lf-btn__arrow) {
+    background: rgba(20, 24, 33, 0.08);
+  }
+
+  a {
+    align-self: flex-start;
+  }
+}
+
+/* ---------- Footer / progress ---------- */
+
+.foot {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: clamp(24px, 3.5vh, 40px);
+}
+
+.count {
+  font-family: var(--lf-font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  color: var(--lf-orange);
+  font-variant-numeric: tabular-nums;
+}
+
+.bar {
+  position: relative;
+  flex: 1;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--lf-line-light);
+  overflow: hidden;
+
+  span {
+    position: absolute;
+    inset: 0;
+    background: var(--lf-orange);
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+}
+
+.hint {
+  font-family: var(--lf-font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8b95a6;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    min-height: 0;
+    padding: var(--lf-section-y) 0;
+  }
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rail {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: var(--lf-gutter);
+    padding-left: var(--lf-gutter);
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .card,
+  .cardActive {
+    width: min(78vw, 420px);
+    height: min(70vh, 520px);
+    scroll-snap-align: start;
+  }
+  .endCard {
+    width: min(70vw, 340px);
+    height: min(70vh, 520px);
+    scroll-snap-align: start;
+  }
+  .hint {
+    display: none;
+  }
+}

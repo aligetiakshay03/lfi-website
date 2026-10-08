@@ -1,0 +1,58 @@
+{
+  "heroSectionData": {
+    "heading1": "Big Data Engineering",
+    "subheading1": "Data processing systems that reduce workload",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Biig Data Enginnering BG.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Making data analysis easier",
+    "para1": "Big Data Engineering is a field that finds ways to examine, efficiently separate data from data sets that are excessively huge or complex to be managed by customary information handling application programming.\n"
+  },
+  "bigDataCardSection": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Innovating more secure ways to extract data"
+  },
+  "bigDataCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (61).png",
+      "heading": "Big data consulting",
+      "content": "With the help of a product strategy, we identify best-fit technologies that help you convert data into revenue opportunities."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (62).png",
+      "heading": "Data infrastructure engineering",
+      "content": "We construct data warehouse & data lake solutions, as well as streamline ETL development, execution, and management tasks by building data pipelines."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (63).png",
+      "heading": "BI & data analytics",
+      "content": "Helping you make better & faster decisions by speeding up your time to insights using breakthrough business intelligence tools."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (64).png",
+      "heading": "Data visualization",
+      "content": "Gain 360-degree visibility into your data through interactive reports and intuitive dashboards that simplify analytics."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (65).png",
+      "heading": "Data security",
+      "content": "By developing a tiered access system, we protect your data in adherence to security protocols and also ensure an efficient backup & recovery process."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (66).png",
+      "heading": "Data monetization",
+      "content": "Implementing strategies to maximize the value of your data assets while adhering to stringent security measures."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Smart analysis for quicker insights",
+    "description": "Through a very well-defined, step-by-step process, we help you define your business objectives, create a platform to smartly collect and organize data, which is then analyzed thoroughly to derive smart insights which you can infuse into your business strategy, achieving great results.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (5).png"
+  }
+}

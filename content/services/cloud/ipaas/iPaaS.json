@@ -1,0 +1,108 @@
+{
+  "heroSectionData": {
+    "heading1": "iPaaS",
+    "subheading1": "Your Partner for Advanced iPaaS",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ipaas.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Pioneers in iPaaS implementation",
+    "para1": "Linkfields offers tailor-made solutions that align with your unique business needs, backed by expertise across a diverse range of products.\n"
+  },
+  "achievementSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Achievement through innovation"
+  },
+  "achievementCards": [
+    {
+      "heading": "Tailored Integration Solutions",
+      "content": "Customized to meet your specific business requirements."
+    },
+    {
+      "heading": "Seamless Data Management",
+      "content": "From mapping to transformation, ensuring data compatibility and consistency."
+    },
+    {
+      "heading": "Automated Workflows",
+      "content": "Streamlining operations and reducing manual effort for enhanced productivity."
+    },
+    {
+      "heading": "API Governance",
+      "content": "Efficient management and deployment of APIs for seamless data exchange."
+    },
+    {
+      "heading": "Unified Monitoring",
+      "content": "Real-time insights and robust error handling for uninterrupted operations."
+    },
+    {
+      "heading": "Cloud and On-Premises Integration ",
+      "content": "Connecting systems across environments for enhanced flexibility."
+    },
+    {
+      "heading": "Strategic Consultation",
+      "content": "Expert guidance in choosing and implementing the right iPaaS solutions."
+    },
+    {
+      "heading": "Continuous Support and Training",
+      "content": "Ensuring effective utilization and management of iPaaS tools."
+    },
+    {
+      "heading": "Scalability and Compliance",
+      "content": "Solutions designed to grow with your business while adhering to industry standards."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "buildingSection": {
+    "status1": "OUR PROCESS",
+    "heading1": "Building things that will last"
+  },
+  "buildingCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Bulb.png",
+      "heading": "Ideation",
+      "content": "Innovating solutions and ideas based on the analysis of your specific software needs."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud upload.png",
+      "heading": "Cloud App Planning",
+      "content": "Consulting high-level, functional and technical requirements to software."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (60).png",
+      "heading": "Business case",
+      "content": "Creating TCO estimates of your cloud application to explore ways it can be optimized."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/calendarcheck.png",
+      "heading": "Cloud App Dev Project Planning",
+      "content": "A product development & management roadmap with a release plan and a prioritized features list."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud architecture.png",
+      "heading": "Cloud App Architecture Design",
+      "content": "Embracing a DevOps culture to enable agility and higher responsiveness to market demands."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/bezie-cureve.png",
+      "heading": "Cloud App UX/UI Design",
+      "content": "UX and UI design is done with a view to ensure higher user conversion & retention."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud arch code.png",
+      "heading": "Cloud App Dev",
+      "content": "Designing a CI/CD pipeline for cloud deployment and integrations with other software."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud tick.png",
+      "heading": "Cloud App QA and Testing",
+      "content": "Conducting tests to examine functionality, integration, regression, performance, usability, compatibility, and security."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/headphone.png",
+      "heading": "Cloud App Support and Evolution",
+      "content": "Experimenting with features to find the best fit (using A/B testing and other fact-based processes)."
+    }
+  ]
+}

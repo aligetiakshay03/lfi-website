@@ -1,0 +1,103 @@
+.container {
+    padding: 100px;
+
+    .title {
+        color: #E6ECED;
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+
+    .componentHeader {
+        font-size: 30px;
+        line-height: 33px;
+        font-family: 'MonsalGothicMedium';
+        color: #E6ECED;
+    }
+
+    .componentContent {
+        font-size: 20px;
+        line-height: 28px;
+        color: #A4A8A9;
+        font-family: "libre-franklin", sans-serif;
+        font-style: normal;
+    }
+
+    .collapseContainer {
+        margin-top: 60px;
+
+        :global {
+            .ant-collapse-borderless {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+                flex-wrap: wrap;
+                gap: 1.7%
+            }
+
+            .ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+                padding: 12px 16px !important;
+            }
+
+            .ant-collapse.ant-collapse-icon-position-end>.ant-collapse-item>.ant-collapse-header .ant-collapse-expand-icon {
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    .container {
+        padding: 80px;
+
+        .title {
+            font-size: 36px;
+        }
+
+        .componentHeader {
+            font-size: 24px;
+        }
+
+        .componentContent {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        // padding: 100px 20px;
+
+        .title {
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .componentHeader {
+            font-size: 20px;
+        }
+
+        .componentContent {
+            font-size: 16px;
+        }
+
+        .collapseContainer {
+            :global {
+                .ant-collapse-borderless {
+                    display: block;
+                    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+                    gap: 1.7%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .container {
+        padding: 20px;
+    }
+}

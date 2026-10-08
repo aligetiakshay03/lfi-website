@@ -1,0 +1,525 @@
+{
+  "HeroSection": {
+    "services": [
+      {
+        "title": "Driving Innovation and Transformation",
+        "description": "Harnessing emerging technologies and innovation to drive transformation, shaping a connected, accessible and intelligent future for the business world.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/explore-more/innovationAndTransformation"
+        }
+      },
+      {
+        "title": "Transform your operations with our unique ERP solutions",
+        "description": "Combining cutting-edge technology with deep industry expertise, we provide the perfect ERP solution for your challenge.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/solutions/erp-solutions"
+        }
+      },
+      {
+        "title": "Swift deployment of human emulation bots.",
+        "description": "Advance in automation goals by introducing software bots.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/services/automation/robotic-process-automation"
+        }
+      },
+      {
+        "title": "Upgrade into the cloud computing environment.",
+        "description": "Launch your digital infrastructure from the cloud.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/services/cloud"
+        }
+      },
+      {
+        "title": "Accelerate change complementing long-term goals.",
+        "description": "Rapidly automate tasks covering various verticals.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/services/automation"
+        }
+      },
+      {
+        "title": "Making way for cutting-edge frameworks.",
+        "description": "Update older software to adopt newer technologies.",
+        "btn": {
+          "label": "Explore more",
+          "link": "/services/consulting"
+        }
+      }
+    ],
+    "slider": [
+      {
+        "title": "Azure",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Azure.png"
+      },
+      {
+        "title": "Microsoft",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft.png"
+      },
+      {
+        "title": "Blueprism",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/blueprism.png"
+      },
+      {
+        "title": "Automation anywhere",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automation-anywhere.png"
+      },
+      {
+        "title": "UiPath",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UiPath.png"
+      },
+      {
+        "title": "Salesforce",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/sales force.png"
+      }
+    ],
+    "achievementList": [
+      {
+        "title": "Great place to work",
+        "achievementImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Certification Badge Sep 2023-2024 (1) 1.png"
+      },
+      {
+        "title": "Africa's fastest growing",
+        "achievementImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/MicrosoftTeams-img.png"
+      },
+      {
+        "title": "Yes",
+        "achievementImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Yes badge 1.png"
+      }
+    ]
+  },
+  "ourServices": {
+    "mainTitle": "Our Services",
+    "mainDesc": "With more than a decade of experience & insight, we provide Digital, RPA, Quality Assurance, AI, SAP, and Technology Consulting Services to companies of all scales, around the globe",
+    "button": {
+      "labelText": "Our Approach",
+      "url": "/company/our-approach"
+    },
+    "serviceTabs": [
+      {
+        "TabName": "Engineering",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Engineering (2).png",
+        "title": "Engineering Services",
+        "description": "Solutions that are engineered to perfection, specifically for the engineering sector.",
+        "url": "/services/engineering",
+        "serviceBlocks": [
+          {
+            "title": "Application Development",
+            "description": "With the help of experienced developers and designers, we make apps that are highly usable.",
+            "actionButton": "Read more",
+            "url": "/services/engineering/application-development",
+            "blockSize": "medium"
+          },
+          {
+            "title": "Quality Control",
+            "description": "Engineering workflows that ensure that every product or service that reaches to a customer matches the high standard of quality.",
+            "actionButton": "Read more",
+            "url": "/services/engineering/quality-control",
+            "blockSize": "medium"
+          },
+          {
+            "title": "DevOps",
+            "description": "DevOps practices that ensure that operations and development process supplement each other.",
+            "actionButton": "Read more",
+            "url": "/services/engineering/devops",
+            "blockSize": ""
+          }
+        ]
+      },
+      {
+        "TabName": "Consulting",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/consulting (2).png",
+        "title": "Consulting Services",
+        "description": "Our expert consultants deliver innovative solutions to complex problems through the means of meticulous planning & research.",
+        "url": "/services/consulting",
+        "serviceBlocks": [
+          {
+            "title": "UX / UI Design",
+            "description": "Creating satisfied customers through creative interfaces and higher usability.",
+            "actionButton": "Read more",
+            "url": "/services/consulting/uiux-design",
+            "blockSize": "small"
+          },
+          {
+            "title": "Technology Advisory",
+            "description": "Helping businesses sustain value through expert opinions from both the tech and the business end.",
+            "actionButton": "Read more",
+            "url": "/services/consulting/technology-advisory",
+            "blockSize": "medium"
+          },
+          {
+            "title": "Product Discovery",
+            "description": "Planning, building, testing and keeping up with complex information preparing frameworks that work with enormous informational collections.",
+            "actionButton": "Read more",
+            "url": "/services/consulting/product-discovery",
+            "blockSize": "large"
+          },
+          {
+            "title": "Solution Discovery",
+            "description": "Turning ideas and prototypes into market-ready solutions.",
+            "actionButton": "Read more",
+            "url": "/services/consulting/solution-discovery",
+            "blockSize": "medium"
+          }
+        ]
+      },
+      {
+        "TabName": "Cloud",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud (2).png",
+        "title": "Cloud Services",
+        "description": "Our expert consultants deliver innovative solutions to complex problems through the means of meticulous planning & research.",
+        "url": "/services/cloud",
+        "serviceBlocks": [
+          {
+            "title": "Kubernetes Services",
+            "description": "Adaptability and universal application will no more be a luxury.",
+            "actionButton": "Read more",
+            "url": "/services/cloud/kubernetes-services",
+            "blockSize": "medium"
+          },
+          {
+            "title": "Cloud Development",
+            "description": "Developing cloud technologies to achieve bigger capabilities through strategy & design.",
+            "actionButton": "Read more",
+            "url": "/services/cloud/cloud-development",
+            "blockSize": "small"
+          },
+          {
+            "title": "Cloud Consulting",
+            "description": "Helping you make cloud decisions that are efficient and cost-effective.",
+            "actionButton": "Read more",
+            "url": "/services/cloud/cloud-consulting",
+            "blockSize": "medium"
+          },
+          {
+            "title": "Cloud Migration",
+            "description": "The future exists on the cloud, it is time to prepare for a mass data migration.",
+            "actionButton": "Read more",
+            "url": "/services/cloud/cloud-migration",
+            "blockSize": "small"
+          }
+        ]
+      },
+      {
+        "TabName": "Technology",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Technology (2).png",
+        "title": "Technology Services",
+        "description": "Technological advancements to lead the revolution in global industries.",
+        "url": "/services/technology",
+        "serviceBlocks": [
+          {
+            "title": "Cloud Migration",
+            "description": "The future exists on the cloud, it is time to prepare for a mass data migration.",
+            "actionButton": "Read more",
+            "url": "/services/technology/",
+            "blockSize": "small"
+          },
+          {
+            "title": "Big Data Engineering",
+            "description": "Planning, building, testing and keeping up with complex information preparing frameworks that work with enormous informational collections.",
+            "actionButton": "Read more",
+            "url": "/services/technology/big-data",
+            "blockSize": "medium"
+          }
+        ]
+      },
+      {
+        "TabName": "Automation",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automation (2).png",
+        "title": "Automation Services",
+        "description": "Technological advancements to lead the revolution in global industries.",
+        "url": "/services/automation",
+        "serviceBlocks": [
+          {
+            "title": "Digital Transformation",
+            "description": "Bringing positive change throughout your fundamental business structure using new & improved technologies to enhance customer experience and drive value.",
+            "actionButton": "Read more",
+            "blockSize": "medium"
+          },
+          {
+            "title": "Robotic Process Automation (RPA)",
+            "description": "Easy building, deployment, and management of software robots that finish up redundant tasks for you. ",
+            "actionButton": "Read more",
+            "blockSize": "small"
+          }
+        ]
+      },
+      {
+        "TabName": "Teams",
+        "tabImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/teams (2).png",
+        "title": "Teams Services",
+        "description": "Technological advancements to lead the revolution in global industries.",
+        "url": "/services/teams",
+        "serviceBlocks": [
+          {
+            "title": "Staff augmentation",
+            "description": "Smart outsourcing-based strategies that help businesses achieve their objectives.",
+            "actionButton": "Read more",
+            "url": "/",
+            "blockSize": "small"
+          },
+          {
+            "title": "Managed Team",
+            "description": "Helping businesses coordinate individuals into well-structured teams that produce excellent results.",
+            "actionButton": "Read more",
+            "url": "/services/teams/managed-team",
+            "blockSize": "medium"
+          }
+        ]
+      }
+    ]
+  },
+  "ourSolutions": {
+    "title": "Our Solutions",
+    "subtitle": "Linkfields offers industry-specific tailored solutions that benefit your business, increasing productivity, improving the quality of your application development and streamlining operations. Our automation and analytics solutions enhance decision making capabilities and improve return on investment. ",
+    "details": [
+      {
+        "title": "SAP",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP.png",
+        "description": "We specialize in harnessing the power of SAP’s latest release, S/4HANA, for your business’s unique needs.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/solutions/erp-solutions/sap"
+        }
+      },
+      {
+        "title": "Odoo",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odoo.png",
+        "description": "From business process reengineering to seamless integration, we redefine efficiency for your enterprise.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/solutions/erp-solutions/odoo"
+        }
+      },
+      {
+        "title": "Dynamic 365",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft dynamics.png",
+        "vDivider": "",
+        "description": "Embrace intelligent business applications that integrate your operations with predictive insights.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/solutions/erp-solutions/microsoft-dynamics"
+        }
+      },
+      {
+        "title": "Salesforce",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/salesforce-newone.png",
+        "description": "Streamlined CRM for efficient sales, marketing automation, and driving growth in today's competitive market.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/solutions/erp-solutions/salesforce"
+        }
+      },
+      {
+        "title": "iPass",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iPaas.png",
+        "description": "With our extensive range of iPaaS products, we ensure a comprehensive approach to each implementation.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/services/cloud/ipaas"
+        }
+      },
+      {
+        "title": "RPA",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA-new.png",
+        "description": "Easy building, deployment, and management of software robots that finish up redundant tasks for you.",
+        "actionButton": {
+          "text": "Read more",
+          "url": "/services/automation/robotic-process-automation"
+        }
+      }
+    ]
+  },
+  "awardsAndRecognition": [
+    {
+      "title": "We are one of Africa's Fastest Growing Company!",
+      "description": "Linkfields Innovations Pty Ltd ranked 38th in Financial Times and Statista's 2023 list of Africa’s top 100 fastest-growing companies!",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/company/news-and-articles"
+      },
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/certification_badge2.png"
+    },
+    {
+      "title": "We are a Great Place to Work Certified",
+      "description": "We make a significant change by hiring and fostering top talents from diverse backgrounds.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/company/news-and-articles"
+      },
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/great_work_certification_badge.png"
+    },
+    {
+      "title": "Proud to be a partner of the Youth Employment Service initiative.",
+      "description": "As a proud YES partner, we are deeply committed to empowering businesses to create meaningful work experiences for unemployed young people, equipping them with the skills and opportunities to become future leaders and entrepreneurs.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/company/news-and-articles"
+      },
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/0000.png"
+    }
+  ],
+  "industry": [
+    {
+      "title": "Manufacturing",
+      "description": "Integrate IoT and AI to streamline production processes, elevate quality control, and reduce operational costs, significantly driving efficiency and competitiveness.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/manufacturing"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automated-packaging-line-efficiency-production 1.png"
+    },
+    {
+      "title": "Telecom",
+      "description": "Enhance your digital experience with strategic approaches that drive technological innovation and boost operational efficiency. ",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/telecom"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telkom.png"
+    },
+    {
+      "title": "Banking",
+      "description": "Implementing automated solutions to streamline customer service, ensure compliance, transforming the banking sector into a future-ready workspace.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/banking"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/banking.png"
+    },
+    {
+      "title": "Fintech",
+      "description": " Developing a suite of reliable tools that fortify financial operations against risks while streamlining processes and reduced security vulnerabilities.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/fintech"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/fintech.png"
+    },
+    {
+      "title": "Insurance",
+      "description": "Automate claims processing, customer interactions, and refine risk management, resulting in significant resource savings and operational optimization.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/insurance"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/insurance.png"
+    },
+    {
+      "title": "Mining",
+      "description": "Deploying advanced automation strategies to streamline workflows, reinforce safety protocols, and promote sustainable practices in the mining sector",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/mining"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/mining.png"
+    },
+    {
+      "title": "FMCG",
+      "description": "Optimizing supply chain operations, improving inventory tracking with state-of-the-art systems, driving excellence in product management.",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/fmcg"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMGC (1).png"
+    },
+    {
+      "title": "Oil & Gas",
+      "description": "Optimizing Oil & Gas operations for driving sustainability, transforming supply chain efficiency and boosting market competitiveness",
+      "actionButton": {
+        "text": "Read more",
+        "url": "/industries/oil-gas"
+      },
+      "backgroundImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/oil&gas.png"
+    }
+  ],
+  "technologies": [
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Azure.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoft.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/blueprism.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automation-anywhere.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ui-path.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/salesforce-logo 1 1 (Traced) (1).png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/soterion 1.png"
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Odoo_logo 1.png"
+    }
+  ],
+  "ourJourney": {
+    "status": "OUR JOURNEY",
+    "title": "16 years of Delivering Excellence",
+    "description": "Helping global enterprises with digital transformations that help them grow, adapt, scale, and reinvent themselves",
+    "actionButton": {
+      "text": ""
+    },
+    "analytics": [
+      {
+        "time": "10",
+        "suffix": "yrs",
+        "description": "avg client tenure"
+      },
+      {
+        "time": "150",
+        "suffix": "+",
+        "description": "solutions delivered"
+      },
+      {
+        "time": "5",
+        "suffix": "mn",
+        "description": "daily digital journeys"
+      },
+      {
+        "time": "10",
+        "suffix": "x",
+        "description": "increase in operations growth"
+      }
+    ]
+  },
+  "carrers": {
+    "title": "CAREERS",
+    "description": "Ready for an extraordinary work experience? ",
+    "actionButton": {
+      "text": "Join Us",
+      "url": "/careers"
+    }
+  },
+  "contactField": {
+    "contactCards": [
+      {
+        "title": "LINKEDIN",
+        "emailId": "linkfields",
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkedin-rounded-svgrepo-com.png",
+        "link": "https://www.linkedin.com/company/40661516/admin/feed/posts/"
+      },
+      {
+        "title": "YOUTUBE",
+        "emailId": "linkfields",
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/youtube-168-svgrepo-com.png",
+        "link": "https://www.youtube.com/channel/UCiSaCEnC7Gtu7YkanoA6mpg"
+      },
+      {
+        "title": "TWITTER",
+        "emailId": "linkfields",
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/x-twitter.png",
+        "link": "LinkfieldsI"
+      }
+    ]
+  }
+}

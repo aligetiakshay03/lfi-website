@@ -1,0 +1,17 @@
+{
+  "name": "Swati",
+  "avatar": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1.png",
+  "email": "aprakash@linkfields.com",
+  "author": [
+    {
+      "name": "Sahith",
+      "avatar": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880319 (1).png",
+      "email": "sahithK@lfi.com"
+    },
+    {
+      "name": "Apurv",
+      "avatar": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1.png",
+      "email": "aprakash@linkfields.com"
+    }
+  ]
+}

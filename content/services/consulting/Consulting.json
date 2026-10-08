@@ -1,0 +1,57 @@
+{
+  "heroSectionData": {
+    "heading1": "Consulting Services",
+    "subheading1": "Facilitating effective technology change",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/business.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Providing insights fueled by decades of experience",
+    "para1": "We thrive on innovating and creating better processes for our clients through new digital models, defining roadmaps, and varied approaches for delivering digital transformation.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Solution Discovery",
+      "descriptions": "It involves the practice of a  step-by-step approach to make a blueprint of the delivery approach suitable for your business.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solution_discovery.png",
+      "button": {
+        "link": "/services/consulting/solution-discovery",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Product Discovery",
+      "descriptions": "Preventive processes enable us to plan ahead and seek out the development journey of the product to avoid any surprises down the line.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/product-discovery.png",
+      "button": {
+        "link": "/services/consulting/product-discovery",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Technology Advisory",
+      "descriptions": "We study factors like business growth, design strategies, and roadmaps, to ensure the technology and the business part of the plan fit well.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devops-development-fake.png",
+      "button": {
+        "link": "/services/consulting/technology-advisory",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "UX/UI Design",
+      "descriptions": "We work on all aspects of a product’s development, including design, usability, and function, spanning over the entire end-to-end development journey.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iot-development-fake.png",
+      "button": {
+        "link": "/services/consulting/uiux-design",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "Want a new work experience?",
+    "url": "/contact-us",
+    "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+    "urlMessage": "Join us"
+  }
+}

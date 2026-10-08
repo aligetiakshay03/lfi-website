@@ -1,0 +1,62 @@
+.container {
+  background: #000;
+  color: aliceblue;
+  display: grid;
+
+  .title {
+    color: #a4a8a9;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 105%;
+  }
+
+  .section {
+    .description {
+      gap: 30px;
+
+      .para {
+        font-size: 18px;
+        line-height: 140%;
+        font-family: 'HelveticaNeueSmallBold';
+      }
+
+      .btn {
+        gap: 20px;
+        font-size: 18px;
+        line-height: normal;
+        height: 1rem;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    .title {
+      color: #a4a8a9;
+      font-size: 36px;
+      font-style: normal;
+      line-height: 105%;
+    }
+
+    .section {
+      .description {
+        gap: 30px;
+
+        .para {
+          font-size: 18px;
+          line-height: 140%;
+        }
+
+        .btn {
+          gap: 20px;
+          font-size: 18px;
+          line-height: normal;
+          height: 1rem;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

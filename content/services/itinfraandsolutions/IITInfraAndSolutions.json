@@ -1,0 +1,41 @@
+{
+  "heroSectionData": {
+    "heading1": "IT Infrastructure and Solutions",
+    "subheading1": "Transforming IT Infrastructure for the digital age",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/IT infrastructure banner image.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Transform your IT Infrastructure for the digital age",
+    "para1": "Your business relies heavily on robust IT infrastructure to deliver exceptional user experiences and drive growth. At Linkfields, we specialize in transforming traditional IT environments into modern, software-defined, and intelligent infrastructures\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "IT infrastructure needs to advance. We help shift from a big-budget, hardware-centric setup to a smart, software-driven infrastructure that is prepared to meet any challenge. "
+  },
+  "tabItems": [
+    {
+      "title": "End User Computing",
+      "descriptions": "Device Management: Keep user devices secure, up-to-date, and performing at their best with our comprehensive management services.\n\nDesktop Virtualization: Enable flexible and remote working with secure virtual desktop solutions accessible from any device.\n\nApplication Delivery: Streamline application deployment and updates to enhance productivity, ensuring users have the tools they need.\n\nSupport Services: Get 24/7 IT support to resolve issues quickly, minimizing downtime and maximizing efficiency.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/End user computing.png"
+    },
+    {
+      "title": "Networking",
+      "descriptions": "Network Design and Implementation: Create custom network architecture tailored to your business needs for optimal performance and reliability.\n\nSecurity Solutions: Implement state-of-the-art security measures, including firewalls, intrusion detection, and secure access controls. \n\nWireless Networking: Provide seamless and secure wireless connectivity to enhance mobility and collaboration within your workplace.\n\nNetwork Monitoring and Management: Maintain peak network performance with proactive monitoring and management, identifying and resolving issues promptly.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Networking.png"
+    },
+    {
+      "title": "Digital Workplace",
+      "descriptions": "Collaboration Tools: Enhance teamwork and communication with integrated collaboration platforms.\n\nUser Experience Management: Ensure a smooth and efficient user experience with tools that monitor and optimize performance.\n\nRemote Work Solutions: Enable secure and productive remote work environments with advanced digital tools and platforms. \n\nEmployee Engagement: Foster a positive and engaging work culture with digital tools designed to improve employee satisfaction and productivity.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Workplace.png"
+    }
+  ],
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "messageBannerData2": {
+    "title": "Want a new work experience?",
+    "url": "/",
+    "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+    "urlMessage": "Join Us"
+  }
+}

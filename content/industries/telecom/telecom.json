@@ -1,0 +1,39 @@
+{
+  "heroSectionData": {
+    "heading1": "Telecom",
+    "subheading1": " Driving Digitalization in the Telecom Industry: Transforming and Innovating the Digital Experience",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telecom  BG.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Superior channels through robust terminals",
+    "para1": "We design time-efficient telecommunication software allowing organizations to improve their management and operability.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Advanced Management Systems",
+        "desc": "Providing teams with intuitive tools for real-time monitoring, informed decision-making, and strategic planning.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Advancend management system.png"
+      },
+      {
+        "title": "Enhanced Management Systems",
+        "desc": "Our solutions go beyond basic functionality - they empower your team with intuitive tools for real-time monitoring, decision-making, and strategic planning, elevating your management systems.  ",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Enhanced Management Systems.png"
+      },
+      {
+        "title": "Future-Ready Technologies",
+        "desc": "Integrating the latest technologies to ensure your organization not only adapts to changes but also leads the way",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Future Ready Technologies.png"
+      }
+    ]
+  }
+}

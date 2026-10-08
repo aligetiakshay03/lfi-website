@@ -1,0 +1,281 @@
+.container {
+  padding: 100px;
+  background-color: #0a0a0a;
+
+  .mapContainer {
+    .heading {
+      font-family: 'MonsalGothicMedium';
+      color: #e6eced;
+      font-size: 48px;
+    }
+
+    .mapImage {
+      height: 810px;
+    }
+
+    .cardContainer {
+      display: flex;
+      row-gap: 48px;
+      column-gap: 40px;
+
+      // gap: 56px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+
+      .cards {
+        display: flex;
+        // flex-direction: column;
+        flex-direction: row;
+        gap: 36px;
+        background-color: #27272766;
+        border-radius: 24px;
+        padding: 30px;
+        max-width: 536px;
+        width: 100%;
+      }
+
+      .cardLink {
+        display: flex;
+        flex-direction: row;
+        gap: 36px;
+        // border: 5px solid red;
+
+        .ContentContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          min-height: 300px;
+
+        }
+
+      }
+
+
+
+
+
+    }
+  }
+}
+
+@media (max-width: 1919px) {
+  .container {
+    .mapContainer {
+      .mapImage {
+        height: 650px;
+      }
+
+      .cardContainer {
+        
+        .cards {
+          max-width: 500px;
+        }
+
+        .cardLink {
+          max-width: 500px;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1811px) {
+  .container {
+    .mapContainer {
+      .cardContainer {
+        .cards {
+          max-width: 430px;
+        }
+
+        .cardLink {
+          max-width: 430px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    padding: 80px;
+  }
+
+  .cardLink {
+   
+
+    .ContentContainer {
+     
+      min-height: 240px !important;
+
+    }
+
+  }
+}
+
+@media (max-width: 1602px) {
+  .container {
+    // padding: 80px;
+
+    // padding: 70px;
+
+    .mapContainer {
+      .heading {
+        font-size: 32px;
+      }
+
+      .cardContainer {
+       
+        .cards {
+          gap: 20px;
+          // padding: 20px;
+          max-width: 380px;
+          // max-width: 350px;
+
+        }
+
+        .cardLink {
+          gap: 20px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .container {
+    .mapContainer {
+      .cardContainer {
+        .cards {
+          max-width: 360px;
+        }
+
+        .cardLink {
+          max-width: 360px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    .mapContainer {
+      .mapImage {
+        height: 580px;
+      }
+
+      .cardContainer {
+        .cards {
+          max-width: 320px;
+        }
+
+        .cardLink {
+          max-width: 320px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 40px;
+
+    .mapContainer {
+      .cardContainer {
+        justify-content: baseline;
+
+        .cards {
+          max-width: 300px;
+        }
+
+        .cardLink {
+          max-width: 300px;
+          min-height: 220px;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    // padding: 20px;
+
+    .mapContainer {
+      .heading {
+        font-size: 24px;
+      }
+
+      .mapImage {
+        height: 320px;
+      }
+
+      .cardContainer {
+        gap: 20px;
+
+        .cards {
+          gap: 18px;
+          // padding: 20px;
+          max-width: 300px;
+
+        }
+
+        .cardLink {
+          gap: 18px;
+          max-width: 300px;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    padding: 20px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 20px;
+
+    .mapContainer {
+      .heading {
+        font-size: 24px;
+      }
+
+      .mapImage {
+        height: 192px !important;
+      }
+
+      .cardContainer {
+        gap: 20px;
+
+        .cards {
+          gap: 8px;
+          // padding: 20px;
+          max-width: 100%;
+        }
+
+        .cardLink {
+          gap: 8px;
+
+
+        }
+      }
+    }
+  }
+}

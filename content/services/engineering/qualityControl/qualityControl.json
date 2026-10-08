@@ -1,0 +1,114 @@
+{
+  "heroSectionData": {
+    "heading1": "Quality Control",
+    "subheading1": "Ensuring quality meets the highest standard",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality control  BG.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Never compromising on quality",
+    "para1": "Quality control is a system or set of methods planned to guarantee that a made item or performed administration holds fast to a characterized set of value models or meets the prerequisites of the customer or client.\n"
+  },
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "ProjectFlowCards": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Tests to ensure excellence"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (34).png",
+      "heading": "Usability testing",
+      "content": "In order to find usability flaws, our team will create a range of real-life interaction scenarios and thoroughly replay them."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (35).png",
+      "heading": "Test automation",
+      "content": "We create a custom automated testing framework that fits your project’s scope and requirements."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (36).png",
+      "heading": "Application quality assurance",
+      "content": "With an automated, AI-led, and analytics-driven approach to quality for systems and apps, we can boost speed, quality, and productivity."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (37).png",
+      "heading": "Performance testing",
+      "content": "Putting your system through a series of stress resilience and load endurance tests."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (38).png",
+      "heading": "Specialized testing",
+      "content": "Using smart, networked technologies to enable human-centric, digital experiences."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (39).png",
+      "heading": "Security testing",
+      "content": "Our penetrative testing identifies application flaws and guarantees that your application’s dangers are minimized."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (40).png",
+      "heading": "Agile testing",
+      "content": "We have continuous interaction between developers, testers, and managers."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (41).png",
+      "heading": "DevOps testing",
+      "content": "We have automated software testing and deployment processes placed in the system."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (42).png",
+      "heading": "Testing CoE",
+      "content": "We create a centralized testing service which is shared across the organization."
+    }
+  ],
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Maintaining high standard through rigorous testing",
+    "description": "The outstanding results we achieve are not credited to anything besides the extreme and rigorous testing standards which we put our products through.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (1).png"
+  },
+  "CollapseComponentData": {
+    "header": "",
+    "title": "Automation Framework",
+    "description": "We help organizations achieve higher productivity and digital quality assurance through sets of tools that support each other in establishing a robust automation framework for your operations.",
+    "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/tools quality control.png",
+    "bg": false,
+    "list": [
+      {
+        "title": "Certified expertise",
+        "description": "QA engineers that are accredited and have a thorough understanding of the latest technologies and tools help achieve perfectionism that stays at the core of our organization."
+      },
+      {
+        "title": "Automated testing processes",
+        "description": "Automated QA testing aids in the technique of continuous integration, which entails developing, testing, and deploying software numerous times per day."
+      },
+      {
+        "title": "Continuous Integration (CI)",
+        "description": "Continuous integration lets us detect and fix defects faster, increase software quality, and shorten the time it takes to validate and deploy new software upgrades."
+      },
+      {
+        "title": "Metrics collection",
+        "description": "Throughout our testing process we collect data using various metrics to monitor the progress and maintain the product quality at different phases."
+      }
+    ]
+  },
+  "Benefits": {
+    "status1": "BENEFITS",
+    "heading1": "Every factor to help you grow"
+  },
+  "darkAndLightComponentCards": [
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (43).png",
+      "title": "Swifter marketing of new functions",
+      "description": "To minimize error, establish what steps in the development process are prone to mistakes."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (44).png",
+      "title": "Reduced business cost",
+      "description": "You can conserve time in future projects by resolving difficulties in your workflow."
+    }
+  ]
+}

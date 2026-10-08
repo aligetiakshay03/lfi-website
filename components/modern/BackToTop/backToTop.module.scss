@@ -1,0 +1,104 @@
+.btn {
+  position: fixed;
+  z-index: 900;
+  right: clamp(14px, 2vw, 28px);
+  bottom: clamp(14px, 2vw, 28px);
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(16px) scale(0.9);
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.5s var(--lf-ease-out);
+
+  &:hover .inner {
+    background: var(--lf-orange-grad);
+    transform: scale(1.06);
+  }
+
+  &:hover .label {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.ring {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg);
+}
+
+.track {
+  fill: none;
+  stroke: rgba(226, 232, 240, 0.14);
+  stroke-width: 3;
+}
+
+.bar {
+  fill: none;
+  stroke: var(--lf-orange);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.15s linear;
+}
+
+.inner {
+  position: absolute;
+  inset: 7px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1px;
+  border-radius: 50%;
+  background: var(--lf-ink-strong);
+  color: #fff;
+  box-shadow: var(--lf-shadow-card);
+  transition: background 0.35s ease, transform 0.45s var(--lf-ease-out);
+}
+
+.pct {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.6rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 4px);
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--lf-ink-strong);
+  box-shadow: var(--lf-shadow-card);
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--lf-text-dark);
+  opacity: 0;
+  transform: translate(-50%, -4px);
+  transition: opacity 0.3s ease, transform 0.4s var(--lf-ease-out);
+}
+
+@media (max-width: 720px) {
+  .btn {
+    width: 54px;
+    height: 54px;
+  }
+  .label {
+    display: none;
+  }
+}

@@ -1,0 +1,312 @@
+.section {
+  padding-block: var(--lf-section-y);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 14px 0 0;
+  color: var(--lf-text-dark);
+}
+
+.stats {
+  display: flex;
+  gap: clamp(20px, 3vw, 44px);
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 16px;
+    border-left: 2px solid var(--lf-orange);
+  }
+}
+
+.statNum {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 1.3rem + 1.2vw, 2.6rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.statLabel {
+  font-family: var(--lf-font-body);
+  font-size: 0.85rem;
+  color: var(--lf-text-soft);
+}
+
+/* ---------- Stage: map + panel ---------- */
+
+.stage {
+  margin-top: clamp(24px, 3vw, 40px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  border-radius: 24px var(--lf-radius-xl) 24px 24px;
+  overflow: hidden;
+  background: radial-gradient(ellipse 60% 80% at 40% 50%, rgba(45, 88, 192, 0.16), transparent 70%), var(--lf-grid-lines),
+    rgba(255, 255, 255, 0.02);
+  box-shadow: var(--lf-shadow-card);
+}
+
+.mapWrap {
+  position: relative;
+  padding: clamp(18px, 2.4vw, 36px);
+  display: flex;
+  align-items: center;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.land {
+  fill: none;
+  stroke: rgba(226, 232, 240, 0.34);
+  stroke-width: 2.6;
+  stroke-linecap: round;
+}
+
+.route {
+  fill: none;
+  stroke: url(#lfRoute);
+  stroke-width: 1.4;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  opacity: 0.55;
+  transition: opacity 0.4s ease, stroke-width 0.4s ease;
+
+  :global(.is-in) & {
+    animation: draw 1.8s var(--lf-ease-out) forwards;
+    animation-delay: calc(0.3s + var(--i) * 0.18s);
+  }
+}
+
+.routeLit {
+  opacity: 1;
+  stroke-width: 2;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.traveller {
+  fill: #ffb066;
+  filter: drop-shadow(0 0 3px rgba(255, 120, 0, 0.9));
+}
+
+.marker {
+  cursor: pointer;
+}
+
+.markerGlow {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.markerPulse {
+  fill: none;
+  stroke: rgba(255, 120, 0, 0.7);
+  stroke-width: 1.4;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2.6s ease-out infinite;
+}
+
+.markerDot {
+  fill: var(--lf-orange);
+  stroke: #0a1122;
+  stroke-width: 2;
+  transition: r 0.3s ease;
+}
+
+.markerActive {
+  .markerGlow {
+    opacity: 1;
+  }
+
+  .markerDot {
+    r: 6;
+  }
+
+  .labelBg {
+    fill: var(--lf-orange);
+    stroke: var(--lf-orange);
+  }
+
+  .labelText {
+    fill: #fff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.labelBg {
+  fill: rgba(8, 13, 24, 0.85);
+  stroke: rgba(226, 232, 240, 0.16);
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.labelText {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  fill: var(--lf-text-dark);
+  transition: fill 0.3s ease;
+}
+
+/* ---------- Office panel ---------- */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(18px, 2vw, 28px);
+  border-left: 1px solid var(--lf-line-light);
+  background: rgba(8, 13, 24, 0.45);
+}
+
+.panelHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.panelCount {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  color: var(--lf-orange);
+}
+
+.offices {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.office {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  color: var(--lf-text-soft);
+  transition: background-color 0.35s ease, color 0.35s ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    bottom: 12px;
+    width: 2px;
+    border-radius: 2px;
+    background: var(--lf-orange);
+    transform: scaleY(0);
+    transition: transform 0.4s var(--lf-ease-out);
+  }
+
+  &:hover,
+  &.officeActive {
+    background: rgba(255, 255, 255, 0.045);
+    color: var(--lf-text-dark);
+  }
+
+  &.officeActive::before {
+    transform: scaleY(1);
+  }
+}
+
+.officeNum {
+  padding-top: 2px;
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--lf-orange);
+}
+
+.officeBody {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.country {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--lf-text-dark);
+}
+
+.address {
+  font-style: normal;
+  font-family: var(--lf-font-body);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 1100px) {
+  .stage {
+    grid-template-columns: 1fr;
+  }
+  .panel {
+    border-left: 0;
+    border-top: 1px solid var(--lf-line-light);
+  }
+  .offices {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .offices {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route {
+    stroke-dashoffset: 0;
+    animation: none !important;
+  }
+  .markerPulse {
+    animation: none;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "featuredBlogs": "Blog 1",
+  "blogListArray": [
+    {
+      "blogList": "content/newsSection/First-news.md"
+    },
+    {
+      "blogList": "content/blogsSection/AI changing lives.md"
+    },
+    {
+      "blogList": "content/newsSection/Second-news.md"
+    },
+    {
+      "blogList": "content/blogsSection/Privacy Policy 4.md"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "heroSectionData": {
+    "heading1": "Data Services",
+    "subheading1": "Where your data potential takes center stage",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880577.png",
+    "status1": "DATA SERVICES",
+    "subheading2": "Seamlessly connect data sources, maintain data quality, transform raw data into actionable insights, and enhance your data security.",
+    "para1": ""
+  },
+  "keyComponents": {
+    "heading1": "Key components"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-integration-hub-svgrepo-com 1.png",
+      "heading": "Data Integration",
+      "content": "Consolidate data from multiple sources with ease."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/database-zap.png",
+      "heading": "Data Quality",
+      "content": "Ensure compliance and data integrity effortlessly."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rotate-3d.png",
+      "heading": "Data Transformation",
+      "content": "Turn raw data into valuable insights."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/shield-check.png",
+      "heading": "Data Security",
+      "content": "Protect your data with advanced security protocols."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/4 Hana.png",
+      "heading": "Data Auditing",
+      "content": "Gain full transparency and control over your data."
+    }
+  ],
+  "keyCapabilities": {
+    "heading1": "Key capabilities"
+  },
+  "howCanWeHelp": [
+    {
+      "description": "Seamlessly integrate data from any source."
+    },
+    {
+      "description": "Standardize, correct, and match data for better decision-making."
+    },
+    {
+      "description": "Handle large volumes of data efficiently."
+    },
+    {
+      "description": "Transfer and transform data in the cloud effortlessly."
+    },
+    {
+      "description": "Manage your data with ease using our intuitive interface."
+    }
+  ]
+}

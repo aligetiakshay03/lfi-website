@@ -1,0 +1,44 @@
+
+.number-input {
+    position: relative;
+    width: 100%;
+  }
+  
+
+  .number-input input {
+    width: 100%;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  
+ 
+  .number-input .custom-arrows {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .number-input .custom-arrow {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin: 2px 0;
+  }
+  
+
+  .number-input .custom-arrow.up {
+    background: #000;
+    background-size: contain;
+  }
+  
+ 
+  .number-input .custom-arrow.down {
+    background: #000;
+    background-size: contain;
+  }
+  

@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  max-height: fit-content;
+  background: url("/backgroud-images/buildingsTools.jpg") !important;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px 100px 100px;
+  margin: auto;
+
+  .title {
+    color: #e6eced;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 105%;
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    padding: 80px 0px 80px 80px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    // padding: 60px 0px 60px 60px;
+
+    .title {
+      font-size: 36px;
+    }
+  }
+}
+
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 40px 0px 40px 40px;
+    margin: auto;
+
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+@media (max-width: 639px) {
+  .container {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .container {
+    // padding: 20px !important;
+
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+

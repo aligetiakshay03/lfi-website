@@ -1,0 +1,188 @@
+
+
+.container {
+    padding: 90px;
+    width: 100%;
+    max-width: 1920px;
+
+    .headerDiv{
+        width: 400px;
+        .header {
+                font-size: 56px;
+                bottom: 0;
+                right: 0;
+            }
+    }
+
+    :global{
+        div.ant-tabs-nav {
+                margin-top: 325px;
+                width: 400px;
+            }
+            .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap{
+            align-self: self-end;
+        }
+
+        .ant-tabs-nav-operations {
+            display: none !important;
+        }
+    }
+
+        .button_con {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 100%;
+            max-width: 1920px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nextBtn {
+            width: 30px;
+            height: 30px;
+            background-color: #8a8e8f;
+        }
+
+}
+
+@media screen and (min-width: 1561px) {
+    .container{
+        .headerDiv {
+            height: 346px;
+            width: 400px;
+
+            .header {
+                margin-top: 70px;
+                font-size: 56px;
+                text-align: right;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1560px) {
+    .container{
+        padding: 80px;
+        .headerDiv{
+            height: 220px;
+            width: 300px;
+            .header {
+                    font-size: 56px;
+                    text-align: right;
+                }
+        }
+
+        .tabName{
+            font-size: 24px;
+        }
+
+                :global {
+                    div.ant-tabs-nav {
+                        margin-top: 220px;
+                        width: 300px;
+                    }
+        
+                    .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap {
+                        align-self: self-end;
+                    }
+
+                    .ant-tabs-nav-operations {
+                        display: none !important;
+                    }
+                }
+    }
+}
+
+@media  (max-width: 1320px) {
+    .container{
+
+        .headerDiv {
+            height: 220px;
+            width: 300px;
+            .header {
+                    font-size: 36px;
+                    text-align: right;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .container {
+        padding: 40px;
+        .headerDiv {
+            height: 220px;
+            width: 300px;
+            .header {
+                    font-size: 36px !important;
+                    text-align: right;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+            width: 100%;  
+            
+            .headerDiv{
+                width: 100%;
+                .header {
+                        font-size: 36px !important;
+                        line-height: 1.2;
+                        text-align: left !important;
+                    }
+            }
+
+            :global {
+                div.ant-tabs-nav {
+                    margin-top: 100px;
+                    width: 100%;
+                }
+            }
+
+                        .ant-tabs-nav-operations {
+                            display: none !important;
+                        }
+    
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        gap: 36px;
+
+        .headerDiv {
+            height: auto;
+            width: 100%;
+    
+        .header {
+                font-size: 36px !important;
+                line-height: 1.2;
+            }
+        }
+
+    }
+}
+
+ @media  (max-width: 639px) {
+    .container{
+        padding: 20px;
+    }
+ }
+
+@media (max-width: 425px) {
+    .container {
+        padding: 48px 20px !important;
+    }
+        .headerDiv {
+            height: 220px;
+    
+            .header {
+                    font-size: 36px !important;
+                }
+        }
+}

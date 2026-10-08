@@ -1,0 +1,11 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Linkfields Innovations",
+    "url": "https://linkfields.com/",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://linkfields.com/search?q={search_term_string}{search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}

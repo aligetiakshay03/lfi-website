@@ -1,0 +1,40 @@
+{
+  "heroSectionData": {
+    "heading1": "Mining",
+    "subheading1": "Helping mining industries become ready for a digital future through strategic plans for automation.",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Mining.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Ensuring non-IT industries don't miss out on digitization.",
+    "para1": "In times where digitization is a necessity, we provide mining industries with cost-effective solutions to the automation of material management, machinery maintenance, and performance monitoring.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure",
+    "desc": ""
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Real-Time Performance Monitoring",
+        "desc": "Get real-time data and insights through easy-to-use dashboards. Make quick decisions to improve productivity and keep operations safe.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/real time performance monitoring.png"
+      },
+      {
+        "title": "AI-Driven Predictive Maintenance",
+        "desc": "Use advanced IoT and AI to predict maintenance needs, avoiding unexpected machinery downtime and keeping operations smooth.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI-Driven Maintenance.png"
+      },
+      {
+        "title": "Automated Material Management",
+        "desc": "Implement automated systems for tracking and managing materials from extraction to delivery. Save costs and ensure smooth operations.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated Material management.png"
+      }
+    ]
+  }
+}

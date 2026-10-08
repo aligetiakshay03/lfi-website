@@ -1,0 +1,44 @@
+{
+  "heroSectionData": {
+    "heading1": "Oil & Gas",
+    "subheading1": "Delivering cutting-edge solutions to optimize the Oil & Gas industry's performance",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Oil_and_gas_new.png",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Optimise & Enhance your O&G Supply Chain",
+    "para1": "The Oil & Gas industry constantly works to improve performance, safety, & sustainability while battling inefficiencies in supply chains and unplanned asset downtime, which increase risks and costs. Linkfields improves the efficiency and sustainability by optimizing supply chains and reducing asset downtime. Specializing in midstream and downstream operations, we offer technology solutions and partnership in managing supply chain and marketing, leading to lower costs, higher profits, and increased market share.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Terminal Automation",
+        "desc": "We offer tailored solutions and services for the Oil & Gas industry, as a consolidation and culmination of many years of implementations and experiences with our Oil & Gas clients.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/terminal automation.png"
+      },
+      {
+        "title": "ERP and IS-Oil Consulting",
+        "desc": "Our expert Oil & Gas technology consultants deliver innovative solutions to complex problems. We design, build, implement and manage leading ERP solutions for Oil & Gas companies, providing high value, with lower costs, and catering for business flexibility and growth.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ERP and IS-oil Consulting.png"
+      },
+      {
+        "title": "Commerce and Retail",
+        "desc": "Our products and accelerators are tailored and oriented to drive high availability of trading ability for retail and commercial sites. We understand acutely the business of marketing fuel, mobility and convenience, as well as managing the infrastructure and data points that support this mission critical operation.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Commerce and retail.png"
+      },
+      {
+        "title": "Analytics",
+        "desc": "Maximise Asset and Operations performance using fit-for-purpose advanced analytics. Decrease the decision making risks with enhanced data management and IOT strategies.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Analytics.png"
+      }
+    ]
+  }
+}

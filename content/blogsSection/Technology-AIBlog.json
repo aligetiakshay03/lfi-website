@@ -1,0 +1,13 @@
+{
+  "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI.png",
+  "keyWord": "Technology",
+  "author": "content/company/blogs/authors/Authors.json",
+  "createdAt": "2024-03-21T06:39:19.724Z",
+  "content": "### Digital transformation\n\n###### It is forcing businesses to amend their business methodologies and models in order to adapt themselves to the increasingly digital market. Well, what’s interesting to note is it’s not the businesses that are driving this change to digitalization. It’s is actually the customer.\n",
+  "url": "/company/blogs",
+  "alignment": "left",
+  "description": "In the ever-evolving field of artificial intelligence, one area that continues to capture the imagination of researchers and developers alike is deep learning. In this blog post, we delve into the fascinating world of deep learning, focusing on its applications in image recognition.  ## Understanding Deep Learning  Deep learning, a subset of machine learning, involves training artificial neural networks on large datasets to recognize patterns and make intelligent decisions. Unlike traditional machine learning algorithms, deep learning models can automatically learn hierarchical representations of data, allowing them to perform complex tasks with remarkable accuracy.  ## Image Recognition: A Powerful Application  One of the most compelling applications of deep learning is image recognition. Computers equipped with trained deep learning models can analyze and interpret visual data, opening up a multitude of possibilities across various industries.  ### How Deep Learning Powers Image Recognition  Deep learning m",
+  "heading": "AI changing lives",
+  "title": "AI changing lives",
+  "type": "semi"
+}

@@ -1,0 +1,120 @@
+{
+  "heroSectionData": {
+    "heading1": "SAP Special Expertise",
+    "subheading1": "Maximizing SAP Efficiency and Transformation",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 2021.png",
+    "para1": ""
+  },
+  "fullPageAccordion": [
+    {
+      "title": "Industry Best practices and Model company",
+      "content": [
+        {
+          "heading": "Swift Business Success with Linkfields",
+          "description": "Time is of the essence in business, and having a partner that adheres to SAP standards is crucial. Accelerate your value delivery by choosing Linkfields for Best Practice and Model Company implementation."
+        },
+        {
+          "heading": "Linkfields Innovative Approach",
+          "description": "Linkfields is a pioneer in co-developing and implementing SAP Best Practices, aligning closely with SAP's latest innovation—SAP Model Company. This involves prepackaged, ready-to-use, end-to-end reference solutions tailored for specific lines of business, ensuring even faster value delivery."
+        },
+        {
+          "heading": "Proactive and Defensive Approach",
+          "description": "Surviving in today's business environment requires a proactive and defensive strategy—improving existing technologies and adopting new solutions. Linkfields provides a sensible approach, implementing SAP Best Practices and SAP Model Company."
+        }
+      ]
+    },
+    {
+      "title": "Environment health & Safety",
+      "content": [
+        {
+          "heading": "Streamlining EHS Compliance",
+          "description": "If your business involves handling hazardous materials, compliance with stringent regulations is vital. Linkfields simplifies this complex task, providing integrated solutions for safety, industrial hygiene, and occupational health."
+        },
+        {
+          "heading": "SAP EHS Management Solutions",
+          "description": "Linkfields is a pioneer in co-developing and implementing SAP Best Practices, aligning closely with SAP's latest innovation—SAP Model Company. This involves prepackaged, ready-to-use, end-to-end reference solutions tailored for specific lines of business, ensuring even faster value delivery."
+        },
+        {
+          "heading": "Industry Insights",
+          "description": "Surviving in today's business environment requires a proactive and defensive strategy—improving existing technologies and adopting new solutions. Linkfields provides a sensible approach, implementing SAP Best Practices and SAP Model Company."
+        },
+        {
+          "heading": "Cost-Effective Compliance",
+          "description": "For cost-effective management of safety-related processes and compliance across jurisdictions, trust Linkfields. We simplify EHS processes, allowing your business to navigate regulatory requirements seamlessly.",
+          "list": []
+        }
+      ]
+    },
+    {
+      "title": "User Experience and Fiori",
+      "content": [
+        {
+          "heading": "Elevate User Experience with Fiori",
+          "description": "Enhance your SAP system’s end-user experience with Fiori, offered by Linkfields. Upgrade to a modern interface that maximizes employee productivity. User adoption is critical, and Fiori provides a personalized, intuitive, and responsive UI. Linkfields ensures a seamless transition, placing end-users at the center of their work environment."
+        },
+        {
+          "heading": "Modern UI for Modern work",
+          "description": "Linkfields recognizes the significance of User Experience (UX) in overall ERP system performance. Fiori offers a contemporary UI that meets end users’ expectations, fostering productivity whether in the office or working remotely."
+        },
+        {
+          "heading": "Balancing Performance and intutiveness",
+          "description": "Linkfields stands out by striking the right balance between the need for technical performance and intuitive simplicity in Fiori adoption. Our approach identifies the ideal UI for diverse user groups, enhancing Fiori apps creatively and rationally."
+        },
+        {
+          "heading": "Tailored Fiori Adoption",
+          "description": "Linkfields assists in selecting from a vast library of SAP apps and tailoring them to meet the unique needs of your workforce. Our experienced design teams ensure a gradual and effective Fiori adoption, resulting in happier workers, reduced training costs, and enhanced performance."
+        }
+      ]
+    },
+    {
+      "title": "Hybris Commerce",
+      "content": [
+        {
+          "heading": "Hybris e-Commerce",
+          "description": "If your business involves handling hazardous materials, compliance with stringent regulations is vital. Linkfields simplifies this complex task, providing integrated solutions for safety, industrial hygiene, and occupational health."
+        },
+        {
+          "heading": "Seamless Integration with SAP ERP/S/4 HANA",
+          "description": "Hybris Commerce uniquely integrates with SAP ERP/S/4HANA, adapting to diverse industries. Beyond order placement, Linkfields end-to-end SAP ERP/S/4HANA expertise ensures smooth data flow across planning, manufacturing, logistics, and billing."
+        },
+        {
+          "heading": "Tailored Integration Approach",
+          "description": "Linkfields differentiates by prioritizing your company’s unique needs. Our approach begins with evaluating your current operations and eCommerce offerings. Leveraging Hybris accelerator templates, we align your existing assets with platform functionality."
+        }
+      ]
+    },
+    {
+      "title": "Supply chain and Planning Optimizations",
+      "content": [
+        {
+          "heading": "Master your Supply chain",
+          "description": "Navigate your expanding supply chain with Linkfields’ tailored solutions."
+        },
+        {
+          "heading": "Addressing Challenges",
+          "description": "Linkfields tackles intricate challenges such as demand sensing, EOQ, MOQ, inventory optimization, lead time, and buffer levels. SAP’s advanced planning tools cover integrated business planning, demand-driven replenishment, product planning, scheduling, customer business planning, inventory optimization, and advanced planning."
+        },
+        {
+          "heading": "Linkfields Roadmap",
+          "list": [
+            {
+              "listItem": "Develop SOP processes, mid-range, and long-term forecasting."
+            },
+            {
+              "listItem": "Optimize supply and response planning, and inventory."
+            },
+            {
+              "listItem": "Identify gaps in current planning tools."
+            },
+            {
+              "listItem": "Requirements Gathering and Blueprinting."
+            },
+            {
+              "listItem": "Track internal and external key performance indicators."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

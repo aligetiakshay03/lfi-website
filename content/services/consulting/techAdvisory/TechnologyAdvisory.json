@@ -1,0 +1,64 @@
+{
+  "heroSectionData": {
+    "heading1": "Technology Advisory",
+    "subheading1": "IT support taken to the next level",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology-advisory.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Expert insights for better IT outputs",
+    "para1": "Technology advisory is a client-driven approach to IT assistance that includes professional guidance supported by world-class knowledge and in step with current technological trends.\n"
+  },
+  "whatweoffer": {
+    "heading": "WHAT WE OFFER",
+    "title": "Grow and succeed through transformation",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/scroll (1).png",
+        "title": "Technology strategy/ IT roadmap"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ranking (2).png",
+        "title": "Enterprise and solutions architecture"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/people (1).png",
+        "title": "System advisory"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-add (1).png",
+        "title": "Cloud advisory"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flash (1).png",
+        "title": "Emerging and digital transformations"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/share (1).png",
+        "title": "IT/OT integration"
+      }
+    ]
+  },
+  "Projectflow": {
+    "status1": "OUR OFFERINGS",
+    "heading1": "Technology consultancy for business-related solutions",
+    "desc": "Our technology advisors and consultants have decades of experience with them in designing tech-based solutions to business problems. Through data strategy, planning, and analysis of your current issues, we figure out sustainable solutions."
+  },
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "transformationCards": [
+    {
+      "heading": "Application portfolio rationalization",
+      "content": "Reduce total operational expenses by streamlining existing application portfolios through a disciplined modernization and transformation plan."
+    },
+    {
+      "heading": "Data strategy and consulting",
+      "content": "Take your data strategy to the next level with a plan that ensures long-term data compliance, privacy regulation, and data governance."
+    },
+    {
+      "heading": "Cloud advisory services",
+      "content": "Examine your cloud adoption strategy with a complete cloud-readiness assessment that will help you spot any stumbling blocks, safe-proofing your investments."
+    }
+  ]
+}

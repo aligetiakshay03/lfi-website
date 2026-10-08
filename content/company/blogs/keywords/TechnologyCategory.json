@@ -1,0 +1,44 @@
+{
+  "name": "Technology",
+  "categoryKeyWords": [
+    {
+      "subCategories": "content/company/blogs/categories/SAP.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Oodu Technology.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Microsoft Dynamics.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Salesforce.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/iPaas.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/RPA.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Engineering.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Consulting.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Cloud.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Technology.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Automation.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Teams.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/IT Infrastructure and Solutions.json"
+    }
+  ]
+}

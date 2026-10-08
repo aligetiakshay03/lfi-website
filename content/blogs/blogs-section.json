@@ -1,0 +1,70 @@
+{
+  "blogs": [
+    {
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI.png",
+      "blogType": "Technology",
+      "author": "content/company/blogs/authors/tej.json",
+      "createdAt": "2024-02-08T18:30:00.000Z",
+      "content": "#### **AI in the Finance Sector: How to Benefit from Conversational AI?**\n\nAI in the Finance Sector: How to Benefit from Conversational AI.\n",
+      "url": "/",
+      "alignment": "left",
+      "description": "AI in the Finance Sector: How to Benefit from Conversational AI? Facebook Twitter Linkedin Human intelligence has been unparalleled...",
+      "heading": "Blog",
+      "title": "AI in the Finance Sector: How to Benefit from Conversational AI?",
+      "contentSectionStyle": {
+        "backgroundColor": "#2D58C0"
+      },
+      "textContentStyle": {
+        "color": "#E6ECED"
+      },
+      "type": "semi"
+    },
+    {
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Rectangle 2609.png",
+      "content": "",
+      "description": "AI in the Finance Sector: How to Benefit from Conversational AI? Facebook Twitter Linkedin Human intelligence has been unparalleled...",
+      "heading": "News",
+      "title": "FT ranking: Africa's Fastest Growing Companies 2023",
+      "contentSectionStyle": {
+        "backgroundColor": "#2D58C0"
+      },
+      "textContentStyle": {
+        "color": "#E6ECED"
+      },
+      "type": "full"
+    },
+    {
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DT.png",
+      "author": "content/company/blogs/authors/Authors.json",
+      "createdAt": "2024-03-13T18:30:00.000Z",
+      "content": "",
+      "alignment": "right",
+      "description": "DT: How Digital Transformation Drives Customer Experience Facebook Twitter Linkedin Digital transformation is forcing businesses to amend their business...",
+      "heading": "Blog",
+      "title": "DT: How Digital Transformation Drives Customer Experience",
+      "contentSectionStyle": {
+        "backgroundColor": "#FF7800"
+      },
+      "textContentStyle": {
+        "color": "#E6ECED"
+      },
+      "type": "semi"
+    },
+    {
+      "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA.png",
+      "author": "content/company/blogs/authors/tej.json",
+      "content": "",
+      "alignment": "right",
+      "description": "RPA: How is Robotic Process Automation Transforming the Digital World Facebook Twitter Linkedin When most people hear the term...",
+      "heading": "Blog",
+      "title": "RPA: How is Robotic Process Automation Transforming the Digital World",
+      "contentSectionStyle": {
+        "backgroundColor": "#FFF"
+      },
+      "textContentStyle": {
+        "color": "#272727"
+      },
+      "type": "semi"
+    }
+  ]
+}

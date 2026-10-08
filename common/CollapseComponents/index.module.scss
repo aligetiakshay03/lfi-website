@@ -1,0 +1,184 @@
+.container {
+  position: relative;
+  background-size: cover;
+  padding: 100px;
+
+  .gap {
+    justify-content: space-between;
+
+    .row {
+      padding-bottom: 20px;
+    }
+  }
+
+  .image_bg {
+    position: absolute;
+    z-index: -40;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    min-height: 980px;
+    // background: url("/images/Our_process_full_BG.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .imageStyles {
+    z-index: 20;
+  }
+
+  .title {
+    margin-top: 16px;
+    font-size: 48px;
+    font-family: 'MonsalGothicMedium';
+    line-height: 105%;
+    color: #e6eced;
+  }
+
+  .description {
+    font-size: 28px;
+    margin-top: 32px;
+    line-height: 125%;
+    color: #8a8e8f;
+    font-family: "libre-franklin", sans-serif;
+    font-style: normal;
+    z-index: 30;
+  }
+
+  .header {
+    margin-top: 36px;
+    font-style: normal;
+    color: #e6eced;
+    font-size: 36px;
+    font-family: "libre-franklin", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .para {
+    color: #8a8e8f;
+    font-family: "libre-franklin", sans-serif;
+    margin-top: 8px;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+
+  :global {
+    .ant-collapse>.ant-collapse-item>.ant-collapse-header {
+      padding: 0 !important;
+    }
+
+    .ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+      padding: 0 0 16px 0 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1560px) {
+  .container {
+    padding: 80px;
+    .image_bg {
+      left: 0px;
+      bottom: 0px;
+      min-height: 1080px;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+
+    .title {
+      font-size: 24px;
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .gap {
+      .row {
+        width: 100%;
+      }
+
+      .header {
+        font-size: 20px;
+        letter-spacing: normal;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+
+      .para {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .container {
+    .title {
+      margin-top: 8px;
+      line-height: 130%;
+      font-size: 24px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 140%;
+      margin-top: 16px;
+    }
+
+    .gap {
+      flex-direction: column;
+
+      .row {
+        padding-bottom: 0px;
+      }
+    }
+
+    .image_bg {
+      background-position: left;
+      background-size: cover;
+      left: 0px;
+    }
+
+    .header {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 130%;
+      margin-top: 34px !important;
+      margin-bottom: 34px !important;
+    }
+
+    .para {
+      margin-top: 0px;
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    :global {
+      .ant-collapse>.ant-collapse-item>.ant-collapse-header {
+        padding: 0 !important;
+      }
+
+      .ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+        padding: 0 0 16px 0 !important;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 639px) {
+  .container {
+    padding: 20px;
+  }
+}

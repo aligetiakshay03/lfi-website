@@ -1,0 +1,158 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  max-height: fit-content;
+  background-color: #070401;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 117px;
+  align-items: center;
+  // padding-bottom: 20px !important;
+
+
+  .contentSec {
+    width: 50%;
+
+    .title {
+      color: #e6eced;
+      font-size: 48px;
+      line-height: 130%;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      max-width: 679px;
+    }
+
+    .description {
+      color: #a2a5a6;
+      font-size: 28px;
+      font-style: normal;
+      font-family: "libre-franklin", sans-serif;
+      font-style: normal;
+      max-width: 733px;
+    }
+
+    .points {
+      padding-left: 20px;
+      list-style: disc;
+      list-style-position: inside;
+    }
+  }
+
+  .imageSec {
+    width: 50%;
+    position: relative;
+    height: 550px;
+    object-fit: contain;
+
+    .border {
+      position: relative;
+      /* Ensure proper positioning */
+      padding-bottom: 28px;
+    }
+
+    .border::before {
+      content: "";
+      /* Define the content property */
+      position: absolute;
+      /* Position the pseudo-element */
+      bottom: 0;
+      /* Align it to the bottom */
+      left: 0;
+      /* Align it to the left */
+      width: 100%;
+      /* Set the width to cover the full border */
+      height: 2px;
+      /* Set the height of the border */
+      background:
+        linear-gradient(to right, #e6eced 40%, #272727 30%) 0 0/100% 50%,
+        /* First color */
+        linear-gradient(to right, #272727 30%, #e6eced 30%) 0 100%/100% 50%;
+      /* Second color */
+    }
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 117px;
+    align-items: center;
+
+    .contentSec {
+      width: 50%;
+      padding-right: 100px;
+
+      .title {
+        font-size: 32px;
+      }
+
+      .description {
+        font-size: 18px;
+      }
+
+      .points {
+        padding-left: 20px;
+        list-style: disc;
+        list-style-position: inside;
+      }
+    }
+
+    .imageSec {
+      width: 50%;
+      position: relative;
+      height: 350px;
+    }
+  }
+}
+
+// @media (max-width: 1258px) {
+//   .container {
+//     // padding: 50px;
+//   }
+// }
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    // padding: 40px 20px;
+    flex-direction: column;
+    gap: 40px;
+
+    .contentSec {
+      width: 100%;
+      flex-direction: column;
+      padding-right: 0px;
+
+      .title {
+        font-size: 24px;
+        width: 100%;
+      }
+
+      .description {
+        font-size: 16px;
+        width: 100%;
+      }
+    }
+
+    .imageSec {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    padding: 40px 20px; 
+  }
+}

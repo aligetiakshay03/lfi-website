@@ -1,0 +1,84 @@
+{
+  "heroSectionData": {
+    "heading1": "UX / UI Design",
+    "subheading1": "Designing the pathway to a better future",
+    "imagesrc": "/backgroud-images/uiux-design.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "UX/UI design, the technology for tomorrow",
+    "para1": "The design of user interfaces with the goal of maximizing usability and the user experience is known as user interface design or user interface engineering\n"
+  },
+  "Projectflow": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Thoroughness in design and research"
+  },
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UX research (1).png",
+      "bgcolor": "bg-[#FFEF9C]",
+      "heading": "UX Research",
+      "content": "UX research is used to thoroughly research your customer base and their needs in order to provide realistic settings and perspectives to design operations. We use a variety of techniques to identify issues and create solutions that benefit your company."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402.png",
+      "bgcolor": "bg-[#FFE2C9]",
+      "heading": "User Interface (UI) design",
+      "content": "Our crew of UX experts is well-versed in the complexities of web design, guaranteeing that you receive amazing outcomes. We promise that the user experience of your product will benefit you as a result of our work."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UI design icon (1).png",
+      "bgcolor": "bg-[#CDDCFF]",
+      "heading": "User Experience (UX) design",
+      "content": "Our user interface design firm combines your information, visual identity, and style with appropriate photographs, graphics, and videos to provide your customers the best possible experience in the most aesthetic manner."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (58).png",
+      "bgcolor": "bg-[#FFE2C9]",
+      "heading": "Rapid Prototyping",
+      "content": "Rapid prototyping refers to a set of methods we employ to swiftly construct a functioning prototype of your product assembly from three-dimensional computer-aided design parameters. Quick physical representation and early feedback boost faster development."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (59).png",
+      "bgcolor": "bg-[#CDDCFF]",
+      "heading": "Usability testing",
+      "content": "Usability testing evaluates a product by putting it to the trial with real people. This is an essential usability strategy since it provides direct feedback on how real users interact with the system."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (8).png",
+      "bgcolor": "bg-[#FFEF9C]",
+      "heading": "UI/UX audit",
+      "content": "We identify potential usability flaws using existing algorithms and/or past user research. A good UX audit identifies problems and recommends solutions to make the user experience better and more fluid."
+    }
+  ],
+  "CollapseComponentData": {
+    "header": "OUR  PROCESS",
+    "title": "Precision in every step.",
+    "description": "We believe that every product should be designed for the user, so the first step is understanding them. After multiple ideation cycles, a solution is validated and is made to go through multiple rounds of testing, a final product is prototyped.",
+    "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 395.png",
+    "imageStyles": "w-[600px] max-h-[400px]",
+    "imageList": true,
+    "bg": true,
+    "list": [
+      {
+        "title": "Do the research",
+        "description": "In order to create an application that elegantly solves problems, we conduct extensive research. We design simple and effective digital solutions once we thoroughly grasp consumer wants and pain points."
+      },
+      {
+        "title": "Create user journeys & wireframes",
+        "description": "We perform thorough research in order to design applications and interfaces that effectively addresses problems. We create simple and effective digital solutions after gaining a full understanding of consumer expectations and pain points."
+      },
+      {
+        "title": "Build stunning interface designs",
+        "description": "User flows are a wonderful way to visualise how a user will navigate around your app or website. Wireframes allow you to experiment with all of the myriad ways you can create a single page by mixing and matching various elements."
+      },
+      {
+        "title": "Deliver pixel perfect designs",
+        "description": "After every single element of a user interface has been manually picked and tested, the final product is delivered in the form of a pixel-perfect user interface design."
+      }
+    ]
+  }
+}

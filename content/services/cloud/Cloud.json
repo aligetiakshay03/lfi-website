@@ -1,0 +1,62 @@
+{
+  "heroSectionData": {
+    "heading1": "Cloud",
+    "subheading1": "The future is on the cloud",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-banner.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Access your data, no matter where you are",
+    "para1": "Bringing the transformation in the manner in which businesses deal with data storage & computing power, without requiring active management through managed cloud services.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Kubernetes Services",
+      "descriptions": "Employing open-source automation software that speed up the development process and also can be cost-effective.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iot-development-fake.png",
+      "button": {
+        "link": "/services/cloud/kubernetes-services",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Cloud Development",
+      "descriptions": "Focusing on creating and enhancing cloud-based applications and solutions.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devOps.png",
+      "button": {
+        "link": "/services/cloud/cloud-development",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Cloud Migration",
+      "descriptions": "Developing the cloud architecture through planning and design, allowing for a more efficient cloud delivery process.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devops-development-fake.png",
+      "button": {
+        "link": "/services/cloud/cloud-migration",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Cloud Consulting",
+      "descriptions": "Helping you maintain cloud applications and computing systems through customized software and hardware configuration.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/application-development-tab.png",
+      "button": {
+        "link": "/services/cloud/cloud-consulting",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "messageBannerData2": {
+    "title": "Want a new work experience?",
+    "url": "/contact-us",
+    "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+    "urlMessage": "Join Us"
+  }
+}

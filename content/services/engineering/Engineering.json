@@ -1,0 +1,48 @@
+{
+  "heroSectionData": {
+    "heading1": "Engineering",
+    "subheading1": "Creating impact by harnessing technology",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/engineering.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Building things that are precise",
+    "para1": "Engineering relies on an expert’s ability to figure out a solution to a problem that seems impossible to achieve. By following the same philosophy we engineer software based on tough frameworks that shows flexibility of function.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Application Development",
+      "descriptions": "Complete renovation of businesses to prepare them for the digital future by equipping organizations with digitally empowered tools.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/application-development-tab.png",
+      "button": {
+        "link": "/services/engineering/application-development",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Quality control",
+      "descriptions": "Engineering workflows that ensure that every product or service that reaches to a customer matches the high standard of quality.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/quality-control.png",
+      "button": {
+        "link": "/services/engineering/quality-control",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "DevOps",
+      "descriptions": "Implementing DevOps procedures to ensure higher efficiency during the development process itself.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/firos-nv-Z2c6ounF-iE-unsplash 1.png",
+      "button": {
+        "link": "/services/engineering/devops",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "Ready to kick off your software development project?",
+    "url": "/contact-us",
+    "description": "Let's talk about what you need",
+    "urlMessage": "Contact Us"
+  }
+}

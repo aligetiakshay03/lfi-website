@@ -1,0 +1,60 @@
+{
+  "heroSectionData": {
+    "heading1": "Microsoft Dynamics",
+    "subheading1": "ERP, CRM, and BI, brought together on a single platform.",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoftDynamic-crop.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "The Dynamics 365 Advantage",
+    "para1": "Microsoft Dynamics offers a wide range of applications to meet the unique needs of your organization. Whether you're looking to enhance sales, marketing, finance, operations, supply chain, service, commerce, or human resources, we have the right solution for you.\n"
+  },
+  "HowCanWeHelpSection": {
+    "status1": "HOW WE CAN HELP",
+    "heading1": "We are a trusted Dynamics 365 development company with a wealth of experience in delivering CRM projects across various industry verticals."
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/internet-svgrepo-com 1.png",
+      "bgcolor": "#27272766",
+      "heading": "Rich Domain Expertise:",
+      "content": "Our Dynamics 365 professionals possess deep domain expertise in crafting custom business solutions with built-in intelligence to gain a competitive edge."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/handshake.png",
+      "bgcolor": "#27272766",
+      "heading": "Microsoft Partner:",
+      "content": "As a Microsoft Partner, we offer tailored Dynamics 365 implementation services that break through barriers and align with your unique requirements."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/certificate-star-svgrepo-com 1.png",
+      "bgcolor": "#27272766",
+      "heading": "Certified Resources:",
+      "content": "Our team comprises certified professionals with extensive experience in delivering Microsoft Dynamics 365 services across diverse industries."
+    }
+  ],
+  "messageBannerData": {
+    "title": "60% significant operational cost savings",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "dynamics365Section": {
+    "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Dynamics 365.png",
+    "heading1": "What’s in it for you ?"
+  },
+  "dynamics365Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/audio-waveform.png",
+      "heading": "End-to-End Business Applications",
+      "content": "The comprehensive platform combines ERP, CRM, and BI on a single cloud-based platform. This means you can manage every facet of your business in one place, making data visualization and decision-making easier than ever."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-integration-hub-svgrepo-com 1.png",
+      "heading": "Power Platform Integration",
+      "content": "Microsoft Power Platform seamlessly integrates with Dynamics 365. This integration empowers you to harness the full potential of your data and automate tasks, driving efficiency and productivity."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoft-office-svgrepo-com 1.png",
+      "heading": "Office 365 Integration",
+      "content": "With Office 365 integration, collaboration and productivity reach new heights. Share information and insights with ease using tools like Microsoft Teams and Microsoft 365, further enhancing your organization's capabilities."
+    }
+  ]
+}

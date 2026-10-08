@@ -1,0 +1,352 @@
+{
+  "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkfields_logo 1.png",
+  "links": [
+    {
+      "coverImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 381.png",
+      "label": "Solutions",
+      "description": "Delivering innovative IT solutions for seamless operations",
+      "href": "/solutions/erp-solutions",
+      "children": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP (1).png",
+          "label": "SAP",
+          "href": "/solutions/erp-solutions/sap",
+          "description": "Empower your enterprise with SAP solutions ",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/sap"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odoo (1).png",
+          "label": "Odoo",
+          "href": "/solutions/erp-solutions/odoo",
+          "description": "Get your business processes simplified",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/odoo"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft dynamics (1).png",
+          "label": "Microsoft Dynamics",
+          "href": "/solutions/erp-solutions/microsoft-dynamics",
+          "description": "ERP, CRM, and BI, brought together on a single platform",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/microsoft-dynamics"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Sales force.png",
+          "label": "Salesforce",
+          "href": "/solutions/erp-solutions/salesforce",
+          "description": "Elevate customer engagement with our Salesforce expertise",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/salesforce"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iPaas (1).png",
+          "label": "iPaaS",
+          "href": "/services/cloud/ipaas",
+          "description": "Your partner for advanced iPaaS",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/services/cloud/ipaas"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/bot-svgrepo-com 1.png",
+          "label": "RPA",
+          "href": "/services/automation/robotic-process-automation",
+          "description": "Software bots for an automated workplace",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/services/automation/robotic-process-automation"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/testoriumZ.png",
+          "label": "Testorium Z",
+          "href": "https://testoriumz.com",
+          "openInNewTab": true,
+          "description": "Accelerate Quality. Automate Smart. Deliver Faster.",
+          "navbutton": {
+            "label": "Read more",
+            "href": "https://testoriumz.com"
+          }
+        }
+      ]
+    },
+    {
+      "coverImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solutions.png",
+      "label": "Services",
+      "description": "Ensuring quality meets the highest standard",
+      "children": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/engineering (1).png",
+          "label": "Engineering",
+          "href": "/services/engineering",
+          "children": [
+            {
+              "label": "Application Development",
+              "href": "/services/engineering/application-development"
+            },
+            {
+              "label": "Quality Control",
+              "href": "/services/engineering/quality-control"
+            },
+            {
+              "label": "DevOps",
+              "href": "/services/engineering/devops"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/consulting (1).png",
+          "label": "Consulting",
+          "href": "/services/consulting",
+          "children": [
+            {
+              "label": "Product Discovery",
+              "href": "/services/consulting/product-discovery"
+            },
+            {
+              "label": "Solution Discovery",
+              "href": "/services/consulting/solution-discovery"
+            },
+            {
+              "label": "UX / UI Design",
+              "href": "/services/consulting/uiux-design"
+            },
+            {
+              "label": "Technology Advisory",
+              "href": "/services/consulting/technology-advisory"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud (1).png",
+          "label": "Cloud",
+          "href": "/services/cloud",
+          "children": [
+            {
+              "label": "Cloud Consulting",
+              "href": "/services/cloud/cloud-consulting"
+            },
+            {
+              "label": "Cloud Migration",
+              "href": "/services/cloud/cloud-migration"
+            },
+            {
+              "label": "Cloud Development",
+              "href": "/services/cloud/cloud-development"
+            },
+            {
+              "label": "Kubernetes Services",
+              "href": "/services/cloud/kubernetes-services"
+            },
+            {
+              "label": "iPaaS",
+              "href": "/services/cloud/ipaas"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology (1).png",
+          "label": "Technology",
+          "href": "/services/technology",
+          "children": [
+            {
+              "label": "Big Data Engineering",
+              "href": "/services/technology/big-data"
+            },
+            {
+              "label": "AI & Machine Learning",
+              "href": "/services/technology/ai-ml"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automation (1).png",
+          "label": "Automation",
+          "href": "/services/automation",
+          "children": [
+            {
+              "label": "Digital Transformation",
+              "href": "/services/automation/digital-transformation"
+            },
+            {
+              "label": "Robotic Process  Automation ",
+              "href": "/services/automation/robotic-process-automation"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Teams.png",
+          "label": "Teams",
+          "href": "/services/teams",
+          "children": [
+            {
+              "label": "Staff Augmentation",
+              "href": "/services/teams/staff-augmentation"
+            },
+            {
+              "label": "Managed Team",
+              "href": "/services/teams/managed-team"
+            }
+          ]
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/IT infrastructure.png",
+          "label": "IT Infrastructure and Solutions",
+          "href": "/services/itinfraandsolutions"
+        }
+      ]
+    },
+    {
+      "coverImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Industries.png",
+      "label": "Industries",
+      "description": "Delivering customized solutions to meet your specific business needs",
+      "children": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Banking.png",
+          "label": "Banking",
+          "href": "/industries/banking",
+          "description": "Creating a future-ready, automated banking landscape",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/banking"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG.png",
+          "label": "FMCG",
+          "href": "/industries/fmcg",
+          "description": "Optimizing FMCG Operations with AI-Driven Insights",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/fmcg"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Fintech.png",
+          "label": "Fintech",
+          "href": "/industries/fintech",
+          "description": " Developing a Suite of Reliable Tools to Fortify Financial Operations",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/fintech"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Telecom.png",
+          "label": "Telecom",
+          "href": "/industries/telecom",
+          "description": "Driving Digitalization in the Telecom Industry ",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/telecom"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Insurance.png",
+          "label": "Insurance",
+          "href": "/industries/insurance",
+          "description": "Revolutionizing Insurance with Advanced Technology",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/insurance"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Mining.png",
+          "label": "Mining",
+          "href": "/industries/mining",
+          "description": "Making a traditional industry future-ready",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/mining"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Oil and gas.png",
+          "label": "Oil & Gas",
+          "href": "/industries/oil-gas",
+          "description": "Cutting-edge solutions to optimise Oil & Gas industry's performance",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/oil-gas"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/manufacturing.png",
+          "label": "Manufacturing",
+          "href": "/industries/manufacturing",
+          "description": "Seamless Manufacturing through custom and intelligent solutions",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/industries/manufacturing"
+          }
+        }
+      ]
+    },
+    {
+      "coverImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/creative-people-working-office 1.png",
+      "label": "Company",
+      "description": "Ensuring quality meets  the highest standard",
+      "children": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/About us.png",
+          "label": "About Us",
+          "href": "/company/about-us",
+          "description": "Digitally forward, exploring and innovating",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/company/about-us"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Our approach.png",
+          "label": "Our Approach",
+          "href": "/company/our-approach",
+          "description": "Attention to detail, precision in outcomes",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/company/our-approach"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Blog.png",
+          "label": "Blog",
+          "href": "/company/blog",
+          "description": "Be digitally ahead and grow",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/company/blog"
+          }
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News and articles.png",
+          "label": "News & Articles",
+          "href": "/company/news-and-articles",
+          "description": "Stay Updated with the Latest Industry Insights and Innovations",
+          "navbutton": {
+            "label": "Read more",
+            "href": "/company/news-and-articles"
+          }
+        }
+      ]
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    }
+  ],
+  "btn": {
+    "label": "Contact us",
+    "href": "/contact-us"
+  }
+}

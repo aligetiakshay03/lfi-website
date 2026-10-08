@@ -1,0 +1,59 @@
+{
+  "heroSectionData": {
+    "heading1": "Fintech",
+    "subheading1": " Developing a Suite of Reliable Tools to Fortify Financial Operations",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Fintech.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Understanding quantitative data made easier",
+    "para1": "Helping FinTech companies by utilizing specialized software that allows smooth financial operations and apt algorithms.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Data-Driven Decision Making",
+        "desc": "Utilize advanced data analytics to navigate financial data, identify trends, and make informed, future-proof decisions, enhancing overall performance.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Data-Driven Decision Making.png"
+      },
+      {
+        "title": "Blockchain Security Solutions",
+        "desc": "Implement blockchain technology to secure transactions, ensuring transparency and integrity, and reducing security vulnerabilities.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Block chain security solutions.png"
+      },
+      {
+        "title": "Custom AI for Financial Modeling",
+        "desc": "Develop AI algorithms tailored for financial modeling and risk assessment, fortifying financial strategies against potential risks.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Custom AI for financial modeling.png"
+      },
+      {
+        "title": "Streamlined Digital Payments",
+        "desc": "Provide digital payment and e-wallet solutions that simplify transactions, increase user adoption, and enhance overall security.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Streamlined digital payments.png"
+      },
+      {
+        "title": "Automated Compliance Management ",
+        "desc": "Deploy software that simplifies regulatory compliance, minimizing risks and penalties, and allowing a focus on innovation and growth.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated compliance managenment.png"
+      },
+      {
+        "title": "P2P Platform Integration",
+        "desc": "Create peer-to-peer platforms to connect borrowers and investors directly, streamlining processes and democratizing finance.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/P2P platfrom integration.png"
+      },
+      {
+        "title": "Advanced Fraud Detection",
+        "desc": "Leverage machine learning-driven systems to detect and prevent fraud, safeguarding operations and maintaining trust.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Advanced fraud detection.png"
+      }
+    ]
+  }
+}

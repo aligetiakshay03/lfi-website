@@ -1,0 +1,133 @@
+.container {
+  position: relative;
+  background-size: cover;
+  padding: 100px;
+
+  .header {
+    margin-top: 16px;
+    font-size: 48px;
+    font-style: normal;
+    font-family: 'MonsalGothicMedium';
+    // font-weight: 600;
+    line-height: 120%;
+  }
+
+  .row {
+    margin-top: 60px;
+
+    .card_content {
+      display: flex;
+      align-items: start;
+      gap: 36px;
+
+      .heading {
+        font-size: 30px;
+        font-style: normal;
+        color: #e6eced;
+        // font-weight: 600;
+        font-family: 'MonsalGothicMedium';
+        line-height: 110%;
+      }
+
+      .desc {
+        color: #8a8e8f;
+        margin-top: 16px;
+        font-size: 20px;
+        // font-weight: 400;
+        font-family: "libre-franklin", sans-serif;
+        font-style: normal;
+        line-height: 140%;
+        letter-spacing: 0.5px;
+      }
+
+      .serialNo {
+        color: #9eacae;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1560px) {
+  .container {
+    padding: 80px;
+
+    .header {
+      font-size: 36px;
+      line-height: 130%;
+    }
+
+    .row {
+      .card_content {
+        .heading {
+          font-size: 24px !important;
+        }
+
+        .desc {
+          margin-top: 16px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .container {
+    padding: 40px; 
+  } 
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    // padding: 48px 20px;
+
+    .header {
+      font-size: 24px;
+    }
+
+    .row {
+      margin-top: 30px;
+
+      :global {
+        .ant-row {
+          row-gap: 32px !important;
+        }
+
+        .ant-card .ant-card-body {
+          padding: 20px !important;
+        }
+      }
+
+      .card_content {
+        gap: 20px;
+
+        .heading {
+          font-size: 20px !important;
+          line-height: 130%;
+        }
+
+        .desc {
+          margin-top: 12px;
+          font-size: 16px;
+        }
+
+        .serialNo {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .container {
+    padding: 20px; 
+  } 
+}

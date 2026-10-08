@@ -1,0 +1,273 @@
+.footer {
+  position: relative;
+  background: radial-gradient(ellipse 50% 60% at 50% 120%, rgba(255, 120, 0, 0.1), transparent 70%), var(--lf-grid-lines),
+    linear-gradient(180deg, #0a1122 0%, #070b15 100%);
+  color: var(--lf-grey-2);
+  padding-top: clamp(64px, 8vw, 120px);
+  overflow: hidden;
+  border-top: 1px solid var(--lf-line-dark);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+  row-gap: 48px;
+}
+
+.brand {
+  grid-column: 1 / span 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.logo {
+  display: block;
+  width: 168px;
+  color: var(--lf-mist);
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--lf-font-display);
+  font-size: clamp(1.2rem, 1rem + 0.8vw, 1.7rem);
+  color: var(--lf-mist) !important;
+
+  span {
+    background: linear-gradient(var(--lf-orange), var(--lf-orange)) 0 100% / 0 1px no-repeat;
+    transition: background-size 0.5s var(--lf-ease-out);
+  }
+
+  svg {
+    color: var(--lf-orange);
+    transition: transform 0.45s var(--lf-ease-out);
+  }
+
+  &:hover {
+    span {
+      background-size: 100% 1px;
+    }
+
+    svg {
+      transform: translateX(5px);
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+
+  a {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid var(--lf-line-dark);
+    color: var(--lf-mist) !important;
+    transition: background-color 0.35s ease, border-color 0.35s ease, transform 0.45s var(--lf-ease-out);
+
+    &:hover {
+      background: var(--lf-orange);
+      border-color: var(--lf-orange);
+      transform: translateY(-3px);
+      color: #0a0a0a !important;
+    }
+  }
+
+  /* Official brand icons — same treatment as the "Follow us" social section.
+     The logo itself carries the brand color; the circle stays subtle glass.
+     X uses currentColor, resolved to white here for contrast on the dark
+     footer (the banner keeps it black on its light chip). */
+  .socialLink {
+    color: #ffffff !important;
+    background: rgba(13, 20, 38, 0.45);
+    border: 1px solid rgba(230, 236, 237, 0.22);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 240ms var(--lf-ease-out), box-shadow 240ms ease, background 240ms ease, border-color 240ms ease;
+
+    &:hover,
+    &:focus-visible {
+      transform: translateY(-2px);
+      background: rgba(23, 32, 58, 0.6);
+      border-color: rgba(230, 236, 237, 0.45);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 0 16px var(--brand-glow, rgba(255, 255, 255, 0.25));
+    }
+  }
+
+  .socialIcon {
+    display: grid;
+    place-items: center;
+    width: 26px;
+    height: 26px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      transition: transform 240ms var(--lf-ease-out);
+    }
+  }
+
+  .socialLink:hover .socialIcon svg,
+  .socialLink:focus-visible .socialIcon svg {
+    transform: scale(1.06);
+  }
+}
+
+.columns {
+  grid-column: 6 / span 7;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+
+.colTitle {
+  margin: 0 0 18px;
+  font-family: var(--lf-font-display);
+  font-weight: 500;
+  font-size: 0.74rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lf-orange);
+}
+
+.column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.colLink {
+  display: inline-block;
+  font-family: var(--lf-font-body);
+  font-size: 0.93rem;
+  line-height: 1.35;
+  color: var(--lf-grey-2) !important;
+  transition: color 0.3s ease, transform 0.4s var(--lf-ease-out);
+
+  &:hover {
+    color: var(--lf-mist) !important;
+    transform: translateX(4px);
+  }
+}
+
+.badges {
+  margin-top: clamp(48px, 6vw, 80px);
+  padding-top: 32px;
+  border-top: 1px solid var(--lf-line-dark);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 72px;
+}
+
+.badgeRow {
+  display: flex;
+  gap: 14px;
+}
+
+.badge {
+  display: grid;
+  place-items: center;
+  height: 84px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: rgba(230, 236, 237, 0.04);
+  border: 1px solid var(--lf-line-dark);
+  transition: transform 0.45s var(--lf-ease-out), background-color 0.35s ease;
+
+  img {
+    width: auto;
+    height: 64px;
+    object-fit: contain;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    background: rgba(230, 236, 237, 0.08);
+  }
+}
+
+.wordmark {
+  margin-top: clamp(28px, 4vw, 56px);
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: clamp(4rem, 14vw, 15rem);
+  line-height: 0.78;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(230, 236, 237, 0.08);
+  background: linear-gradient(180deg, rgba(255, 120, 0, 0.12), transparent 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-block: 22px 28px;
+  padding-right: calc(var(--lf-gutter) + 76px);
+  border-top: 1px solid var(--lf-line-dark);
+  font-family: var(--lf-font-body);
+  font-size: 0.84rem;
+  color: var(--lf-grey);
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--lf-mist);
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .brand,
+  .columns {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 720px) {
+  .columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .badgeRow {
+    flex-wrap: wrap;
+  }
+}

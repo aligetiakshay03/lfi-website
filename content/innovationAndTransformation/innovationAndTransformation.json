@@ -1,0 +1,71 @@
+{
+  "heroSectionData": {
+    "heading1": "Innovation and Transformation",
+    "subheading1": "Transforming businesses with cutting-edge technologies and innovation. ",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Innovation.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Innovation and Transformation",
+    "para1": "Harnessing emerging technologies and innovative approaches to drive transformation, shaping a connected, accessible, and intelligent future for the business world.\n"
+  },
+  "HowCanWeHelpSection": {
+    "status1": "Why us ",
+    "heading1": "We combine business expertise, the latest technology, and innovative ideas to create real value for our clients."
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/internet-svgrepo-com 1.png",
+      "bgcolor": "#27272766",
+      "heading": "Embracing Emerging Technologies",
+      "content": "We continually explore and integrate advancements in AI, machine learning, IoT, blockchain, and more to provide our clients with cutting-edge solutions."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/handshake.png",
+      "bgcolor": "#27272766",
+      "heading": "Driving Strategic Innovation",
+      "content": "Our team collaborates closely with clients to identify opportunities for innovation and develop custom strategies that drive impactful change."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/certificate-star-svgrepo-com 1.png",
+      "bgcolor": "#27272766",
+      "heading": " Delivering Intelligent Solutions",
+      "content": "We incorporate intelligent technologies to optimize operations, enhance customer experiences, and unlock growth opportunities, making businesses more efficient and agile."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/4 Hana.png",
+      "bgcolor": "#27272766",
+      "heading": " Building Connected Ecosystems",
+      "content": "We foster seamless communication and collaboration across all business areas, ensuring efficient information flow for better decision-making and performance."
+    }
+  ],
+  "messageBannerData": {
+    "title": "60% significant operational cost savings",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "innovationAndTransformationSection": {
+    "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkfields_logo_1.png",
+    "heading1": "Benefits of partnering with us"
+  },
+  "innovationCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/audio-waveform.png",
+      "heading": "Cutting-edge Technolog",
+      "content": "Access to the latest and most effective technologies."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-integration-hub-svgrepo-com 1.png",
+      "heading": "Customized Solutions",
+      "content": "Receive tailored strategies that meet your business's unique needs."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoft-office-svgrepo-com 1.png",
+      "heading": "Expert Guidance",
+      "content": "Benefit from a team of experienced professionals dedicated to your success."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/About us.png",
+      "heading": "Scalable Innovations",
+      "content": "Implement solutions that grow with your business and adapt to changing."
+    }
+  ]
+}

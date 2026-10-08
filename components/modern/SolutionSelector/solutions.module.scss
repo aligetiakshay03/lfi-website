@@ -1,0 +1,343 @@
+.section {
+  padding-block: clamp(28px, 3vw, 44px) var(--lf-section-y);
+  overflow: hidden;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+  row-gap: 18px;
+  align-items: start;
+
+  > :first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+.title {
+  grid-column: 1 / span 6;
+  margin: 0;
+  color: var(--lf-text-dark);
+}
+
+.subtitle {
+  grid-column: 8 / span 5;
+
+  p {
+    margin: 0;
+  }
+}
+
+.body {
+  margin-top: clamp(32px, 4vw, 56px);
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+  align-items: stretch;
+}
+
+/* ---------- List ---------- */
+
+.list {
+  grid-column: 1 / span 4;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--lf-line-light);
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 17px 4px;
+  border: 0;
+  border-bottom: 1px solid var(--lf-line-light);
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  color: var(--lf-text-soft);
+  transition: color 0.35s ease, padding 0.5s var(--lf-ease-out);
+
+  &:hover,
+  &.itemActive {
+    color: var(--lf-text-dark);
+  }
+
+  &.itemActive {
+    padding-left: 18px;
+    background: var(--lf-paper);
+    border-radius: 16px;
+    box-shadow: var(--lf-shadow-card);
+    border-bottom-color: transparent;
+  }
+}
+
+.itemNum {
+  font-family: var(--lf-font-display);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  color: #9a9d9e;
+
+  .itemActive & {
+    color: var(--lf-orange);
+  }
+}
+
+.itemTitle {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: clamp(1.25rem, 1rem + 0.8vw, 1.75rem);
+  letter-spacing: -0.01em;
+}
+
+.itemArrow {
+  color: var(--lf-orange);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.35s ease, transform 0.5s var(--lf-ease-out);
+
+  .itemActive & {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.itemProgress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  overflow: hidden;
+
+  span {
+    position: absolute;
+    inset: 0;
+    background: var(--lf-orange);
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .itemActive & span {
+    transform: scaleX(1);
+    transition: transform 0.6s var(--lf-ease-out);
+  }
+
+  .itemActive & .itemProgressRun {
+    transform: scaleX(0);
+    transition: none;
+    animation: progress var(--dur) linear forwards;
+  }
+}
+
+@keyframes progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- Stage ---------- */
+
+.stage {
+  grid-column: 6 / span 7;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 32px;
+}
+
+.visual {
+  position: relative;
+  min-height: clamp(280px, 28vw, 440px);
+  border-radius: 22px var(--lf-radius-xl) 22px 22px;
+  box-shadow: var(--lf-shadow-lift);
+  overflow: hidden;
+  background: #111;
+  isolation: isolate;
+}
+
+.visualLayer {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(1.08);
+  transition: opacity 0.9s var(--lf-ease-out), transform 1.6s var(--lf-ease-out);
+}
+
+.visualLayerActive {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 1;
+}
+
+.visualImg {
+  object-fit: cover;
+  object-position: 30% 50%;
+}
+
+.visualShade {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(0deg, rgba(10, 10, 10, 0.78) 0%, rgba(10, 10, 10, 0.1) 55%),
+    linear-gradient(90deg, rgba(10, 10, 10, 0.4), transparent 60%);
+}
+
+.logoPlate {
+  position: absolute;
+  z-index: 3;
+  left: clamp(20px, 3vw, 40px);
+  bottom: clamp(20px, 3vw, 36px);
+  width: clamp(160px, 18vw, 260px);
+  aspect-ratio: 3 / 1;
+  animation: logoIn 0.9s var(--lf-ease-out) both 0.1s;
+}
+
+@keyframes logoIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+    filter: blur(4px);
+  }
+}
+
+.logoImg {
+  object-fit: contain;
+  object-position: left center;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "num title"
+    "num desc"
+    "num cta";
+  column-gap: clamp(20px, 3vw, 48px);
+  row-gap: 14px;
+  align-items: start;
+  animation: detailIn 0.7s var(--lf-ease-out) both;
+
+  a {
+    grid-area: cta;
+    justify-self: start;
+    margin-top: 10px;
+  }
+}
+
+@keyframes detailIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+.detailNum {
+  grid-area: num;
+  font-family: var(--lf-font-display);
+  font-size: clamp(2.6rem, 2rem + 2vw, 4.4rem);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+  color: var(--lf-orange);
+  font-variant-numeric: tabular-nums;
+
+  span {
+    font-size: 0.32em;
+    color: #9a9d9e;
+    vertical-align: top;
+  }
+}
+
+.detailTitle {
+  grid-area: title;
+  margin: 0;
+  color: var(--lf-text-dark);
+}
+
+.detailDesc {
+  grid-area: desc;
+  margin: 0;
+  color: var(--lf-text-soft);
+}
+
+.allLink {
+  margin-top: 26px;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    grid-column: 1 / -1;
+  }
+  .subtitle {
+    grid-column: 1 / -1;
+  }
+  .list {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border-top: 0;
+    gap: 8px;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .item {
+    flex: none;
+    grid-template-columns: auto auto;
+    padding: 14px 18px !important;
+    border: 1px solid var(--lf-line-light);
+    border-radius: 999px;
+    scroll-snap-align: start;
+
+    &.itemActive {
+      background: var(--lf-ink);
+      color: var(--lf-mist);
+      border-color: var(--lf-ink);
+    }
+  }
+  .itemArrow,
+  .itemProgress {
+    display: none;
+  }
+  .itemTitle {
+    font-size: 1.05rem;
+  }
+  .stage {
+    grid-column: 1 / -1;
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 560px) {
+  .itemNum {
+    display: none;
+  }
+  .item {
+    grid-template-columns: auto;
+  }
+  .detail {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "num"
+      "title"
+      "desc"
+      "cta";
+  }
+}
+
+.visualTag {
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  right: 26px;
+  color: rgba(255, 255, 255, 0.7) !important;
+}

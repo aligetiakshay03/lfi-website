@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  max-height: fit-content;
+  background: url("/backgroud-images/constantly-innovating.jpg") !important;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 128px 100px;
+
+  .heading {
+    color: #e6eced;
+    font-size: 48px;
+    // font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 28px;
+  }
+
+  .desc {
+    color: #a4a8a9;
+    font-size: 24px;
+    // font-weight: 400;
+    font-family: "libre-franklin", sans-serif;
+    font-style: normal;
+    line-height: 140%;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    padding: 80px;
+
+    .heading {
+      padding-top: 16px;
+      padding-bottom: 14px;
+      font-size: 32px;
+    }
+
+    .desc {
+      font-size: 18px;
+      padding-bottom: 48px;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    // padding: 48px 20px;
+    .heading {
+      font-size: 24px;
+      line-height: 28px;
+      padding-bottom: 14px;
+    }
+
+    .desc {
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 36px;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    padding: 48px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 48px 20px;
+
+    .heading {
+      font-size: 24px;
+      line-height: 28px;
+      padding-bottom: 14px;
+    }
+
+    .desc {
+      font-size: 16px;
+      line-height: 22px;
+      padding-bottom: 36px;
+    }
+  }
+}

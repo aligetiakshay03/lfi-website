@@ -1,0 +1,143 @@
+{
+  "heroSectionData": {
+    "heading1": "Robotic Process Automation (RPA)",
+    "subheading1": "Software bots for an automated workplace",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Become a more efficient workplace",
+    "para1": "RPA, aimed at automating business processes, uses tools, or a “robot,” to capture and interpret applications for processing a transaction, manipulating data, triggering responses and communicating with other digital systems.\n"
+  },
+  "Projectflow": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Access a range of automation services"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rpaconsulting.png",
+      "bgcolor": "",
+      "heading": "RPA consulting",
+      "content": "By identifying blockers, opportunities, and calculating automation potential, we create a detailed roadmap to strategic RPA adoption."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (69).png",
+      "heading": "Automation design",
+      "content": "We define intervention models to apply to your workflows and design an automation architecture to clarify your RPS solution, even with a PoC, to assure value."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (70).png",
+      "heading": "RPA development",
+      "content": "Using UIpath, Microsoft Power Automate and other RPA tools, we create intelligent applications based on the defined automation pipeline."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (75).png",
+      "heading": "Infrastructure support",
+      "content": "We ensure that your software bots are performing at the highest level of productivity and also help you find new automation opportunities."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (74).png",
+      "heading": "Managed RPA services",
+      "content": "We take over your RPA support and maintenance tasks so that your tech teams can focus on innovation and a strategic RPA scale-up."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (73).png",
+      "heading": "Automation support",
+      "content": "Our experts offer all-round support throughout the process of automating your internal workflows."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rpaexcellence.png",
+      "heading": "RPA center of excellence",
+      "content": "Our CoE embeds and implements RPA deeply and effectively into the organization."
+    }
+  ],
+  "messageBannerData": {
+    "title": "60% significant operational cost savings",
+    "url": "/contact-us",
+    "description": "",
+    "urlMessage": "Talk to us"
+  },
+  "breakthrough": {
+    "status1": "USE CASES",
+    "heading1": "Breakthroughs across sectors"
+  },
+  "breakThroughCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (80).png",
+      "heading": "Technology",
+      "content": "* Software installations\n* No code RPA solutions\n* Updating records\n* Automated testing\n* Webscrapping\n"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (81).png",
+      "heading": "Finance",
+      "content": "* Client onboarding\n* Settlements & account\n* Pension benefits\n* HR processes\n* Finance & accounting\n"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (84).png",
+      "heading": "Operations",
+      "content": "* Updating records\n* Invoice processing\n* Workforces management\n* Accounts payable process\n* Issuing refunds\n"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (83).png",
+      "heading": "HR",
+      "content": "* Employee onboarding\n* Attendance tracking\n* Resume screening\n* Recruitment\n* HR virtual assistants\n"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (82).png",
+      "heading": "Accounting",
+      "content": "* Controller function\n* Credit checks\n* Approvals\n* Tax\n* Statements & confirmations\n"
+    }
+  ],
+  "benefits": {
+    "status1": "BENEFITS",
+    "heading1": "Smarter workflows for higher efficiency"
+  },
+  "darkAndLightComponentCards": [
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (85).png",
+      "title": "Cost saving",
+      "description": "Automation in manual tasks enables notable cuts in costs and also significantly lowers employee FTEs."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (86).png",
+      "title": "In-depth analysis",
+      "description": "Intricately designed workflows are operated by automation bots with detailed logs available at every step of the operation."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (87).png",
+      "title": "Task automation",
+      "description": "A generalized and specialized automation of workplace tasks helps improve functionality, efficiency, and reduces error potential."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (88).png",
+      "title": "Assured accuracy",
+      "description": "Once trained, robots function at their full operating potential while eliminating any human error and performing repetitive tasks with extreme accuracy."
+    }
+  ],
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Building smart robots to instill automation",
+    "description": "We recognise your business goals for the future and develop a sustainable automation plan which keeps your business objectives in focus to ensure that the automation doesn’t clash with the growth, but rather speeds it up.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (11).png",
+    "ourOffering": {
+      "heading": "PARTNER RPA TOOLS",
+      "platformCardsData": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/logo-electroneek 1 (1).png",
+          "url": "https://electroneek.com/"
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (3).png",
+          "url": "https://www.blueprism.com/"
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (4).png",
+          "url": "https://www.automationanywhere.com/"
+        },
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (5).png",
+          "url": "https://www.uipath.com/"
+        }
+      ]
+    }
+  }
+}

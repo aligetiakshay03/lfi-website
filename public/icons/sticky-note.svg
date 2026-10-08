@@ -1,0 +1,12 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sticky-note">
+<path id="Vector" d="M25.2222 33H8.11111C7.28599 33 6.49467 32.6722 5.91122 32.0888C5.32778 31.5053 5 30.714 5 29.8889V8.11111C5 7.28599 5.32778 6.49467 5.91122 5.91122C6.49467 5.32778 7.28599 5 8.11111 5H29.8889C30.714 5 31.5053 5.32778 32.0888 5.91122C32.6722 6.49467 33 7.28599 33 8.11111V25.2222L25.2222 33Z" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M25 33V27.6667C25 26.9594 25.281 26.2811 25.781 25.781C26.2811 25.281 26.9594 25 27.6667 25H33" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9 29H17" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M9 26H21" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M9 23H12" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M12 12H10C9.44772 12 9 12.4477 9 13V18C9 18.5523 9.44772 19 10 19H12C12.5523 19 13 18.5523 13 18V13C13 12.4477 12.5523 12 12 12Z" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M28 12H26C25.4477 12 25 12.4477 25 13V18C25 18.5523 25.4477 19 26 19H28C28.5523 19 29 18.5523 29 18V13C29 12.4477 28.5523 12 28 12Z" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M20 9H18C17.4477 9 17 9.3731 17 9.83333V18.1667C17 18.6269 17.4477 19 18 19H20C20.5523 19 21 18.6269 21 18.1667V9.83333C21 9.3731 20.5523 9 20 9Z" stroke="#D1AF02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

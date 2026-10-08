@@ -1,0 +1,68 @@
+{
+  "heroSectionData": {
+    "heading1": "About Us",
+    "subheading1": "Digitally forward, exploring and innovating",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/contact-us-1.png",
+    "para1": ""
+  },
+  "visionCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/binoculars-5-svgrepo-com 1.png",
+      "heading": "Our Vision",
+      "content": "To be the go-to source of creative, custom-tailored, integrated, and long-term 360 digital solutions that help businesses and organizations flourish and grow."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/target-and-arrow-svgrepo-com 1 (1).png",
+      "heading": "Our Mission",
+      "content": "Through our relentless pursuit of engineering excellence and our dedication to deliver with certainty, we assist global organisations in growing, adapting, scaling, reinventing, and digitally transforming themselves."
+    }
+  ],
+  "transformationFlow": {
+    "status1": "Our values",
+    "heading1": "Grow and succeed through transformation"
+  },
+  "transformationCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/triangle.png",
+      "heading": "Innovation",
+      "content": "Infusing creativity and high skill to create solutions that fix problems in the most effective way."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image-square.png",
+      "heading": "Courage",
+      "content": "Our experts have the courage to try out ideas which have been untested before."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/crown.png",
+      "heading": "Respect",
+      "content": "We value kindness and empathy, qualities which we believe keep the race healthy."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flowImage.png",
+      "heading": "Impact",
+      "content": "Everyday we try harder to create impact on the world and our clients, that is positive and everlasting."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart-next.png",
+      "heading": "Passion",
+      "content": "We encourage rigorous discourse and never settle for anything but the best."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/circle-bar.png",
+      "heading": "Ownership",
+      "content": "We own up to ourselves, our actions, and our organization’s impact."
+    }
+  ],
+  "transformingFuture": {
+    "status": "OUR STORY",
+    "title": "Transforming the world into a more efficient future",
+    "description": "In 2008, Linkfields Innovations (Pvt) Ltd was established in South Africa as a pioneering organization which aimed to steer their customers into the direction of the next generation of business through innovation fueled by state-of-the-art automation technologies.",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group 15880156.png"
+  },
+  "betterFuture": {
+    "status": "CSR",
+    "title": "Better future creates better lives",
+    "description": "Bringing together the corporate and the society in a philanthropic effort because we acknowledge the role of society in making us, who we are.",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/closeup-diverse-people-joining-their-hands 1.png"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "OUR EXPERTISE",
+  "title": "Constantly Innovating",
+  "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+  "imageBlock": [
+    {
+      "title": "Telecom",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telecom-small.jpg"
+    },
+    {
+      "title": "Fintech",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/fintech-small.jpg"
+    },
+    {
+      "title": "FMCG",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG (1).png"
+    },
+    {
+      "title": "Banking",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/banking-small.jpg"
+    },
+    {
+      "title": "Insurance",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/insurance-small.jpg"
+    },
+    {
+      "title": "Mining",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/mining-small.jpg"
+    },
+    {
+      "title": "Oil and Gas",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/oil&gas-small.jpg"
+    },
+    {
+      "title": "Manufacturing",
+      "cardImage": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Manufacturing (1).png"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+.navigationModelContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(200px, 510px) 1fr;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  scrollbar-width: none;
+
+
+  .contentSection {
+    // border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    // background-color: #0A0A0A;
+    background: rgba(10, 10, 10, 0.95);
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+
+
+    border-right: 1px solid #3B3B3B;
+    // padding: 76px 40px 76px 100px;
+    padding: 32px 50px 48px 100px;
+
+
+    .titleSection {
+      color: #E6ECED;
+      font-family: "HelveticaNeue";
+      font-size: 40px;
+      font-style: normal;
+      // font-weight: 700;
+      line-height: 100%;
+
+      letter-spacing: 0.8px;
+    }
+
+
+
+    .descriptionSection {
+      max-width: 90%;
+      color: #D1DCDE;
+      font-size: 20px;
+      // font-weight: 400;
+      font-family: "libre-franklin", sans-serif;
+
+      font-style: normal;
+      line-height: 140%;
+    }
+
+    .imageWrapper {
+      width: 100%;
+      max-width: 310px;
+
+    }
+
+    .imageSection {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .linkSection {
+    // background-color: #0A0A0A;
+    background: rgba(10, 10, 10, 0.95);
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    padding: 48px 70px 48px 70px;
+    // padding: 48px 95px 210px 65px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    align-content:flex-start;
+    justify-content: space-between;
+    gap: 40px 40px;
+
+    .navigationsvg {
+      border-radius: 8px;
+      background: #232323;
+      // padding: 24px;
+      padding: 10px;
+
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      // height: fit-content;
+      // font-size: 20px;
+
+      .iconWrapper {
+        width: 100%;
+        max-width: 32px !important;
+        position: relative;
+        top: 3px;
+
+      }
+
+      .iconSection {
+       
+        height: auto;
+      }
+
+      .navigationLink {
+        // border: 2px solid yellow;
+        // border-radius: 8px;
+        // background: #232323;
+        // padding: 24px;
+        color: #D1DCDE;
+        // font-family: "HelveticaNueue";
+        font-family: 'MonsalGothicMedium';
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        font-size: 24px;
+        font-style: normal;
+        // line-height: 110%;
+        letter-spacing: 0.6px;
+        // justify-content: space-between; 
+        // height: 100%; 
+        
+
+        .linkDescription {
+          color: #ECECEC;
+
+          font-family: "libre-franklin", sans-serif;
+
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          /* 150% */
+        }
+
+        a {
+          width: -moz-fit-content;
+          width: fit-content;
+        }
+
+
+        .subNavigationLinks {
+          display: flex;
+
+          font-family: "libre-franklin", sans-serif;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 0.36px;
+          font-size: 18px;
+          // font-weight: 400 !important;
+          flex-direction: column;
+          gap: 16px;
+          // color: #E6ECED;
+          color: #E6ECED;
+          letter-spacing: 0.36px;
+        }
+
+        .navigationdesc{
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          justify-content: space-between;  
+          height: 100%; 
+
+
+
+        }
+
+
+        .subNavigationLinks :hover {
+          color: #ff7800;
+        }
+      }
+    }
+
+    .navigationLinkOuter:hover {
+      color: #ff7800;
+    }
+  }
+}
+
+
+
+@media screen and (max-width:1536px) {
+  .navigationModelContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .navigationModelContainer {
+    // width: 100%;
+    grid-template-columns: minmax(175px, 400px) 1fr;
+
+    .contentSection {
+      // padding: 39px 30px 39px 50px;
+      padding: 36px 28px 62px 60px;
+
+
+      .titleSection {
+        font-size: 30px;
+        line-height: 45px;
+      }
+
+      .descriptionSection {
+        font-size: 16px;
+        max-width: 90%;
+        line-height: 26px;
+      }
+
+      
+      
+
+    }
+
+    .linkSection {
+      // padding: 30px 20px 30px 40px;
+      padding: 36px 20px 36px 71px;
+
+      gap: 32px 32px;
+
+      .navigationsvg {
+
+        // padding: 24px;
+
+        display: flex;
+        flex-direction: row;
+        // gap: 14px;
+        gap: 12px;
+
+       
+
+
+        .iconWrapper {
+          width: 100%;
+          max-width: 22px !important;
+          position: relative;
+          top: 3px;
+  
+        }
+  
+        .iconSection {
+         
+          height: auto;
+        }
+  
+        .navigationLink {
+          gap: 8px  !important;
+          // font-size: 20px !important;
+          font-size: 15px !important;
+        letter-spacing: 0px;
+
+
+
+          .linkDescription {
+            // font-size: 14px !important;
+            font-size: 12px !important;
+
+
+
+          }
+
+
+          .subNavigationLinks {
+            // font-size: 14px !important;
+            font-size: 12px !important;
+
+            gap: 8px !important;
+            // line-height: 20px;
+          }
+          .navigationdesc{
+            gap: 8px !important;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .navigationModelContainer {
+    grid-template-columns: minmax(175px, min-content) 1fr;
+
+    .contentSection {
+      padding: 30px 25px 30px 25px;
+
+      .titleSection {
+        font-size: 35px;
+        line-height: 39px;
+      }
+
+      .descriptionSection {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+      }
+    }
+
+    .linkSection {
+      // padding: 30px 15px 30px 35px;
+      // gap: 36px 10px;
+      padding: 30px 18px 30px 18px;
+      gap: 18px 18px;
+
+      .navigationLink {
+        font-size: 20px;
+
+        .subNavigationLinks {
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .navigationModelContainer {
+    display: none;
+  }
+}

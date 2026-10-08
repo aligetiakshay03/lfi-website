@@ -1,0 +1,27 @@
+{
+  "status": "WHY US",
+  "title": "Persistently Innovative",
+  "description": "Apart from the excellent results we have delivered in the last decade, our business model focuses on constant innovation of each elemental and operational process, ensuring constant adaptation to the future.",
+  "analytics": [
+    {
+      "time": "5",
+      "suffix": "mn",
+      "description": "daily digital journeys"
+    },
+    {
+      "time": "10",
+      "suffix": "x",
+      "description": "faster operational growth"
+    },
+    {
+      "time": "150",
+      "suffix": "+",
+      "description": "solutions delivered"
+    },
+    {
+      "time": "10",
+      "suffix": "yrs",
+      "description": "avg client tenure"
+    }
+  ]
+}

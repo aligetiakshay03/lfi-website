@@ -1,0 +1,10 @@
+# Allow all user-agents to crawl all content
+User-agent: *
+Disallow:
+ 
+# Disallow access to 404 pages to avoid indexing errors
+User-agent: *
+Disallow: /404
+ 
+# Sitemaps
+Sitemap: https://www.linkfields.com/sitemap.xml

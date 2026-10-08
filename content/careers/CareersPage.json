@@ -1,0 +1,200 @@
+{
+  "slider": {
+    "heading": "Be part of a world-leading innovative team",
+    "button": {
+      "buttonLabel": "Find Jobs",
+      "action": "https://www.ditto.jobs/company-profile?id=987835090"
+    },
+    "images": [
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UTS-143.png"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (3).jpeg"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (4).jpeg"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (5).jpeg"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (2).jpeg"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (6).jpeg"
+      }
+    ]
+  },
+  "whatweoffer": {
+    "heading": "WE NURTURE",
+    "title": "Qualities that make us human",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/sun.png",
+        "title": "Honesty & integrity"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/lightening.png",
+        "title": "Agility"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/peoples.png",
+        "title": "Team spirit"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart.png",
+        "title": "Emotional intelligence"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/home.png",
+        "title": "Work-life wellbeing"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/star2.png",
+        "title": "Craftmenship"
+      }
+    ]
+  },
+  "careersMedia": {
+    "status": "CAREER",
+    "title": "A place for great minds",
+    "description": "If you consider yourself a thinker and an innovator, Linkfields will provide you the ideal workplace that enables a free flow of creativity.",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/careers-media-2.png"
+  },
+  "nextLevelCareer": {
+    "status": "careers",
+    "title": "Interested in taking your career to next level?",
+    "description": "At Linkfields, we ensure to empower our employees.",
+    "background": true,
+    "actionButton": {
+      "text": "Explore jobs",
+      "url": "https://www.linkedin.com/company/40661516/admin/feed/posts/",
+      "bgColor": "#FF7800"
+    }
+  },
+  "letsBeFriends": {
+    "status": "follow us",
+    "title": "Let's be friends",
+    "description": "Connect with your future colleagues in linked in",
+    "background": true,
+    "actionButton": {
+      "text": "Linked in",
+      "url": "/",
+      "bgColor": "#2D58C0"
+    }
+  },
+  "ourPresence": {
+    "status": "Our Global Presence",
+    "title": "We present ourselves globally",
+    "locationCard": [
+      {
+        "country": "South Africa",
+        "building": "F1-27, Thornhill Office Park,",
+        "landmark": "84 Bekker Road, Midrand",
+        "city": "Gauteng",
+        "pinCode": "1686"
+      },
+      {
+        "country": "India",
+        "building": "809, 8th Floor, Gowra Fountain Head,",
+        "landmark": "Raheja Mindspace IT Park,",
+        "city": "Hitech City, Hyderabad",
+        "pinCode": "500081"
+      },
+      {
+        "country": "USA",
+        "building": "1604, 447 Broadway,",
+        "landmark": "2nd Floor, New York, ",
+        "city": "NY, New York,",
+        "pinCode": "10013",
+        "countryfullName": "US"
+      },
+      {
+        "country": "UAE",
+        "building": "409, Churchill Towers,",
+        "landmark": "Business Bay, Dubai,",
+        "city": "United Arab Emirates",
+        "pinCode": "1686",
+        "countryfullName": "United Arab Emirates"
+      },
+      {
+        "country": "Australia",
+        "building": "Level 40, 140 William",
+        "landmark": "Street, Melbourne, 3000,",
+        "city": "VIC, Australia",
+        "pinCode": "3000"
+      }
+    ]
+  },
+  "ourTeam": {
+    "status1": "the team",
+    "heading1": "Meet the team leading us into the future of innovative business solutions.",
+    "desc": ""
+  },
+  "memberCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Venu yeligeti.png",
+      "heading": "Venu Yeligeti",
+      "content": "Global Chief Executive Officer",
+      "actionButton": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vector.png",
+          "linkName": "Linked in",
+          "url": "https://www.linkedin.com/in/venu-yeligeti-21132625/"
+        }
+      ]
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UTS-27 (1).png",
+      "heading": "Santosh Vanama",
+      "content": "Managing Director (India) and Global Chief Technology Officer",
+      "actionButton": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vector.png",
+          "linkName": "Linked in",
+          "url": "https://www.linkedin.com/in/vanamasanthosh/"
+        }
+      ]
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Seraj 1.png",
+      "heading": "Seraj Abrahams",
+      "content": "Managing Director (ME) and SAP & Energy Business Owner",
+      "actionButton": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vector.png",
+          "linkName": "Linked in",
+          "url": "https://www.linkedin.com/in/seraj-abrahams-885531134/"
+        }
+      ]
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/P1.png",
+      "heading": "Satish Edunuri",
+      "content": "Business Executive (South Africa)",
+      "actionButton": [
+        {
+          "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vector.png",
+          "linkName": "LinkedIn",
+          "url": "https://www.linkedin.com/in/satish-edunuri-b925aa249/"
+        }
+      ]
+    }
+  ],
+  "locationSliderMedia": {
+    "status": "Life at Linkfields",
+    "title": "Not just a workplace, it's a \"thinking-space\"",
+    "description": "We offer you an environment where every employee is encouraged to express, invent, and do what they love. The employees boost the business’ growth, the business boosts theirs.",
+    "imagesSlider": [
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/thinking space.png",
+        "location": "New York, US"
+      },
+      {
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UTS-139 (2).png",
+        "location": "Hyderabad, India"
+      }
+    ]
+  }
+}

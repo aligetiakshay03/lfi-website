@@ -1,0 +1,105 @@
+.blogPreviewSectionContainer {
+  position: relative;
+
+  .tabsList {
+    display: flex;
+    gap: 20px;
+
+    :global {
+      .ant-tabs-top>.ant-tabs-nav::before {
+        display: none !important;
+      }
+
+      .ant-tabs-top>.ant-tabs-nav .ant-tabs-ink-bar {
+        display: none !important;
+      }
+
+      .ant-tabs-tab-btn {
+        font-size: 30px;
+        font-family: "libre-franklin", sans-serif !important;
+        letter-spacing: 1px;
+        font-style: normal;
+        line-height: 105%;
+      }
+    }
+  }
+
+  :global {
+    .ant-carousel {
+      display: none;
+    }
+  }
+
+  .carousalPreviewSlideButtons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogPreviewSectionContainer {
+    height: 100%;
+
+    .gridPreviewContainer {
+      display: none;
+    }
+
+    :global {
+      .ant-carousel {
+        display: block;
+        height: 100% !important;
+
+        .slick-slider {
+          display: flex !important;
+          height: auto !important;
+          align-items: stretch !important;
+
+          .slick-list {
+            display: flex !important;
+            height: auto !important;
+            align-items: stretch !important;
+            padding: 0 35px 0 0 !important;
+
+            .slick-track {
+              display: flex !important;
+              height: auto !important;
+              align-items: stretch !important;
+
+              .slick-slide {
+                display: flex !important;
+                height: auto !important;
+                align-items: stretch !important;
+
+                >div {
+                  display: flex !important;
+                  height: auto !important;
+                  align-items: stretch !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .tabsList {
+      display: flex;
+      gap: 20px;
+
+      :global {
+        .ant-tabs .ant-tabs-tab .ant-tabs-tab-btn {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .carousalPreviewSlideButtons {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      right: 40px;
+      z-index: 1;
+      display: flex;
+      gap: 30px;
+    }
+  }
+}

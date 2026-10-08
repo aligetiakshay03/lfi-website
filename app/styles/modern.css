@@ -1,0 +1,794 @@
+/* ==========================================================================
+   Linkfields modern design system — tokens + shared primitives.
+   Palette: official Linkfields brand (linkfields.com + logo) — orange #FF7800,
+   blue #2D58C0, near-black panels, warm light grounds.
+   UI language: light-first editorial layout, heavy tight display type, soft
+   layered cards, pill controls and section rails (FreshX-level polish).
+   ========================================================================== */
+
+:root {
+  /* Surfaces */
+  --lf-ink: #0a0a0a;
+  --lf-ink-2: #0e1119;
+  --lf-charcoal: #151923;
+  --lf-charcoal-2: #1d2230;
+  --lf-panel: radial-gradient(ellipse 60% 70% at 100% 0%, rgba(255, 120, 0, 0.08), transparent 70%),
+    radial-gradient(ellipse 50% 60% at 0% 100%, rgba(45, 88, 192, 0.14), transparent 70%),
+    linear-gradient(180deg, #09101f 0%, #0a1122 100%);
+  --lf-ivory: #0b1324;
+  --lf-ivory-2: #0e1729;
+  /* Raised surface for cards/panels (the site is dark-first). */
+  --lf-paper: #111a2c;
+  --lf-ink-strong: #0b1120;
+  --lf-base: #080d18;
+  /* Dark section grounds: one hue family so sections flow into each other.
+     Layers: soft radial light, faint geometric arc, hairline grid, base gradient. */
+  --lf-grid-lines: linear-gradient(rgba(226, 232, 240, 0.028) 1px, transparent 1px) 0 0 / 88px 88px,
+    linear-gradient(90deg, rgba(226, 232, 240, 0.028) 1px, transparent 1px) 0 0 / 88px 88px;
+  --lf-cream-glow: radial-gradient(ellipse 55% 60% at 8% 0%, rgba(45, 88, 192, 0.16), transparent 70%),
+    radial-gradient(circle at 104% -8%, transparent 0 26vw, rgba(255, 120, 0, 0.05) 26vw 26.3vw, transparent 26.3vw),
+    var(--lf-grid-lines), linear-gradient(180deg, #0a1122 0%, #0b1426 100%);
+  --lf-white-arcs: radial-gradient(ellipse 50% 60% at 100% 100%, rgba(255, 120, 0, 0.09), transparent 70%),
+    radial-gradient(circle at -4% 0%, transparent 0 18vw, rgba(226, 232, 240, 0.045) 18vw 18.25vw, transparent 18.25vw),
+    var(--lf-grid-lines), linear-gradient(180deg, #0b1426 0%, #09101f 100%);
+
+  /* Brand */
+  --lf-orange: #ff7800;
+  --lf-orange-2: #ff8c25;
+  --lf-orange-deep: #d96400;
+  --lf-orange-grad: linear-gradient(135deg, #ff9636 0%, #ff7800 55%, #f26b00 100%);
+  --lf-blue: #2d58c0;
+  --lf-blue-deep: #1b3a86;
+  --lf-yellow: #ffd600;
+
+  /* Text */
+  --lf-mist: #e6eced;
+  /* Primary / secondary text on the dark theme. */
+  --lf-text-dark: #eef1f5;
+  --lf-text-soft: #a2abb9;
+  --lf-grey: #8a8e8f;
+  --lf-grey-2: #a4a8a9;
+  --lf-line-dark: rgba(230, 236, 237, 0.12);
+  --lf-line-light: rgba(226, 232, 240, 0.1);
+
+  /* Type */
+  --lf-font-display: var(--font-lf-display), "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
+  --lf-font-serif: var(--lf-font-display);
+  --lf-font-body: "libre-franklin", "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
+
+  --lf-fs-hero: clamp(2.4rem, 1.1rem + 3.5vw, 4.6rem);
+  --lf-fs-h2: clamp(2rem, 1.1rem + 2.5vw, 3.6rem);
+  --lf-fs-h3: clamp(1.4rem, 1rem + 1.2vw, 2.2rem);
+  --lf-fs-lead: clamp(1.05rem, 0.95rem + 0.4vw, 1.3rem);
+  --lf-fs-body: clamp(0.98rem, 0.94rem + 0.15vw, 1.08rem);
+  --lf-fs-label: 0.74rem;
+
+  /* Layout */
+  --lf-gutter: clamp(20px, 4.5vw, 80px);
+  --lf-max: 1760px;
+  --lf-section-y: clamp(56px, 6vw, 100px);
+  --lf-radius: 18px;
+  --lf-radius-lg: 28px;
+  --lf-radius-xl: 44px;
+
+  /* Depth */
+  --lf-shadow-card: 0 28px 60px -34px rgba(0, 0, 0, 0.75), inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  --lf-shadow-lift: 0 44px 90px -40px rgba(0, 0, 0, 0.85), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --lf-shadow-orange: 0 14px 28px -10px rgba(255, 120, 0, 0.55);
+
+  /* Motion */
+  --lf-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --lf-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --lf-dur: 0.9s;
+
+  /* announcement bar (34) + nav bar (84) */
+  --lf-header-h: 118px;
+}
+
+/* ---------- Base (scoped to the modern shell so legacy pages keep their styles) ---------- */
+
+html {
+  scroll-behavior: auto;
+}
+
+/* :where() keeps specificity at zero so legacy utility classes still win. */
+:where(.lf-shell) a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lf-shell ::selection {
+  background: var(--lf-orange);
+  color: #0a0a0a;
+}
+
+.lf-shell :focus-visible {
+  outline: 2px solid var(--lf-orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.lf-container {
+  width: 100%;
+  max-width: var(--lf-max);
+  margin-inline: auto;
+  padding-inline: var(--lf-gutter);
+}
+
+.lf-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+}
+
+.lf-section {
+  position: relative;
+  padding-block: var(--lf-section-y);
+}
+
+.lf-dark {
+  background: var(--lf-panel), var(--lf-grid-lines), var(--lf-base);
+  color: var(--lf-mist);
+}
+
+.lf-light {
+  background: var(--lf-cream-glow);
+  color: var(--lf-text-dark);
+}
+
+/* Thin band that carries a section rail; matches the ivory sections around it. */
+.lf-rail-band {
+  background: var(--lf-grid-lines), #0a1122;
+}
+
+.lf-white {
+  background: var(--lf-white-arcs);
+  color: var(--lf-text-dark);
+}
+
+/* ---------- Typography ---------- */
+
+.lf-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: var(--lf-fs-label);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lf-orange);
+}
+
+.lf-eyebrow::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 0 4px rgba(255, 120, 0, 0.14);
+}
+
+.lf-eyebrow__num {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
+}
+
+.lf-h1 {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: var(--lf-fs-hero);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.lf-h2 {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: var(--lf-fs-h2);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+.lf-h3 {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: var(--lf-fs-h3);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+
+/* Former editorial accent — now the display face at a lighter weight. */
+.lf-serif {
+  font-family: var(--lf-font-display);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.lf-lead {
+  font-family: var(--lf-font-body);
+  font-size: var(--lf-fs-lead);
+  line-height: 1.6;
+  max-width: 58ch;
+}
+
+.lf-body {
+  font-family: var(--lf-font-body);
+  font-size: var(--lf-fs-body);
+  line-height: 1.7;
+  max-width: 62ch;
+}
+
+.lf-muted-dark {
+  color: var(--lf-grey-2);
+}
+
+.lf-muted-light {
+  color: var(--lf-text-soft);
+}
+
+/* ---------- Buttons ---------- */
+
+.lf-btn {
+  --btn-bg: var(--lf-orange-grad);
+  --btn-fg: #fff;
+  --btn-hover-bg: #fff;
+  --btn-hover-fg: var(--lf-ink-strong);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  height: 56px;
+  padding: 0 10px 0 26px;
+  border-radius: 999px;
+  background: var(--btn-bg);
+  color: var(--btn-fg) !important;
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.005em;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  border: 0;
+  box-shadow: var(--lf-shadow-orange);
+  transition: transform 0.5s var(--lf-ease-out), box-shadow 0.5s var(--lf-ease-out), color 0.35s ease;
+}
+
+/* Beat Tailwind preflight (button/[type=submit] resets background), which loads after this file. */
+button.lf-btn {
+  background: var(--btn-bg);
+}
+
+.lf-btn:not(:has(.lf-btn__arrow)) {
+  padding-right: 26px;
+}
+
+.lf-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--btn-hover-bg);
+  transform: translateY(101%);
+  border-radius: inherit;
+  transition: transform 0.55s var(--lf-ease-out);
+}
+
+.lf-btn:hover::before,
+.lf-btn:focus-visible::before {
+  transform: translateY(0);
+}
+
+.lf-btn:hover,
+.lf-btn:focus-visible {
+  color: var(--btn-hover-fg) !important;
+  transform: translateY(-2px);
+}
+
+.lf-btn__arrow {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.22);
+  overflow: hidden;
+}
+
+.lf-btn__arrow svg {
+  transition: transform 0.5s var(--lf-ease-out);
+}
+
+.lf-btn:hover .lf-btn__arrow svg,
+.lf-link-arrow:hover svg,
+a:hover > .lf-arrow-host svg {
+  transform: translateX(4px);
+}
+
+/* Ghost button adapts to its surface. */
+.lf-btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--lf-text-dark);
+  --btn-hover-bg: #fff;
+  --btn-hover-fg: var(--lf-ink-strong);
+  box-shadow: inset 0 0 0 1.5px rgba(226, 232, 240, 0.24);
+}
+
+.lf-btn--ghost .lf-btn__arrow {
+  background: rgba(226, 232, 240, 0.1);
+}
+
+.lf-dark .lf-btn--ghost,
+.lf-on-dark .lf-btn--ghost {
+  --btn-fg: var(--lf-mist);
+  --btn-hover-bg: #fff;
+  --btn-hover-fg: var(--lf-ink-strong);
+  box-shadow: inset 0 0 0 1.5px rgba(230, 236, 237, 0.28);
+}
+
+.lf-dark .lf-btn--ghost .lf-btn__arrow,
+.lf-on-dark .lf-btn--ghost .lf-btn__arrow {
+  background: rgba(230, 236, 237, 0.12);
+}
+
+.lf-dark .lf-btn:not(.lf-btn--ghost) {
+  --btn-hover-bg: #fff;
+  --btn-hover-fg: var(--lf-ink-strong);
+}
+
+.lf-btn--dark {
+  --btn-bg: #1a2439;
+  --btn-fg: #fff;
+  --btn-hover-bg: var(--lf-orange);
+  --btn-hover-fg: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 16px 30px -18px rgba(0, 0, 0, 0.7);
+}
+
+.lf-btn--dark .lf-btn__arrow {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.lf-link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--lf-orange);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.lf-link-arrow svg {
+  transition: transform 0.45s var(--lf-ease-out);
+}
+
+.lf-link-arrow span {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0 1.5px no-repeat;
+  transition: background-size 0.45s var(--lf-ease-out);
+}
+
+.lf-link-arrow:hover span {
+  background-size: 100% 1.5px;
+}
+
+/* ---------- Cards ---------- */
+
+/* Layered card: large asymmetric radius, soft shadow, corner ring and micro-label. */
+.lf-card {
+  position: relative;
+  border-radius: 22px var(--lf-radius-xl) 22px 22px;
+  background: var(--lf-paper);
+  box-shadow: var(--lf-shadow-card);
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform 0.6s var(--lf-ease-out), box-shadow 0.6s var(--lf-ease-out);
+}
+
+.lf-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -46px;
+  bottom: -46px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 22px solid rgba(255, 120, 0, 0.07);
+  transition: transform 0.9s var(--lf-ease-out);
+}
+
+.lf-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--lf-shadow-lift);
+}
+
+.lf-card:hover::after {
+  transform: scale(1.12) rotate(8deg);
+}
+
+.lf-card--dark {
+  background: var(--lf-panel);
+  color: var(--lf-mist);
+}
+
+.lf-card--dark::after {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.lf-card--orange {
+  background: var(--lf-orange-grad);
+  color: #fff;
+}
+
+.lf-card--orange::after {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Cards rendered as <button> must beat Tailwind preflight button background resets. */
+button.lf-card {
+  background: var(--lf-paper);
+}
+
+button.lf-card.lf-card--dark {
+  background: var(--lf-panel);
+}
+
+button.lf-card.lf-card--orange {
+  background: var(--lf-orange-grad);
+}
+
+.lf-tag {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9aa0ab;
+}
+
+.lf-card--dark .lf-tag,
+.lf-card--orange .lf-tag {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.lf-icon-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--lf-orange-grad);
+  color: #fff;
+  box-shadow: var(--lf-shadow-orange);
+}
+
+/* ---------- Section rail (pill-labelled divider) ---------- */
+
+.lf-rail {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-block: 22px;
+}
+
+.lf-rail__pill {
+  flex: none;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(226, 232, 240, 0.14);
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8b95a6;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.lf-rail__line {
+  position: relative;
+  flex: 1;
+  height: 1px;
+  background: rgba(226, 232, 240, 0.12);
+  transform-origin: left;
+}
+
+.lf-rail__line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: 50%;
+  background: #8a93a3;
+}
+
+/* Phones: keep the first and last label only. */
+@media (max-width: 720px) {
+  .lf-rail {
+    gap: 10px;
+    overflow: hidden;
+  }
+  .lf-rail__pill:not(:first-child):not(:last-child),
+  .lf-rail__line:not(:nth-child(2)) {
+    display: none;
+  }
+}
+
+.lf-rail--dark .lf-rail__pill {
+  border-color: rgba(230, 236, 237, 0.18);
+  color: rgba(230, 236, 237, 0.55);
+  background: transparent;
+}
+
+.lf-rail--dark .lf-rail__line {
+  background: rgba(230, 236, 237, 0.14);
+}
+
+/* Draw-in when revealed */
+.lf-reveal .lf-rail__line {
+  transform: scaleX(0);
+  transition: transform 1.4s var(--lf-ease-out) 0.2s;
+}
+
+.lf-reveal.is-in .lf-rail__line {
+  transform: scaleX(1);
+}
+
+/* ---------- Ribbon (dark pill of facts) ---------- */
+
+.lf-ribbon {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px 26px;
+  padding: 20px 32px;
+  border-radius: 999px;
+  background: var(--lf-panel);
+  box-shadow: 0 0 0 6px rgba(255, 120, 0, 0.08), var(--lf-shadow-card);
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  overflow: hidden;
+}
+
+.lf-ribbon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--lf-orange);
+}
+
+.lf-ribbon__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--lf-orange);
+}
+
+/* ---------- Reveal primitive ---------- */
+
+.lf-reveal {
+  transition-property: opacity, transform, clip-path;
+  transition-duration: var(--lf-dur);
+  transition-timing-function: var(--lf-ease-out);
+}
+
+.lf-reveal--up {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+}
+
+.lf-reveal--fade {
+  opacity: 0;
+}
+
+.lf-reveal--scale {
+  opacity: 0;
+  transform: scale(0.94);
+}
+
+.lf-reveal--mask {
+  clip-path: inset(0 0 100% 0);
+  transition-duration: 1.2s;
+}
+
+.lf-reveal.is-in {
+  opacity: 1;
+  transform: none;
+  clip-path: inset(0 0 0 0);
+}
+
+/* ---------- Split text primitive ---------- */
+
+.lf-split__mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  /* room for descenders inside the mask */
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+}
+
+.lf-split__word {
+  display: inline-block;
+  transform: translate3d(0, 108%, 0);
+  opacity: 0;
+  transition: transform 1.05s var(--lf-ease-out), opacity 0.7s var(--lf-ease-out);
+  transition-delay: calc(var(--split-delay, 0ms) + var(--line, 0) * var(--split-stagger, 110ms));
+  will-change: transform;
+}
+
+.lf-split.is-in .lf-split__word {
+  transform: none;
+  opacity: 1;
+}
+
+/* Load-time variant: keyframes start with the first paint, before any JavaScript runs. */
+.lf-split--auto .lf-split__word {
+  animation: lf-split-in 1.05s var(--lf-ease-out) both;
+  animation-delay: calc(var(--split-delay, 0ms) + var(--w, 0) * 90ms);
+}
+
+.lf-split--auto .lf-split__word--accent {
+  animation-delay: calc(var(--split-delay, 0ms) + var(--w, 0) * 90ms + 160ms);
+}
+
+@keyframes lf-split-in {
+  from {
+    transform: translate3d(0, 108%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* Two-tone headline accent: same face, brand orange. */
+.lf-split__word--accent {
+  color: var(--lf-orange);
+  /* the accent reveals slightly after its line */
+  transition-delay: calc(var(--split-delay, 0ms) + var(--line, 0) * var(--split-stagger, 110ms) + 160ms);
+}
+
+/* ---------- Marquee primitive ---------- */
+
+.lf-marquee {
+  --marquee-gap: clamp(48px, 6vw, 110px);
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+.lf-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: lf-marquee var(--marquee-duration, 40s) linear infinite;
+}
+
+.lf-marquee--reverse .lf-marquee__track {
+  animation-direction: reverse;
+}
+
+.lf-marquee:hover .lf-marquee__track,
+.lf-marquee:focus-within .lf-marquee__track {
+  animation-play-state: paused;
+}
+
+.lf-marquee__group {
+  display: flex;
+  align-items: center;
+  gap: var(--marquee-gap);
+  padding-right: var(--marquee-gap);
+}
+
+@keyframes lf-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* ---------- Decorative rings + ambient grid ---------- */
+
+.lf-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 120, 0, 0.18);
+  pointer-events: none;
+}
+
+/* Ambient grid retired (read as "generic AI"); kept as a no-op for existing markup. */
+.lf-grid-bg {
+  display: none;
+}
+
+/* ---------- Route transition ---------- */
+
+/* Opacity only: a transform here would break position: sticky/fixed inside pages. */
+.lf-page-enter {
+  animation: lf-page-in 0.6s var(--lf-ease-out) both;
+}
+
+@keyframes lf-page-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .lf-reveal,
+  .lf-split__word {
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+  .lf-reveal .lf-rail__line {
+    transform: none !important;
+  }
+  .lf-marquee__track,
+  .lf-grid-bg {
+    animation: none !important;
+  }
+  .lf-shell *,
+  .lf-shell *::before,
+  .lf-shell *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Phones: the credential ribbon becomes a tidy rounded list rather than a wrapped pill. */
+@media (max-width: 720px) {
+  .lf-ribbon {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 24px 20px 28px;
+    border-radius: 22px;
+    font-size: 0.7rem;
+  }
+  .lf-ribbon__dot {
+    display: none;
+  }
+}
+
+/* ---------- Page ground + film grain ---------- */
+
+body.lf-shell {
+  background: var(--lf-base);
+}
+
+/* Static grain (SVG turbulence) over everything: adds depth to flat navy. */
+body.lf-shell::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27160%27 height=%27160%27%3E%3Cfilter id=%27n%27%3E%3CfeTurbulence type=%27fractalNoise%27 baseFrequency=%270.9%27 numOctaves=%272%27 stitchTiles=%27stitch%27/%3E%3C/filter%3E%3Crect width=%27100%25%27 height=%27100%25%27 filter=%27url(%23n)%27/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}

@@ -1,0 +1,162 @@
+.container {
+    width: 100%;
+    background-size: cover;
+
+    padding: 126px 100px;
+
+    .title {
+            font-family: 'MonsalGothic', sans-serif;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 23.2px;
+            text-align: left;
+        }
+    
+        .desc {
+            font-size: 28px;
+            margin-top: 32px;
+            line-height: 125%;
+            color: #D1DCDE;
+            font-family: "libre-franklin", sans-serif;
+            font-style: normal;
+            z-index: 30;
+            margin-bottom: 60px;
+        }
+
+        .row {
+                gap: 28px;
+                width: 100%;
+            }
+        
+            .card {
+                background-color: #272727b2;
+                border-radius: 24px !important;
+                cursor : default !important;
+        
+        
+                .desc {
+                    color: #D1DCDE;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-family: "libre-franklin", sans-serif;
+                    line-height: 22px;
+                    letter-spacing: 0.5px;
+                    margin-bottom: 60px;
+                }
+            }
+}
+
+@media (max-width: 1560px) {
+    .container {
+        padding: 60px;
+        // gap: 60px;
+        
+        .title{
+            font-size: 24px;
+        }
+
+        .desc{
+            font-size: 18px;
+            font-family: "libre-franklin";
+            margin-bottom: 60px;
+        }
+
+        .card {
+            // width: 100%;
+            // height: 100%;
+            background-color: #272727b2;
+            padding: 8px;
+            border-radius: 24px !important;
+
+
+            .desc {
+                color: #D1DCDE;
+                font-size: 18px;
+                font-style: normal;
+                line-height: 140%;
+                font-family: "libre-franklin";
+                line-height: 22px;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        padding: 50px;
+
+                .title {
+                    font-size: 24px;
+                }
+        
+                .desc {
+                    font-size: 18px;
+                    font-family: "libre-franklin";
+                    margin-bottom: 60px;
+                }
+        
+                .card {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #272727b2;
+                    padding: 8px;
+                    border-radius: 24px !important;
+        
+        
+                    .desc {
+                        color: #D1DCDE;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-family: "libre-franklin", sans-serif;
+                        font-style: normal;
+                        line-height: 22px;
+                        letter-spacing: 0.5px;
+                    }
+                }
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        .sec1 {
+            .header {
+                flex-direction: column;
+            }
+        }
+
+        .sec2 {
+            .sec2_title span {
+                font-size: 56px;
+            }
+        }
+
+        .desc {
+            font-size: 18px;
+            font-family: "libre-franklin";
+            line-height: 110%;
+            margin-bottom: 30px;        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        gap: 36px;
+        padding: 20px;
+
+        .desc {
+            font-size: 16px;
+            font-family: "libre-franklin";
+            line-height: 140%;
+            margin-bottom: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 48px 20px !important;
+    }
+}

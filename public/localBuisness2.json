@@ -1,0 +1,38 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Linkfields Innovations",
+    "image": "https://secureservercdn.net/160.153.137.128/tjo.aa0.myftpupload.com/wp-content/uploads/2022/04/logo.svg",
+    "@id": "https://linkfields.com/#corporation",
+    "url": "https://linkfields.com/",
+    "telephone": "+27 11 022 6666",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Block H, Midridge Office Estate International Business Gateway, Cnr 6th Street Midrand",
+        "addressLocality": "Midrand",
+        "postalCode": "1686",
+        "addressCountry": "ZA"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -26.009891389315296,
+        "longitude": 28.11403854232656
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "16:00"
+    },
+    "sameAs": [
+        "https://www.facebook.com/linkfieldsInnovation",
+        "https://twitter.com/LinkfieldsI",
+        "https://www.linkedin.com/company/linkfieldsinnovations/"
+    ]
+}

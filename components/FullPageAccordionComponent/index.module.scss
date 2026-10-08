@@ -1,0 +1,107 @@
+.container {
+    :global {
+        .ant-collapse>.ant-collapse-item>.ant-collapse-header {
+            padding: 0px !important;
+        }
+
+        .ant-collapse-borderless>.ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+            padding: 0px !important;
+        }
+    }
+
+    .componentHeader {
+        line-height: 46.8px;
+        font-size: 36px;
+        color: #E6ECED;
+        margin-bottom: 16px;
+        font-family: 'MonsalGothicMedium';
+    }
+
+    .contentContainer {
+        padding: 48px 0px 0px 36px;
+
+        h1 {
+            font-size: 30px;
+            line-height: 33px;
+            font-family: 'MonsalGothicMedium';
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            font-family: "libre-franklin", sans-serif;
+            font-style: normal;
+            margin-top: 16px;
+            color: #A4A8A9;
+        }
+
+        .lastP {
+            margin-bottom: 100px;
+            background-color: red;
+        }
+
+        .list {
+            list-style: decimal;
+            margin-left: 21px;
+            font-size: 20px;
+            line-height: 28px;
+            font-family: "libre-franklin", sans-serif;
+            font-style: normal;
+            margin-top: 16px;
+            color: #A4A8A9;
+        }
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    .container {
+        .componentHeader {
+            font-size: 30px;
+        }
+
+        .contentContainer {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .list {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .container {
+        :global {
+            .ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-header-text {
+                width: "90%";
+            }
+        }
+
+        .componentHeader {
+            font-size: 20px;
+        }
+
+        .contentContainer {
+            padding: 0px 0px 20px 0px !important;
+
+            h1 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .list {
+                font-size: 16px;
+            }
+        }
+    }
+
+}

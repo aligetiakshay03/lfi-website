@@ -1,0 +1,58 @@
+{
+  "heroSectionData": {
+    "heading1": "AI & Machine learning",
+    "subheading1": "AI, let it ease your complex operations",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI and Machine learning BG.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Hassling over redundancy, a thing of the past",
+    "para1": "Machine learning (ML) and Artificial Intelligence (AI) are computer sciences which focus on the use of data and algorithms to imitate the way that humans learn, gradually letting them improve accuracy by themselves."
+  },
+  "aiMlCardSection": {
+    "status1": "HOW WE CAN HELP",
+    "heading1": "Intelligent systems that save time"
+  },
+  "aiMlCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (10).png",
+      "heading": "AI & ML Idea to product",
+      "content": "Begin your AI and ML journey with a strong foundation.We help businesses identify and prioritise the right AI and MI use cases that can help them grow."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (11).png",
+      "heading": "AI & ML platform services",
+      "content": "Simplified deployment and operationalization of AI and ML models in production provide great returns on investment."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (12).png",
+      "heading": "Explainable AI",
+      "content": "We ensure that your AI-driven decisions are accurate and consistent with reasoning and rationale behind them."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880330 (1).png",
+      "heading": "Intelligent document analytics",
+      "content": "Detect hidden customer insights in your unstructured text documents to transform them into productive assets at scale."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880331 (1).png",
+      "heading": "Intelligent enterprise search",
+      "content": "Through natural learning, machine learning, and semantic research, we facilitate real-time access to crucial data and open up rich enterprise data resources."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880332 (1).png",
+      "heading": "Conversational platforms",
+      "content": "We are capable of deploying highly intelligent chatbots for type and vocal interactions. These capture the true intent of the customer through context and non verbal cues."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Smart analysis for quicker insights",
+    "description": "Through a very well-defined, step-by-step process, we help you define your business objectives, create a platform to smartly collect and organize data, which is then analyzed thoroughly to derive smart insights which you can infuse into your business strategy, achieving great results.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Our process BG.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group 15880093 (1).png"
+  }
+}

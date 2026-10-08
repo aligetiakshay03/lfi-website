@@ -1,0 +1,9 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="crosshair">
+<path id="Vector" d="M18.9974 34.8333C27.7419 34.8333 34.8307 27.7445 34.8307 19C34.8307 10.2555 27.7419 3.16663 18.9974 3.16663C10.2529 3.16663 3.16406 10.2555 3.16406 19C3.16406 27.7445 10.2529 34.8333 18.9974 34.8333Z" stroke="#FF7800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M34.8333 19H28.5" stroke="#FF7800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.4974 19H3.16406" stroke="#FF7800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M19 9.49996V3.16663" stroke="#FF7800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M19 34.8333V28.5" stroke="#FF7800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

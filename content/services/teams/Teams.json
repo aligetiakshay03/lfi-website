@@ -1,0 +1,44 @@
+{
+  "heroSectionData": {
+    "heading1": "Teams",
+    "subheading1": "Synchronized teamwork for higher output",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/teams-banner.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Analysis and data-fuelled team building",
+    "para1": "By studying and analysis team outputs, we identify the discrepancies and shortcomings, and their specific areas of emergence. This helps us figure out what skill-set needs to be added to the team.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Managed team",
+      "descriptions": "Helping businesses build well-structured, well-designed teams to fit into their specific requirement.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iot-development-fake.png",
+      "button": {
+        "link": "/services/teams/managed-team",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Staff augmentation",
+      "descriptions": "A flexible outsourcing process where we recommend specialists to join teams for short periods to assist teams in achieving business objectives.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iot-development-fake.png",
+      "button": {
+        "link": "/services/teams/staff-augmentation",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to Us"
+  },
+  "messageBannerData2": {
+    "title": "Want a new work experience?",
+    "url": "/contact-us",
+    "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+    "urlMessage": "Join Us"
+  }
+}

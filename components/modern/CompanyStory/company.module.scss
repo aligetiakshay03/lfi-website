@@ -1,0 +1,167 @@
+.section {
+  position: relative;
+  padding-block: var(--lf-section-y);
+  overflow: hidden;
+}
+
+.story {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+  row-gap: 40px;
+  align-items: center;
+}
+
+.storyCopy {
+  grid-column: 1 / span 5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.sub {
+  margin: 0;
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: clamp(1rem, 0.9rem + 0.4vw, 1.2rem);
+  letter-spacing: -0.01em;
+  color: var(--lf-text-soft);
+}
+
+.title {
+  margin: 0;
+  color: var(--lf-text-dark);
+}
+
+.body {
+  margin: 0;
+}
+
+.storyVisual {
+  grid-column: 7 / span 6;
+  position: relative;
+  aspect-ratio: 16 / 11;
+  border-radius: 22px var(--lf-radius-xl) 22px 22px;
+  overflow: hidden;
+  background: #121b2d;
+  box-shadow: var(--lf-shadow-lift);
+}
+
+.storyImg {
+  object-fit: cover;
+  transition: transform 1.4s var(--lf-ease-out);
+
+  :hover > & {
+    transform: scale(1.04);
+  }
+}
+
+.storyTag {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(8, 13, 24, 0.82);
+  color: #fff !important;
+  box-shadow: var(--lf-shadow-card);
+}
+
+/* ---------- Staggered trio ---------- */
+
+.trio {
+  margin-top: clamp(40px, 5vw, 72px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 28px);
+  align-items: start;
+}
+
+.trioSlot:nth-child(1) {
+  margin-top: 36px;
+}
+
+.trioSlot:nth-child(2) {
+  margin-top: 0;
+}
+
+.trioSlot:nth-child(3) {
+  margin-top: 56px;
+}
+
+.trioCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 280px;
+  padding: clamp(24px, 2.6vw, 38px);
+}
+
+.trioTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.trioIcon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(255, 120, 0, 0.12);
+  color: var(--lf-orange);
+
+  img {
+    object-fit: contain;
+  }
+
+  :global(.lf-card--orange) & {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+}
+
+.trioTitle {
+  margin: 0;
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: clamp(1.4rem, 1.1rem + 0.8vw, 1.9rem);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.trioText {
+  margin: 0;
+  font-family: var(--lf-font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--lf-text-soft);
+
+  :global(.lf-card--dark) & {
+    color: var(--lf-grey-2);
+  }
+
+  :global(.lf-card--orange) & {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media (max-width: 1024px) {
+  .storyCopy,
+  .storyVisual {
+    grid-column: 1 / -1;
+  }
+  .trio {
+    grid-template-columns: 1fr;
+  }
+  .trioSlot:nth-child(n) {
+    margin-top: 0;
+  }
+  .trioCard {
+    min-height: 0;
+  }
+}

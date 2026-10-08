@@ -1,0 +1,22 @@
+{
+  "detailSection": [
+    {
+      "title": "Automation",
+      "description": "We enable higher productivity through skillful development and deployment of automated software, freeing you from manual billing.",
+      "actionButton": "Read more",
+      "url": "/services/automation"
+    },
+    {
+      "title": "Consulting",
+      "description": "Our expert consultants deliver innovative solutions to complex problems through the means of planning & research.",
+      "actionButton": "Read more",
+      "url": "/services/consulting"
+    },
+    {
+      "title": "Engineering",
+      "description": "We engineer tools and blueprints for products that are tuned to precision. This is achieved through high attention to detail.",
+      "actionButton": "Read more",
+      "url": "/services/engineering"
+    }
+  ]
+}

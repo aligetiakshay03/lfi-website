@@ -1,0 +1,92 @@
+{
+  "banner": [
+    {
+      "title": "CAREERS",
+      "emailId": "careers@linkfields.com"
+    },
+    {
+      "title": "Sales",
+      "emailId": "sales@linkfields.com"
+    },
+    {
+      "title": "Additional info",
+      "emailId": "info@linkfields.com"
+    }
+  ],
+  "status": "Our Presence",
+  "title": "We present ourselves globally",
+  "locationCard": [
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/southafrica.png",
+      "country": "South Africa",
+      "building": " Block H, Midridge Office Estate International Business Gateway, Cnr 6th Street,Midrand",
+      "landmark": "1684",
+      "city": "+27 11 022 6666",
+      "pinCode": "+27 11 023 6666",
+      "actionButton": {
+        "labelText": "Get directions ",
+        "url": "https://www.google.com/maps/dir//Linkfields+Innovations+(Pty)+Ltd,+Block+H,+Midridge+Office+Estate+International+Business+Gateway,+Cnr+6th+Street+%26,+New+Rd,+Carlswald,+Midrand,+1684,+South+Africa/@-25.9773519,28.1198535,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1e956fbeafbef887:0x70ddc33f5ea30690!2m2!1d28.1210252!2d-25.9762899?entry=ttu"
+      }
+    },
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/India.png",
+      "country": "India",
+      "building": "809, 8th Floor, Gowra Fountain Head, Raheja Mindspace IT Park,",
+      "landmark": "Hitech City, Hyderabad",
+      "city": "500081",
+      "pinCode": "+91 40 4547 4849",
+      "actionButton": {
+        "labelText": "Get directions",
+        "url": "https://www.google.com/maps/place/Gowra+Fountain+Head/@17.4439218,78.3807443,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb93e01511d911:0x104e7368bcfb0af1!8m2!3d17.4439218!4d78.382933"
+      }
+    },
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/usa_map.png",
+      "country": "USA",
+      "building": "1604, 447 Broadway,",
+      "landmark": "2nd Floor, New York, ",
+      "city": "10013",
+      "pinCode": "+1 347 871 0999",
+      "actionButton": {
+        "labelText": "Get directions",
+        "url": "https://goo.gl/maps/4CenTJee6XXRZou1A?coh=178572&entry=tt"
+      }
+    },
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/uae_map.png",
+      "country": "UAE",
+      "building": "409, Churchill Towers,",
+      "landmark": "Business Bay, Dubai, United Arab Emirates",
+      "city": "1686",
+      "pinCode": "+971 50 688 5758",
+      "actionButton": {
+        "labelText": "Get directions",
+        "url": "https://goo.gl/maps/bm3bunttL7epY7bC7?coh=178572&entry=tt"
+      }
+    },
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/australia_map.png",
+      "country": "Australia",
+      "building": "Level 40, 140 William",
+      "landmark": "Street, Melbourne, 3000, VIC Australia",
+      "city": "3000",
+      "pinCode": "+61 45 124 6666",
+      "actionButton": {
+        "labelText": "Get directions",
+        "url": "https://goo.gl/maps/VFXWxdQEhMruwG6f8?coh=178572&entry=tt"
+      }
+    },
+    {
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/botswana.png",
+      "country": "Botswana",
+      "building": "AGA House",
+      "landmark": " Plot 28576 Gaborone Industrial",
+      "city": "Gaborone",
+      "pinCode": "+267 311 9073",
+      "actionButton": {
+        "labelText": "Get direction",
+        "url": "https://maps.app.goo.gl/XCroxEzCeCV8ogYTA?g_st=iw"
+      }
+    }
+  ]
+}

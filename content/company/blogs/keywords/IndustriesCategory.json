@@ -1,0 +1,29 @@
+{
+  "name": "Industries",
+  "categoryKeyWords": [
+    {
+      "subCategories": "content/company/blogs/categories/Banking.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/FMCG.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Fintech.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Telecom.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Insurance.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Mining.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Oil and Gas.json"
+    },
+    {
+      "subCategories": "content/company/blogs/categories/Manufacturing.json"
+    }
+  ]
+}

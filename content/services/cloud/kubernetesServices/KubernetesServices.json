@@ -1,0 +1,69 @@
+{
+  "heroSectionData": {
+    "heading1": "Kubernetes Services",
+    "subheading1": "Balance that speeds up processing",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/kubernetes-services.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Kubernetes saves time and resources",
+    "para1": "Now you won’t have to make modifications to your cloud application with Kubernetes’ unfamiliar service discovery methodology.\n"
+  },
+  "kubernetesCardsSection": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Our Kubernetes' services ensure high adaptability"
+  },
+  "kubernetesCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/new version.png",
+      "heading": "Roll out new versions with zero downtime",
+      "content": "Kubernetes’ architectural design allows smoother changes without making any major alterations."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/medical2.png",
+      "heading": "Monitoring",
+      "content": "Embracing a DevOps culture lets us increase agility and improve responsiveness to market demands."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/resource.png",
+      "heading": "Resource management",
+      "content": "We capture & analyze key performance metrics to verify that your cloud resources work as expected."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/medical2.png",
+      "heading": "Cloud and OS distribution portability",
+      "content": "Assess the maturity of your IT infrastructure and take specific steps to expedite cloud adoption."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/repeat.png",
+      "heading": "Continuous dev, integration and deployment",
+      "content": "Strategizing to discover methods that can help reduce cloud spending, thereby getting you a better return on your investment."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/smartphone.png",
+      "heading": "Agile application creation and deployment",
+      "content": "Create an action plan that covers your objectives and outlines a path to cloud adoption."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "A well-rounded, well-tested approach",
+    "description": "Through our experience handling Kubernetes services, we’ve noticed a few main problems that businesses often face when they move more workloads to fully production-grade containers:",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/well-rounded-cycle.png",
+    "points": [
+      {
+        "points": "Monitoring running containers"
+      },
+      {
+        "points": "Handling breakdown containers"
+      },
+      {
+        "points": "Ensuring zero downtime during resilience of containers"
+      }
+    ]
+  }
+}

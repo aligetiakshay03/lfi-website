@@ -1,0 +1,49 @@
+{
+  "heroSectionData": {
+    "heading1": "Banking",
+    "subheading1": "Creating a future-ready, automated banking landscape",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Banking BG.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Progress through digital evolution",
+    "para1": "We specialize in optimizing issues related to repetitiveness and redundancy in physical and virtual banking operations. We do this with the help of AI-assisted digital products which we specifically customize for you.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Customer Support Automation ",
+        "desc": "Deploy chatbots and virtual assistants with advanced NLP capabilities to provide real-time support and personalized banking advice, reducing wait times and enhancing service quality.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customer support automation.png"
+      },
+      {
+        "title": "Software Solutions for Banking",
+        "desc": "Develop tailor-made software solutions for seamless CRM and ERP integrations, addressing the unique needs of banking operations.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Software solutions for banking.png"
+      },
+      {
+        "title": "Real-Time Fraud Prevention ",
+        "desc": "Apply ML algorithms to analyze transaction patterns and detect fraudulent activities in real-time, significantly lowering financial risk and increasing client trust.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Real time fraud prevention.png"
+      },
+      {
+        "title": "Compliance Automation",
+        "desc": "Automate compliance monitoring and reporting with AI systems to ensure operations align with evolving regulations, minimizing risks and penalties.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Compliance Automation.png"
+      },
+      {
+        "title": "Customized Financial Services",
+        "desc": "Utilize data analytics and AI to create personalized financial products and services, offering tailored advice and investment opportunities that align with customers' financial goals and risk profiles.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customized financial services.png"
+      }
+    ]
+  }
+}

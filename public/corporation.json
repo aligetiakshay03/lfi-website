@@ -1,0 +1,20 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "Linkfields Innovations",
+    "alternateName": "Linkfields Innovations (Pty) Ltd",
+    "url": "https://linkfields.com/",
+    "logo": "https://secureservercdn.net/160.153.137.128/tjo.aa0.myftpupload.com/wp-content/uploads/2022/04/logo.svg",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+27 11 022 6666",
+        "contactType": "customer service",
+        "areaServed": "ZA",
+        "availableLanguage": "en"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/company/linkfieldsinnovations/",
+        "https://www.facebook.com/linkfieldsInnovation",
+        "https://twitter.com/LinkfieldsI"
+    ]
+}

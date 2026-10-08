@@ -1,0 +1,72 @@
+{
+  "heroSectionData": {
+    "heading1": "Odoo",
+    "subheading1": "Get your business processes simplified",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odobg-crop.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Customized Odoo Solutions for Every Business Need",
+    "para1": "We specialize in customizing Odoo to suit your specific business requirements. From CRM and inventory management to accounting and sales, our team expertly configures and adapts Odoo modules, providing a holistic solution that covers every aspect of your enterprise.\n"
+  },
+  "Benefits": {
+    "status1": "BENEFITS",
+    "heading1": "We revolutionize various business aspects, including:​"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (89).png",
+      "heading": "Custom solutions",
+      "content": "We don't believe in one-size-fits-all; instead, we analyze your specific business requirements to deliver a solution that fits like a glove."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (90).png",
+      "heading": "Simplifying Complexity",
+      "content": "Our Odoo implementations are designed to streamline your business processes. By automating tasks and integrating various functions, we help you achieve higher efficiency and reduced manual errors."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (91).png",
+      "heading": "Scalable and Future-Proof Solutions",
+      "content": "As your business evolves, so do your needs. We ensure that the Odoo solutions provided are scalable and adaptable, capable of supporting your growth and future expansion."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (92).png",
+      "heading": "Expert Team",
+      "content": "Our experts brings a wealth of experience and knowledge, ensuring that your implementation is smooth, efficient, and tailored to meet your business objectives."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (93).png",
+      "heading": "Seamless Integration",
+      "content": "We specialize in integrating Odoo with your existing systems, ensuring a unified platform that improves data flow and business intelligence."
+    }
+  ],
+  "messageBannerData": {
+    "title": "60% significant operational cost savings",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "odooImplementationAreasSection": {
+    "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image 43.png",
+    "heading1": "Implementation Areas"
+  },
+  "OdooImplementationAreasCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/services-svgrepo-com 2.png",
+      "heading": "Business Process Re-engineering",
+      "content": "We begin by reimagining and revamping your business processes to align perfectly with Odoo’s robust capabilities"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/file-code-2.png",
+      "heading": "Custom Development",
+      "content": "Our team excels in developing customisation for modules, ensuring that every aspect of your business is effectively managed within the ERP ecosystem ."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/blocks.png",
+      "heading": "System Integration",
+      "content": "Integrate Odoo with your existing software systems, creating a cohesive and unified platform that drives business intelligence and decision-making."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/server-cog.png",
+      "heading": "Data Migration & Management",
+      "content": "We ensure a smooth and secure transition of your data into the Odoo system, prioritizing integrity and accessibility."
+    }
+  ]
+}

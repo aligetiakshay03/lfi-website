@@ -1,0 +1,255 @@
+.messageBannerContainer {
+  .messageSection {
+    background-color: #2d58c0;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 100px;
+    justify-content: start;
+
+    .titleSection {
+      font-size: 40px;
+      line-height: 50px;
+      color: #e6eced;
+      font-family: 'MonsalGothicMedium';
+      max-width: 100%;
+      word-break: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .descriptionSection {
+      font-size: 32px;
+      line-height: 35px;
+      color: #e6eced;
+      font-family: "libre-franklin", sans-serif;
+      font-style: normal;
+      max-width: 100%;
+      word-break: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-align: left;
+    }
+  }
+
+  .linkSection {
+    color: #e6eced;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 3;
+    flex: 1;
+    font-size: 40px;
+    line-height: 44px;
+    background-color: #ff7800;
+
+    .hrefSection {
+      height: 100%;
+      width: 100%;
+      color: #e6eced;
+      display: flex;
+      flex-wrap: nowrap !important;
+      align-items: center;
+      justify-content: center;
+
+      .urlMessageSectionContainer {
+        .textSection {
+          max-width: 100%;
+          font-family: 'MonsalGothicMedium';
+          word-break: break-all;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+
+        .iconSection {
+          width: 40px !important;
+          height: 40px !important;
+          position: relative;
+          margin: 3px;
+        }
+      }
+    }
+
+    .hrefSection:hover {
+      color: #e6eced !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .messageBannerContainer {
+    .messageSection {
+      padding: 20px 80px;
+
+      .titleSection {
+        font-size: 28px;
+      }
+
+      .descriptionSection {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .linkSection {
+      font-size: 28px;
+
+      .hrefSection {
+        .urlMessageSectionContainer {
+          .iconSection {
+            margin: 0;
+            width: 20px !important;
+            height: 20px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .messageBannerContainer {
+    .messageSection {
+      // padding: 20px 60px;
+
+      .titleSection {
+        font-size: 28px;
+      }
+
+      .descriptionSection {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .linkSection {
+      font-size: 28px;
+
+      .hrefSection {
+        .urlMessageSectionContainer {
+          .iconSection {
+            margin: 0;
+            width: 20px !important;
+            height: 20px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .messageBannerContainer {
+    .messageSection {
+      padding: 24px 40px;
+
+      .titleSection {
+        font-size: 24px;
+      }
+
+      .descriptionSection {
+        font-size: 16px;
+      }
+    }
+
+    .linkSection {
+      font-size: 24px;
+
+      .hrefSection {
+        height: 100%;
+        width: 100%;
+
+        .urlMessageSectionContainer {
+          .iconSection {
+            width: 20px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .messageBannerContainer {
+    text-align: center;
+
+    .messageSection {
+      // padding: 20px 50px;
+      // padding: 20px;
+
+      .titleSection {
+        font-size: 24px;
+        line-height: 28px;
+        display: block; 
+        -webkit-line-clamp: unset; 
+        -webkit-box-orient: unset; 
+        overflow: visible; 
+      }
+
+      .descriptionSection {
+        font-size: 16px;
+        // line-height: 20px;
+        padding-top: 8px;
+        padding-bottom: unset;
+      }
+    }
+
+    .linkSection {
+      padding: 12px;
+      font-size: 24px;
+
+      .hrefSection {
+        height: 100%;
+        width: 100%;
+
+        .urlMessageSectionContainer {
+          .textSection {
+            max-width: 100%;
+          }
+
+          .iconSection {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .messageBannerContainer { 
+    .messageSection {
+      padding: 20px;
+
+
+    }
+  }
+
+   
+
+}
+
+
+    
+   
+   
+
+@media screen and (max-width: 425px) {
+  .messageBannerContainer {
+    text-align: center;
+
+    .messageSection {
+      padding: 20px;
+    }
+  }
+}

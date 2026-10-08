@@ -1,0 +1,104 @@
+.root_container {
+  :global(.slick-dots) {
+    top: 58rem !important;
+    height: 2px!important;
+
+  }
+}
+
+.video_container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  span img {
+    display: none !important;
+  }
+}
+
+.content_container {
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .root_container {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1560px){
+  .root_container {
+    :global(.slick-dots) {
+      top: 40rem !important;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .root_container {
+    :global(.slick-dots) {
+      // top: 30rem !important;
+      top: 28rem !important;
+
+    }
+  }
+}
+
+@media screen and (min-width: 325px) and (max-width:600px){
+  .root_container {
+    :global(.slick-dots) {
+      top: 540px !important;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .root_container {
+    position: relative;
+    :global(.slick-dots) {
+      top: 36rem !important;
+    }
+  }
+
+  .video_container {
+    bottom: 0;
+
+    video {
+      width: 100%;
+      height: 55%;
+      object-fit: cover;
+      object-position: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .root_container {
+    position: relative;
+    :global(.slick-dots) {
+      top: 44rem !important;
+    }
+  }
+
+  .video_container {
+    bottom: 0;
+
+    video {
+      width: 100%;
+      height: 55%;
+      object-fit: cover;
+      object-position: 100%;
+    }
+  }
+}
+

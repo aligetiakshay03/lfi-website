@@ -1,0 +1,76 @@
+{
+  "heroSectionData": {
+    "heading1": "Staff Augmentation",
+    "subheading1": "Assisting teams through expert help",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Staff augmentation BG.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Adding the missing piece to the problem",
+    "para1": "Staff augmentation is a type of outsourcing that is used to staff a project and meet the company’s goals. The method entails assessing current personnel and identifying which extra skills are necessary.\n"
+  },
+  "staffAugmentationSection": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Staff augmentation with highly transparent teams"
+  },
+  "staffAugmentationCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (15).png",
+      "heading": "Full-service development",
+      "content": "This model implies access to a dedicated offshore development center specifically set up for your project. It lets the client fully oversee team selection and manage communication in a process that’s transparent."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (13).png",
+      "heading": "In-house team augmentation",
+      "content": "Our organization can help you get the most out of your in-house resources by supplementing your team with engineering, testing, and support experts."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (14).png",
+      "heading": "DevOps  enablement",
+      "content": "We engage our DevOps team to efficiently build, test, ship, run and monitor IT assets and deliver scalable products faster and with minimum hold-ups."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Personnel paired with good infrastructure and software",
+    "description": "Teams are an integral joining point between infrastructure and software. Hence, it becomes highly important that the team working on a certain project is fully equipped to handle the challenges related to it.",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880259.png"
+  },
+  "performingLanguages": {
+    "heading": "PERFORMING LANGUAGES",
+    "platformCardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1643312603cpp 1 (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/PHP-logo (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft_.NET_logo (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Java_Logo (1).png"
+      }
+    ]
+  },
+  "platforms": {
+    "heading": "PLATFORMS",
+    "platformCardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Logo_Microsoft_Office_365_(2013-2019) (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880272 (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Salesforce.com_logo (1).png"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP_2011_logo (1).png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "heroVideo": "/videos\\heroVideo.mp4",
+  "heroImage": "/images\\LFI_Homepage_1.png",
+  "services": [
+    {
+      "title": "Insurance",
+      "description": "Reconstructing data tracking & management",
+      "selector": "Insurances",
+      "btn": {
+        "label": "Explore more",
+        "link": "/explore-more/insurance"
+      }
+    },
+    {
+      "title": "Banking",
+      "description": "Re-constructing the present banking scenario into a future-ready, automated workspace that minimizes redundancy of work",
+      "selector": "Banking",
+      "btn": {
+        "label": "Explore more",
+        "link": "/explore-more/banking"
+      }
+    },
+    {
+      "title": "Fintech",
+      "description": "Reconstructing data tracking & management",
+      "selector": "Fintech",
+      "btn": {
+        "label": "Explore more",
+        "link": "/explore-more/fintech"
+      }
+    },
+    {
+      "title": "FMCG",
+      "description": "Simplifying workload with better insights",
+      "selector": "FMCG",
+      "btn": {
+        "label": "Explore more",
+        "link": "/explore-more/fmcg"
+      }
+    }
+  ],
+  "slider": [
+    {
+      "title": "cocacola",
+      "image": "/images\\slider_img1.png"
+    },
+    {
+      "title": "adaptIT",
+      "image": "/images\\slider_img2.png"
+    },
+    {
+      "title": "absa",
+      "image": "/images\\slider_img3.png"
+    },
+    {
+      "title": "telkom",
+      "image": "/images\\slider_img4.png"
+    },
+    {
+      "title": "datacentrix",
+      "image": "/images\\slider_img5.png"
+    },
+    {
+      "title": "aspen",
+      "image": "/images\\slider_img6.png"
+    }
+  ]
+}

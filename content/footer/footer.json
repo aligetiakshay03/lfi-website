@@ -1,0 +1,188 @@
+{
+  "sections": [
+    {
+      "label": "Membership",
+      "title": "Membership",
+      "mobileVisible": true,
+      "logos": [
+        {
+          "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Nascom logo.png",
+          "height": 111,
+          "width": 178
+        },
+        {
+          "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DUNS logo.png",
+          "height": 111,
+          "width": 123
+        }
+      ]
+    },
+    {
+      "label": "ISO Certifications",
+      "title": "ISO Certifications",
+      "mobileVisible": true,
+      "logos": [
+        {
+          "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ISO 270012022.png",
+          "height": 111,
+          "width": 120
+        },
+        {
+          "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Iso Logo (1) (1).png",
+          "height": 111,
+          "width": 111
+        }
+      ]
+    },
+    {
+      "label": "Services",
+      "title": "Services",
+      "links": [
+        {
+          "label": "Engineering",
+          "link": "/services/engineering"
+        },
+        {
+          "label": "Consulting",
+          "link": "/services/consulting"
+        },
+        {
+          "label": "Cloud",
+          "link": "/services/cloud"
+        },
+        {
+          "label": "Automation",
+          "link": "/services/automation"
+        },
+        {
+          "label": "Technology",
+          "link": "/services/technology"
+        },
+        {
+          "label": "Teams",
+          "link": "/services/teams"
+        },
+        {
+          "label": "IT Infrastructure and Solutions",
+          "link": "/services/itinfraandsolutions"
+        }
+      ]
+    },
+    {
+      "label": "Industries",
+      "title": "Industries",
+      "links": [
+        {
+          "label": "Manufacturing",
+          "link": "/industries/manufacturing"
+        },
+        {
+          "label": "Telecom",
+          "link": "/industries/telecom"
+        },
+        {
+          "label": "Banking",
+          "link": "/industries/banking"
+        },
+        {
+          "label": "Insurance",
+          "link": "/industries/insurance"
+        },
+        {
+          "label": "Fintech",
+          "link": "/industries/fintech"
+        },
+        {
+          "label": "FMCG",
+          "link": "/industries/fmcg"
+        },
+        {
+          "label": "Mining",
+          "link": "/industries/mining"
+        },
+        {
+          "label": "Oil and Gas",
+          "link": "/industries/oil-gas"
+        }
+      ]
+    },
+    {
+      "label": "Solutions",
+      "title": "Solutions",
+      "links": [
+        {
+          "label": "SAP",
+          "link": "/solutions/erp-solutions/sap"
+        },
+        {
+          "label": "Odoo",
+          "link": "/solutions/erp-solutions/odoo"
+        },
+        {
+          "label": "Microsoft Dynamics",
+          "link": "/solutions/erp-solutions/microsoft-dynamics"
+        },
+        {
+          "label": "Salesforce",
+          "link": "/solutions/erp-solutions/salesforce"
+        },
+        {
+          "label": "iPaaS",
+          "link": "/services/cloud/ipaas"
+        },
+        {
+          "label": "RPA",
+          "link": "/services/automation/robotic-process-automation"
+        }
+      ]
+    },
+    {
+      "label": "Quick links",
+      "title": "Quick links",
+      "mobileVisible": true,
+      "links": [
+        {
+          "label": "About Us",
+          "link": "/company/about-us"
+        },
+        {
+          "label": "Our Approach",
+          "link": "/company/our-approach"
+        },
+        {
+          "label": "Careers",
+          "link": "/careers"
+        },
+        {
+          "label": "Blog",
+          "link": "/company/blog"
+        },
+        {
+          "label": "Contact Us",
+          "link": "/contact-us"
+        },
+        {
+          "label": "News and Articles",
+          "link": "/company/news-and-articles"
+        }
+      ]
+    }
+  ],
+  "bottomFooterLinks": {
+    "aboutCompanyLinks": [
+      {
+        "label": "Privacy Policy",
+        "link": "/privacy-policy"
+      },
+      {
+        "label": "Terms of Use",
+        "link": "/terms-of-use"
+      },
+      {
+        "label": "Cookies Policy",
+        "link": "/cookies-policy"
+      }
+    ],
+    "link": "info@linkfields.com"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "heroSectionData": {
+    "heading1": "Solution Discovery",
+    "subheading1": "Designing the pathway to build your solution",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solutions-discovery.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Exploration towards the best solution",
+    "para1": "By following a step-by-step approach in the designing process, we discover the approach that suits your business needs best.\n"
+  },
+  "HowWeCanHelpSection": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Precision achieved in all of strategy planning."
+  },
+  "howCanWeHelp": [
+    {
+      "description": "Plan out a clear approach in accordance with the vision and business goals through interviews with key stakeholders."
+    },
+    {
+      "description": "Drawing out the requirements for the next level - mapping them to the relevant value chains within your firm"
+    },
+    {
+      "description": "Observe and note current operations to evaluate technical dependencies and integration points."
+    },
+    {
+      "description": "Determining the key capabilities of your organization and the solutions appear from a different vantage point."
+    },
+    {
+      "description": "Review workshops with key stakeholders to validate the plans."
+    },
+    {
+      "description": "Thorough analysis to establish solution, technology, and delivery roadmap options."
+    },
+    {
+      "description": "Initiate a solution prototype to demonstrate capability and instil confidence."
+    }
+  ],
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "whatweoffer": {
+    "heading": "WHAT WE OFFER",
+    "title": "Modern technologies to solve your problems",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/house (2).png",
+        "title": "Internet of Things"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flash (1).png",
+        "title": "Digital Experiences"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cpu (2).png",
+        "title": "Artificial Intelligence"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/programming-arrows (1).png",
+        "title": "Business Process"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/database (1).png",
+        "title": "Data Analysis"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-add (1).png",
+        "title": "Journey to Cloud"
+      }
+    ]
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Helping businesses perform better.",
+    "description": "By walking out the entire development and design process before they start, we create a sort of blueprint, a practical prototype. By doing this, we are able to avoid many setbacks that would have otherwise been unexpected.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/helping-bussiness-cycle.png"
+  }
+}

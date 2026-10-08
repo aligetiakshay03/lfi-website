@@ -1,0 +1,138 @@
+{
+  "heroSectionData": {
+    "heading1": "DevOps",
+    "subheading1": "Streamlined App Delivery & Effortless Operations",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DevOps  BG.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "A future-oriented practice that boosts swiftness",
+    "para1": "Its goal is to minimize the systems development life cycle and provide high-quality software delivery on a continual basis. By analyzing both the technical and social aspects of IT sector, we are able to get the best out of both.\n"
+  },
+  "messageBannerData": {
+    "title": "85% improvement in code quality and production time",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "ProjectFlowCards": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "A full-set of DevOps services"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (45).png",
+      "heading": "DevOps Assessment",
+      "content": "Our DevOps experts analyze your existing infrastructure, identify your core business propositions, and assess your current DevOps practices to propose solutions tailor made for you."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (46).png",
+      "heading": "DevOps Automation",
+      "content": "With automating processes that normally need human intervention at the core, we identify eligible processes and develop script for implementation."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (47).png",
+      "heading": "DevOps Implementation",
+      "content": "We develop an implementation roadmap factoring business operations, available resources, budgetary allocation, risks, and quality control at each step."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (48).png",
+      "heading": "Continuous integration",
+      "content": "We implement continuous integration and delivery practices to reduce rollbacks, improve delivery time, and cut costs."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (49).png",
+      "heading": "Cloud migration",
+      "content": "We apply the best DevOps practices to migrate workflows and applications to the cloud for unobstructed availability."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (50).png",
+      "heading": "DevSecOps",
+      "content": "We also make security an integral part of your DevOps efforts by automating compliances and regulations into your workflows."
+    }
+  ],
+  "CollapseComponentData": {
+    "header": "OUR  PROCESS",
+    "title": "DevOps tuned to precision",
+    "description": "DevOps is the blend of social ways of thinking, practices, and apparatuses that expands an association’s capacity to convey applications and administrations at high speed, advancing and further developing items at a quicker speed than associations utilizing conventional programming improvement and foundation the board measures.",
+    "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devops-detail.png",
+    "imageStyles": "w-full",
+    "imageList": false,
+    "bg": true,
+    "list": [
+      {
+        "title": "Continuous integration",
+        "description": "CI is a widely used industry standard for detecting problems early on. For high-level cross-team collaboration, our CI professionals employ continuous integration tools in DevOps such as Jenkins, Docker, and Kubernetes."
+      },
+      {
+        "title": "Continuous delivery",
+        "description": "CD is an engineering method for releasing software updates in a secure and reliable manner. Our CD experts can help you reduce your deployment risks by providing an instant deployment process for any accurate changes."
+      },
+      {
+        "title": "Infrastructure management",
+        "description": "Our DevOps solution aids in the development and deployment of high-quality software and services. Better resource management and DevOps management plans with reusability and cheap installation costs."
+      },
+      {
+        "title": "Configuration management",
+        "description": "Our DevOps solution configuration system includes code management and platform automation, resulting in a ready-to-use server for your customers."
+      },
+      {
+        "title": "Continuous monitoring",
+        "description": "Our continuous monitoring solution, which we provide as a DevOps services firm, smoothly streamlines any mission important application."
+      }
+    ]
+  },
+  "whatweoffer": {
+    "heading": "HOW CAN WE HELP",
+    "title": "Feedback and testing for the best experience",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/key refresh (1).png",
+        "title": "Continuous feedback"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/horizontal.png",
+        "title": "Continuous integration"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Icon.png",
+        "title": "Continuous deployment"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rotate-cw (1).png",
+        "title": "Configuration management"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Clip path group.png",
+        "title": "Release management"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/search-code.png",
+        "title": "Continuous monitoring"
+      }
+    ]
+  },
+  "OurBenefits": {
+    "status1": "BENEFITS",
+    "heading1": "Streamlined and structured ops"
+  },
+  "darkAndLightComponentCards": [
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (13).png",
+      "title": "High delivery ratio",
+      "description": "It helps save time on management tasks to get more out of your existing teams."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (14).png",
+      "title": "Less delivery time",
+      "description": "The shorter the delivery time, the faster revenue generation for your business operations."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (15).png",
+      "title": "Lower risk potential",
+      "description": "Early detection results in lower repair costs."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (16).png",
+      "title": "More resiliency",
+      "description": "A decrease in potential sale loss, leading to overall greater productivity."
+    }
+  ]
+}

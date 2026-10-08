@@ -1,0 +1,22 @@
+{
+  "contactCards": [
+    {
+      "title": "TWITTER",
+      "emailId": "linkfields",
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/x-twitter.png",
+      "link": "https://x.com/LinkfieldsI"
+    },
+    {
+      "title": "YOUTUBE",
+      "emailId": "linkfields",
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/youtube-168-svgrepo-com.png",
+      "link": "https://www.youtube.com/channel/UCiSaCEnC7Gtu7YkanoA6mpg"
+    },
+    {
+      "title": "LINKEDIN",
+      "emailId": "linkfields",
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkedin-rounded-svgrepo-com.png",
+      "link": "https://www.linkedin.com/company/40661516/admin/feed/posts/"
+    }
+  ]
+}

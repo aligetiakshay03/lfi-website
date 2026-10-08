@@ -1,0 +1,52 @@
+{
+  "heroSectionData": {
+    "heading1": "Cloud Consulting",
+    "subheading1": "Cloud experts for best migration strategies",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-consulting.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Providing expert insights to help you make the right cloud-related decisions",
+    "para1": "Through years of experience with cloud technologies, our experts help you make the right decision when it comes to cloud migration and other cloud-related services.\n"
+  },
+  "whatweoffer": {
+    "heading": "WHAT WE OFFER",
+    "title": "Tried & tested practices for efficient migrations",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/task-square.png",
+        "title": "Cloud strategy roadmap"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/dollar-square.png",
+        "title": "Cloud cost optimization"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/people (1).png",
+        "title": "Cloud migration preparation"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-add (1).png",
+        "title": "Cloud performance monitoring"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ranking (2).png",
+        "title": "Cloud operational excellence"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/shield-tick.png",
+        "title": "Cloud security assurance"
+      }
+    ]
+  },
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Strategy & analysis for better results",
+    "description": "Our Cloud Consulting practice provides deep expertise of Cloud technologies including Azure, AWS, and Google Cloud in order to enable right-sized and cost-effective solutions for your organization. We are well positioned to help you achieve your Cloud initiatives.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/strategy-and-analysis-cycle.png"
+  }
+}

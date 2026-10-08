@@ -1,0 +1,84 @@
+{
+  "heroSectionData": {
+    "heading1": "Cloud Migration",
+    "subheading1": "Migrate to the Cloud",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-migration.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Moving to a cloud-based infrastructure",
+    "para1": "Providing expert insights and support to organizations in moving their data center capabilities to the cloud.\n"
+  },
+  "whatweoffer": {
+    "heading": "HOW CAN WE HELP",
+    "title": "Providing direction to your cloud journey",
+    "list": [
+      "Building roadmaps & strategies with operational support to ensure a smooth transition during cloud re-architecting, re-platforming for databases & applications.",
+      "24/7 guidance and tech support throughout the migration process",
+      "Preparing and planning by addressing migration requirements and infrastructure needs to minimize error"
+    ],
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/scroll (1).png",
+        "title": "Technology strategy/ IT roadmap"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ranking (2).png",
+        "title": "Enterprise and solutions architecture"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-add (1).png",
+        "title": "Cloud advisory"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flash (1).png",
+        "title": "Emerging and digital transformations"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/people (1).png",
+        "title": "Systems advisory"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/share (1).png",
+        "title": "IT/OT integration"
+      }
+    ]
+  },
+  "growthmessage": {
+    "title": "Achieve 5mn+ daily digital journeys with us",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "CollapseComponentData": {
+    "header": "OUR  PROCESS",
+    "title": "Helping businesses become future-ready",
+    "description": "While the cloud is an extremely innovative business platform, it is always best to be educated on its advantages and features to judge how you can make use of the cloud’s features and advantages. This involves considering the aforementioned benefits and constructing a carefully-designed cloud migration strategy.",
+    "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 393.png",
+    "imageStyles": "",
+    "bg": true,
+    "list": [
+      {
+        "title": "Define Strategy",
+        "description": "We spell out and establish customized cloud strategies for each business based on their specific business goals, workload priorities, and migration triggers."
+      },
+      {
+        "title": "Assess current infrastructure",
+        "description": "By assessing your non-cloud environments, we identify each element of your infrastructure to create a detailed inventory."
+      },
+      {
+        "title": "Plan Migration",
+        "description": "Once we get a clear view of your current infrastructure, we build a holistic migration plan based on your workload priorities, timelines, milestones, resources, and budget."
+      },
+      {
+        "title": "Ready your organization",
+        "description": "Considering the intricacy of the plan, we assist and inform your IT & App Development teams about cloud technologies, migration tools, and operational processes, to ensure effortless transitioning."
+      },
+      {
+        "title": "Implement migration",
+        "description": " Your workloads are migrated to the cloud environment in waves as per the chosen migration strategy."
+      },
+      {
+        "title": "Secure and manage",
+        "description": "Once the migration is complete, we help you secure and manage your workloads across all cloud environments."
+      }
+    ]
+  }
+}

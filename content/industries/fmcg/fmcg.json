@@ -1,0 +1,49 @@
+{
+  "heroSectionData": {
+    "heading1": "FMCG",
+    "subheading1": "Optimizing FMCG Operations with AI-Driven Insights",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG BG.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Simplifying workload with better insights",
+    "para1": "FMCG is an industry that heavily relies on numbers & figures. By creating easy-access tools and accelerating data retrieval, we boost sales.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Predictive Analytics for Future Demand ",
+        "desc": "Utilize predictive analytics to anticipate customer needs, staying ahead of demand curves and ensuring proactive inventory management.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Predictive Analytics for Future Demand.png"
+      },
+      {
+        "title": "Streamlined Supply Chain Logistics",
+        "desc": "Implement real-time tracking for seamless supply chain logistics, ensuring products are always on time and locations are transparent, enhancing satisfaction across the board.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Streamlined Supply Chain Logistics.png"
+      },
+      {
+        "title": "Precision Marketing Automation",
+        "desc": " Leverage deep data insights to create personalized marketing strategies and automate campaigns, targeting customers with pinpoint accuracy.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Precision Marketing Automation.png"
+      },
+      {
+        "title": "Enhanced Retailer and Distributor Connectivity",
+        "desc": "Facilitate seamless interactions with retailers and distributors through automated tools, strengthening the distribution network for smoother operations.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Enhanced Retailer and Distributor Connectivity.png"
+      },
+      {
+        "title": "Customized E-Commerce Platforms",
+        "desc": "Develop tailored e-commerce platforms for FMCG products, enabling direct-to-consumer sales and personalized shopping experiences through advanced data analytics.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customized E-Commerce Platforms.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "heroSectionData": {
+    "heading1": "Application Development",
+    "subheading1": "An application for every task",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/application-development.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Finishing tasks faster with applications",
+    "para1": "Creating software and apps that are easy-to-use, have a lot of capability, and are easy-to-navigate, ensuring high quality.\n"
+  },
+  "Projectflow": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Design and developments infused for results"
+  },
+  "growthMessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (29).png",
+      "bgcolor": "#FFEF9C",
+      "heading": "Legacy and application modernization ",
+      "content": "To give them a new lease on life, we rethink obsolete systems, rework their code, move legacy apps to modern platforms, and review their architectures."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (30).png",
+      "heading": "Application Integration",
+      "content": "Following this stage, a detailed solution development roadmap is created."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (31).png",
+      "heading": "Application design and development",
+      "content": "The product’s usage scenarios, navigation, and interactive elements are all developed by us. In order to create an intuitive design, we define user personas to create routes."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (17).png",
+      "heading": "Application support and operations",
+      "content": "Our team creates wireframes and prototypes based on the outputs from the business research phase to assess software feasibility and obtain early feedback from customers."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (32).png",
+      "heading": "Custom software development",
+      "content": "We also create custom web & mobile apps by prioritizing ease-of-management, integration, and scalability."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (33).png",
+      "heading": "Application maintenance",
+      "content": "We perform all tasks like application upgrades, functional improvements, performance monitoring & security assessment, and app migration."
+    }
+  ],
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Constructing applications that meet your needs",
+    "description": "With an application development infrastructure that is supported by global leaders and experts in development and design of mobile & web applications, Linkfields provides you with a promise on our capability to deliver products that are truly class-leading.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (10).png"
+  },
+  "OurSuperPowers": {
+    "status1": "OUR SUPERPOWERS",
+    "heading1": "Exceptional outcomes through tested methodologies"
+  },
+  "darkAndLightComponentCards": [
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (9).png",
+      "title": "Minimizing Error Rate",
+      "description": "To minimize errors, establish what steps in the development process are prone to mistakes."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (10).png",
+      "title": "Unparalleled Quality",
+      "description": "Refine your strategies till they satisfy industry requirements."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (11).png",
+      "title": "Swifter Timelines",
+      "description": "You can conserve time in future projects by resolving difficulties in your workflow."
+    },
+    {
+      "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (12).png",
+      "title": "Unlock Expert Insights",
+      "description": "On development frameworks, procedures, and container orchestration platforms, we are the experts!"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "heroSectionData": {
+    "heading1": "Managed Team",
+    "subheading1": "Group efforts produce better results",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/managed-team.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Balancing skills and expertise to make better teams",
+    "para1": "Combining features like teamwork, communication, objective setting and performance appraisals to form teams that function well, get along, and are highly productive.\n"
+  },
+  "bringingBest": {
+    "status1": "HOW CAN WE HELP",
+    "heading1": "Bringing out the best in all employees"
+  },
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "transformationCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/2.png",
+      "heading": "Evaluation",
+      "content": "We begin with assessments and evaluations of the software/infrastructure that needs to be managed."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (71).png",
+      "heading": "Scope",
+      "content": "The scope, duration, and the budget of the engagement is decided upon with the client."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (67).png",
+      "heading": "Team selection",
+      "content": "A team is built with professionals whose skills sets match with the project requirements."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (72).png",
+      "heading": "SLA",
+      "content": "An SLA that summarizes the conditions of the transition and the cooperation is signed with the client."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/6.png",
+      "heading": "Process",
+      "content": "On-demand or ongoing services are provided to the client in line with the SLA."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1.png",
+      "heading": "Support",
+      "content": "Clients receive constant support from our experts during and after the service has been delivered."
+    }
+  ],
+  "CollapseComponentData": {
+    "header": "OUR PROCESS",
+    "title": "Making administration future-ready",
+    "description": "Our combined offerings which are provided under team management provide an eclectic grouping of management systems that assist businesses and their employees by making the redundant tasks automated, and ensuring better pairings among teams.",
+    "list": [
+      {
+        "title": "Network management",
+        "description": "We manage networks to guarantee that their architectures are correct and that resources are allocated as efficiently as possible."
+      },
+      {
+        "title": "Storage management",
+        "description": "We manage data centers and stand-alone data storages to ensure that they are well-balanced and that stored data is protected."
+      },
+      {
+        "title": "System administration",
+        "description": "We ensure that enterprise IT assets are available and secure (databases, physical and virtual servers, active directories, etc.)."
+      },
+      {
+        "title": "Device management",
+        "description": "We set up systems and technologies to ensure that corporate devices are constantly monitored, and security checked."
+      }
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+.hero {
+  --px: 0;
+  --py: 0;
+  position: relative;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc(var(--lf-header-h) + 40px) 0 28px;
+  overflow: hidden;
+  isolation: isolate;
+  background: radial-gradient(ellipse 60% 70% at 78% 45%, rgba(45, 88, 192, 0.2), transparent 65%),
+    radial-gradient(ellipse 40% 50% at 70% 60%, rgba(255, 120, 0, 0.09), transparent 70%), var(--lf-grid-lines),
+    linear-gradient(180deg, #070c17 0%, #0a1122 100%);
+}
+
+/* ---------- Background ---------- */
+
+.bgLayer {
+  position: absolute;
+  inset: -12px;
+  z-index: -1;
+  transform: translate3d(calc(var(--px) * -4px), calc(var(--py) * -4px), 0);
+  animation: fadeIn 1.6s ease both 0.2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+.arcA,
+.arcB {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Large faint arcs — soft structure behind the composition. */
+.arcA {
+  width: 64vw;
+  height: 64vw;
+  right: -22vw;
+  top: -26vw;
+  border: 1px solid rgba(255, 120, 0, 0.14);
+  animation: arcSpin 120s linear infinite;
+}
+
+.arcB {
+  width: 30vw;
+  height: 30vw;
+  left: -12vw;
+  bottom: -18vw;
+  border: 1px solid rgba(226, 232, 240, 0.08);
+}
+
+@keyframes arcSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Layout ---------- */
+
+.inner {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(16px, 2vw, 32px);
+  align-items: center;
+  row-gap: 48px;
+}
+
+.copy {
+  grid-column: 1 / span 6;
+  position: relative;
+  z-index: 2;
+  transform: translate3d(calc(var(--px) * 3px), calc(var(--py) * 3px), 0);
+}
+
+.label {
+  opacity: 0;
+  animation: rise 0.9s var(--lf-ease-out) 0.25s forwards;
+}
+
+.title {
+  margin: 22px 0 0;
+  color: var(--lf-text-dark);
+  max-width: 13ch;
+  text-wrap: balance;
+}
+
+.desc {
+  margin: 28px 0 0;
+  color: var(--lf-text-soft);
+  opacity: 0;
+  animation: rise 1s var(--lf-ease-out) 1.05s forwards;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 38px;
+  opacity: 0;
+  animation: rise 1s var(--lf-ease-out) 1.25s forwards;
+}
+
+.creds {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 18px 0 0;
+  border-top: 1px solid var(--lf-line-light);
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 12px 32px;
+  opacity: 0;
+  animation: rise 1s var(--lf-ease-out) 1.45s forwards;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--lf-font-display);
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--lf-text-soft);
+  }
+
+  svg {
+    color: var(--lf-orange);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 22px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Visual: dotted globe ---------- */
+
+.visualWrap {
+  grid-column: 7 / span 6;
+  position: relative;
+  aspect-ratio: 1 / 0.9;
+  max-height: 64vh;
+  width: 100%;
+  justify-self: end;
+  transform: translate3d(calc(var(--px) * -10px), calc(var(--py) * -8px), 0);
+  opacity: 0;
+  animation: globeIn 1.8s var(--lf-ease-out) 0.35s forwards;
+}
+
+@keyframes globeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+.globe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Office legend beneath the globe. */
+.offices {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  max-width: 100%;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 11px;
+    border-radius: 999px;
+    border: 1px solid rgba(226, 232, 240, 0.12);
+    background: rgba(8, 13, 24, 0.6);
+    backdrop-filter: blur(6px);
+    font-family: var(--lf-font-display);
+    font-weight: 700;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--lf-text-soft);
+    opacity: 0;
+    animation: rise 0.7s var(--lf-ease-out) forwards;
+    animation-delay: calc(1.6s + var(--i) * 0.08s);
+  }
+}
+
+.officeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lf-orange);
+}
+
+.visualBadge {
+  position: absolute;
+  left: 0;
+  top: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 20px;
+  border-radius: 18px 18px 18px 6px;
+  background: rgba(17, 26, 44, 0.8);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--lf-shadow-lift);
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--lf-text-soft);
+  opacity: 0;
+  animation: badgeIn 1s var(--lf-ease-out) 1.6s forwards;
+}
+
+.visualBadgeNum {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  color: var(--lf-orange);
+  line-height: 1;
+}
+
+@keyframes badgeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* ---------- Ticker ---------- */
+
+.tickerWrap {
+  margin-top: clamp(20px, 3.5vh, 40px);
+  opacity: 0;
+  animation: rise 1s var(--lf-ease-out) 1.6s forwards;
+}
+
+.ticker {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 28px;
+  padding: 16px 22px;
+  border-radius: 999px;
+  background: rgba(17, 26, 44, 0.7);
+  box-shadow: var(--lf-shadow-card);
+  backdrop-filter: blur(8px);
+}
+
+.tickerCount {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  color: var(--lf-orange);
+  font-variant-numeric: tabular-nums;
+}
+
+.tickerLink {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  min-width: 0;
+  animation: tickerIn 0.7s var(--lf-ease-out) both;
+
+  &:hover .tickerArrow {
+    transform: translateX(4px);
+    color: var(--lf-orange);
+  }
+
+  &:hover .tickerTitle {
+    color: var(--lf-orange-deep);
+  }
+}
+
+@keyframes tickerIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.tickerTitle {
+  font-family: var(--lf-font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: var(--lf-text-dark);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.tickerDesc {
+  font-family: var(--lf-font-body);
+  font-size: 0.9rem;
+  color: var(--lf-text-soft);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tickerArrow {
+  flex: none;
+  color: var(--lf-text-soft);
+  transition: transform 0.4s var(--lf-ease-out), color 0.3s ease;
+}
+
+.tickerDots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  position: relative;
+  width: 28px;
+  height: 18px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+
+  &::before,
+  span {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 3px;
+    border-radius: 3px;
+    background: rgba(226, 232, 240, 0.14);
+  }
+
+  span {
+    background: var(--lf-orange);
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+}
+
+.dotActive span {
+  animation: dotFill var(--dur) linear forwards;
+}
+
+.dotPaused {
+  animation-play-state: paused !important;
+}
+
+@keyframes dotFill {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 1100px) {
+  .copy {
+    grid-column: 1 / span 7;
+  }
+  .visualWrap {
+    grid-column: 8 / span 5;
+  }
+  .tickerDesc {
+    display: none;
+  }
+  .creds {
+    grid-template-columns: max-content;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero {
+    min-height: auto;
+    padding-top: calc(106px + 36px);
+  }
+  .copy,
+  .visualWrap {
+    grid-column: 1 / -1;
+    transform: none;
+  }
+  .visualWrap {
+    max-height: none;
+    aspect-ratio: 1 / 1;
+    max-width: 520px;
+    justify-self: center;
+  }
+  .title {
+    max-width: none;
+  }
+  .ticker {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    border-radius: 22px;
+  }
+  .tickerTitle {
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .label,
+  .desc,
+  .ctas,
+  .creds,
+  .tickerWrap,
+  .visual,
+  .offices li,
+  .visualBadge,
+  .bgLayer {
+    animation: none !important;
+    opacity: 1 !important;
+    clip-path: none !important;
+    transform: none !important;
+  }
+}

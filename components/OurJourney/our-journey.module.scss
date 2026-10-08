@@ -1,0 +1,247 @@
+.container {
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px;
+  max-height: fit-content;
+  background: url("/backgroud-images/our-journey.jpg") !important;
+  background-size: cover !important;
+  .inner {
+    display: flex;
+    gap: 196px;
+  }
+
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-basis: 50%;
+    padding: 31px 35px 31px 0px;
+
+    .sec1_title {
+      color: #ff7800;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: -4%;
+      padding: 15px 0;
+      display: flex;
+      align-items: center;
+
+      .circle {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #ff7800;
+        margin-right: 1rem;
+      }
+    }
+
+    .sec1_heading {
+      color: #e6eced;
+      font-size: 56px;
+      font-family: 'MonsalGothicMedium';
+      line-height: 57px;
+      letter-spacing: -5%;
+    }
+
+    .sec1_desc {
+      font-size: 24px;
+      font-family: "libre-franklin", sans-serif !important;
+      font-weight: 400 !important;
+      font-style: normal !important;
+      color: #A4A8A9;
+      font-style: normal;
+      line-height: 33.6px;
+    }
+
+    .button {
+      display: flex;
+      gap: 20px;
+      color: inherit;
+      color: #ff7800;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      align-items: center;
+      border: 1px solid #ff7800;
+      width: fit-content;
+      padding: 22px 32px;
+      height: 64px;
+      margin-top: 50px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  }
+
+  .sec2 {
+    padding-top: 31px;
+    .sec2_item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 10px !important;
+
+      .sec2_title {
+        color: #8b8f8f;
+        font-size: 64px;
+        line-height: 67px;
+        font-family: 'MonsalGothicMedium';
+      }
+
+      .sec2_desc {
+        color: #e6eced;
+        font-size: 24px;
+        line-height: 23px !important;
+        font-family: "libre-franklin", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1919px) {
+  .container {
+    gap: 80px;
+
+    .sec1 {
+      gap: 16px;
+      flex-basis: 50%;
+
+      .sec1_title {
+        font-size: 18px;
+        line-height: 17px;
+      }
+
+      .sec1_heading {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: -5%;
+        max-width: 400px;
+      }
+
+      .sec1_desc {
+        line-height: 28px;
+        font-size: 18px;
+      }
+
+      .button {
+        font-size: 18px;
+        line-height: 17px;
+        padding: 22px 32px;
+        font-family: "HelveticaNeueSmall";
+        margin-top: 32px;
+      }
+    }
+
+    .sec2 {
+      .sec2_item {
+        .sec2_title {
+          font-size: 56px;
+          line-height: 58px;
+        }
+
+        .sec2_desc {
+          font-size: 18px;
+          line-height: 17px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1560px) {
+  .container {
+    padding: 80px;
+
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 40px;
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    .inner {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 20px;
+    flex-direction: column;
+
+    .sec1 {
+      gap: 6px;
+      padding: 0px;
+
+      .sec1_title {
+        font-size: 16px;
+        line-height: 4px;
+        padding: 15px 0;
+
+        .circle {
+          width: 8px;
+          height: 8px;
+          margin-right: 10px;
+        }
+      }
+
+      .sec1_heading {
+        font-size: 28px;
+        line-height: 37px;
+        letter-spacing: -5%;
+      }
+
+      .sec1_desc {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .button {
+        font-size: 16px !important;
+        line-height: normal !important;
+        padding: 0 !important;
+        margin-top: 10px;
+        border: none !important;
+      }
+    }
+
+    .sec2 {
+      gap: 24px 0;
+      padding: 16px 0px;
+
+      .sec2_item {
+        padding: 10px;
+
+        .sec2_title {
+          font-size: 48px;
+          line-height: 50px;
+          padding-bottom: 2px;
+        }
+
+        .sec2_desc {
+          font-size: 14px;
+          line-height: 13px;
+          max-width: 125px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    background-position: center center !important;
+    padding: 62px 20px 38px 20px;
+  }}

@@ -1,0 +1,275 @@
+.blogPreviewContainer {
+  min-height: 480px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+
+  .blogPreviewImageSection {
+    position: relative;
+  }
+
+  .blogPreviewSplitViewContentSection {
+    padding: 32px 21px 100px 24px;
+    height: 100%;
+
+    .blogPreviewHeadingSection {
+      // font-weight: 600;
+      font-family: "MonsalGothicMedium" !important;
+      font-size: 18px;
+    }
+
+    .blogPreviewSplitViewDataSection {
+      height: 100%;
+      max-width: 334px;
+
+      .blogPreviewTitleSection {
+        font-size: 24px;
+        line-height: 29.76px;
+        // font-weight: 700;
+        font-size: 24px;
+        font-family: "MonsalGothicMedium" !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: all 0.5s ease-in;
+        text-decoration: none;
+        padding-top: 48px;
+      }
+
+      .imageAbovePara {
+        font-size: 80px !important;
+        background-color: red !important;
+        border: 4px solid purple !important;
+      }
+
+      .blogPreviewDescSection {
+        font-size: 16px;
+        padding-top: 24px;
+        line-height: 19.84px;
+        display: -webkit-box;
+        font-family: "libre-franklin", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: all 0.5s ease-in;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .blogPreviewCoverViewContentSection {
+    padding: 32px 21px 100px 24px;
+    position: relative;
+    z-index: 2;
+    background: #0000004d;
+
+    .blogPreviewHeadingSection {
+      // font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 44px;
+    }
+
+    .blogPreviewCoverViewDataSection {
+      height: 100%;
+      padding-left: 48px;
+      padding-right: 55px;
+      .imageAbovePara {
+        font-size: 80px !important;
+        background-color: red !important;
+        border: 4px solid purple !important;
+      }
+
+      .blogPreviewTitleSection {
+        font-family: "MonsalGothicMedium";
+        font-size: 24px;
+        line-height: 29.76px;
+        // font-weight: 700;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        transition: all 0.5s ease-in;
+        text-decoration: none;
+      }
+
+      .blogPreviewDescSection {
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 19.84px;
+        font-family: "libre-franklin", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .blogPreviewCoverViewImageSection {
+    position: absolute;
+  }
+}
+
+.blogPreviewContainer:hover {
+  overflow: clip;
+
+  .blogPreviewImageSection {
+    overflow: clip;
+
+    .blogPreviewSplitViewImage {
+      transition: 0.5s ease all;
+      width: 100%;
+      object-fit: cover;
+      transform: scale(1.2);
+    }
+  }
+
+  .blogPreviewSplitViewContentSection {
+    .blogPreviewSplitViewDataSection {
+      .blogPreviewTitleSection {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .blogPreviewCoverViewContentSection {
+    .blogPreviewCoverViewDataSection {
+      .blogPreviewTitleSection {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .blogPreviewCoverViewImageSection {
+    transition: 0.5s ease all;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .blogPreviewContainer {
+    min-height: 360px;
+
+    .blogPreviewSplitViewContentSection {
+      padding: 24px 24px;
+
+      .blogPreviewSplitViewDataSection {
+        .blogPreviewTitleSection {
+          font-size: 24px !important;
+          line-height: 24px !important;
+        }
+      }
+    }
+
+    .blogPreviewCoverViewContentSection {
+      .blogPreviewCoverViewDataSection {
+        .blogPreviewTitleSection {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blogPreviewContainer {
+    height: 100%;
+
+    .blogPreviewSplitViewContentSection {
+      padding: 20px 20px 60px;
+
+      .blogPreviewHeadingSection {
+        // font-size: 16px;
+        line-height: 18px;
+      }
+
+      .blogPreviewTitleSection {
+        font-size: 18px !important;
+        line-height: 23px;
+      }
+
+      .blogPreviewDescSection {
+        padding-top: 14px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    .blogPreviewCoverViewContentSection {
+      .blogPreviewCoverViewDataSection {
+        .blogPreviewTitleSection {
+          font-size: 16px !important;
+        }
+
+        .blogPreviewDescSection {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .blogPreviewContainer {
+    height: 100%;
+
+    .blogPreviewImageSection {
+      position: relative;
+      min-height: 286px;
+      width: 100%;
+    }
+
+    .blogPreviewSplitViewContentSection {
+      min-height: 376px;
+
+      .blogPreviewHeadingSection {
+        // font-size: 14px;
+        padding-top: 20px;
+      }
+
+      .blogPreviewTitleSection {
+        font-size: 17px !important;
+        margin-top: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .blogPreviewDescSection {
+        font-size: 16px;
+        padding-top: 24px;
+        line-height: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+
+    .blogPreviewCoverViewContentSection {
+      min-height: 100%;
+      padding: 32px 15px 50px 16px;
+
+      .blogPreviewCoverViewDataSection {
+        padding-left: 20px;
+        padding-right: 25px;
+
+        .blogPreviewTitleSection {
+          -webkit-line-clamp: 4;
+        }
+
+        .blogPreviewDescSection {
+          -webkit-line-clamp: 5;
+        }
+      }
+    }
+  }
+}

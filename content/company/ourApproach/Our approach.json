@@ -1,0 +1,71 @@
+{
+  "targetCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/core-values-icon 1.png",
+      "content": "We explore ways to scale and drive a sustainable cultural change and identify what the delivery model requirements are. This helps us understand how to accelerate additional values."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/indexing-pages-icon 1.png",
+      "content": "Evolution helps us determine if any additional proof points are generating expected returns and make adjustments if necessary. We also determine if any additional proof points are required and decide which services are needed to support scale."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-analysis-svgrepo-com 1.png",
+      "content": "After discussion and deliberation, we agree on the hypothesis and determine what we need to prove first. Through our partners, we explore ways to maximise impact and boost change, finally drafting an initial project roadmap"
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/target-and-arrow-svgrepo-com 1.png",
+      "content": "We explore the scope of challenges that are being faced by employees or customers. We also determine which assets, platforms or services will accelerate outcomes and establish the most commercially viable solution"
+    }
+  ],
+  "heroSectionData": {
+    "heading1": "Our Approach",
+    "subheading1": "Attention to detail, precision in outcomes",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/business-people-teamwork 1.png",
+    "para1": ""
+  },
+  "whatweoffer": {
+    "heading": "HOW WE WORK",
+    "title": "Experience directed by iteration",
+    "description": "Linkfields follows a systematic, step-by-step approach which is often derived through blueprints and strategy based on real insights. Our experienced professionals are agile in their work, but also very thorough. Through the best combination of objectivity and subjectivity, we deliver results.",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/goal.png",
+        "title": "Define the real challenge"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/clock-3.png",
+        "title": "Move fast, and stay flexible"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/crosshair.png",
+        "title": "Apply a human- centered lens"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart-handshake.png",
+        "title": "Put relationships first"
+      }
+    ]
+  },
+  "exploration": {
+    "heading": "OUR EXPLORATION",
+    "title": "A recipe for success",
+    "cardsData": [
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/target-and-arrow-svgrepo-com 1.png",
+        "title": "We explore the scope of challenges that are being faced by employees or customers. We also determine which assets, platforms or services will accelerate outcomes and establish the most commercially viable solution"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-analysis-svgrepo-com 1.png",
+        "title": "After discussion and deliberation, we agree on the hypothesis and determine what we need to prove first. Through our partners, we explore ways to maximise impact and boost change, finally drafting an initial project roadmap"
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/indexing-pages-icon 1.png",
+        "title": "Evolution helps us determine if any additional proof points are generating expected returns and make adjustments if necessary. We also determine if any additional proof points are required and decide which services are needed to support scale."
+      },
+      {
+        "icon": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/core-values-icon 1.png",
+        "title": "We explore ways to scale and drive a sustainable cultural change and identify what the delivery model requirements are. This helps us understand how to accelerate additional values."
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "heroSectionData": {
+    "heading1": "Manufacturing",
+    "subheading1": "Seamless Manufacturing through custom and intelligent solutions.",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/manufacturing hero image.jpg",
+    "status1": "INDUSTRY OVERVIEW",
+    "subheading2": "Revolutionizing Manufacturing through smart solutions",
+    "para1": "Developing manufacturing platforms with customized solutions with various modules to accommodate comprehensive application development.\n"
+  },
+  "BuildingToolsSection": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Building tools that endure"
+  },
+  "leadersMessageBanner": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "specializationList": {
+    "heading": "OUR SPECIALIZATION",
+    "list": [
+      {
+        "title": "Production Planning",
+        "desc": "Efficiently schedule and allocate resources to keep production on track and minimize downtime. Our tools integrate with your systems to provide real-time insights and forecasting.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Production Planning.png"
+      },
+      {
+        "title": "Production Execution",
+        "desc": "Manage and monitor your production process in real time. Track progress, spot bottlenecks, and adjust schedules as needed to ensure timely delivery.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Production Execution.png"
+      },
+      {
+        "title": "Quality Control",
+        "desc": "Ensure product consistency and compliance with advanced quality control systems. Detect defects early to reduce waste and rework, maintaining high quality standards.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality Control.png"
+      },
+      {
+        "title": "Plant Maintenance",
+        "desc": "Optimize equipment performance with proactive maintenance solutions. Predict potential issues, schedule timely interventions, and minimize downtime to keep operations running smoothly.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Plant Maintenance.png"
+      },
+      {
+        "title": "Quality Management",
+        "desc": "Systems to track and improve product quality throughout manufacturing.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality Management.png"
+      },
+      {
+        "title": "Manufacturing Integration & Intelligence",
+        "desc": "Integrate and analyze data from all your operations to make informed decisions. Gain actionable insights to boost productivity and efficiency.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Manufacturing Integration & Intelligence.png"
+      },
+      {
+        "title": "Supply Chain Integration",
+        "desc": "Integrated systems for seamless coordination and collaboration across the supply chain.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Supply Chain Integration.png"
+      },
+      {
+        "title": "Integrated Business Planning",
+        "desc": "Align production with business objectives and market demands using digitization. Connect strategic planning with operational execution for greater agility and responsiveness.",
+        "image": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Integrated Business Planning.png"
+      }
+    ]
+  }
+}

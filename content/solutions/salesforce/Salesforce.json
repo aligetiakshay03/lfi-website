@@ -1,0 +1,61 @@
+{
+  "heroSectionData": {
+    "heading1": "Salesforce",
+    "subheading1": "Elevate customer engagement and streamline operations with our Salesforce expertise.",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Sales force (1).png",
+    "status1": "OVERVIEW",
+    "subheading2": "Our focus extends to key aspects of SAP's product suite - addressing critical client priorities.",
+    "para1": "We specialize in harnessing the power of SAP’s latest release, S/4HANA, for your business’s unique needs. \n\nLinkfields consultants are equipped to tackle challenging technical facets of SAP landscapes, such as upgrades, Solution Manager, and data mining tools.  \n\nWe collaborate with trusted partners who uphold the Linkfields standard, delivering further value to our clients. \n\nWe build trust, communicate openly, proactively scrutinize our work for improvement, act responsibly, and celebrate the uniqueness of our employees.\n"
+  },
+  "HowCanWeHelpSection": {
+    "status1": "HOW WE CAN HELP",
+    "heading1": "Achieve Tomorrow's Success with SAP Today"
+  },
+  "Cards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/4 Hana.png",
+      "heading": "S/4 HANA",
+      "actionButton": {
+        "text": "Know more",
+        "url": ""
+      }
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/laptop-minimal.png",
+      "heading": "Core SAP Expertise",
+      "actionButton": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/hand-helping.png",
+      "heading": "SAP Special Expertise",
+      "actionButton": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 16.png",
+      "heading": "Services &  More",
+      "actionButton": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/implementation (1).png",
+      "heading": "Data Services",
+      "actionButton": {
+        "text": "",
+        "url": ""
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  }
+}

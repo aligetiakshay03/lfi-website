@@ -1,0 +1,58 @@
+{
+  "heroSectionData": {
+    "heading1": "Product Discovery",
+    "subheading1": "Building products that the market needs",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/product-discovery.jpg",
+    "status1": "OVERVIEW",
+    "subheading2": "Providing teams with certainty in their building approach",
+    "para1": "The iterative process of eliminating uncertainty around an issue or idea to ensure that the correct product is produced for the right audience is known as product discovery.\n"
+  },
+  "Projectflow": {
+    "status1": "WHAT WE OFFER",
+    "heading1": "Grow and succeed through transformation"
+  },
+  "growthmessage": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "urlMessage": "Talk to us"
+  },
+  "transformationCards": [
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/initialassesment.png",
+      "heading": "Initial assessment",
+      "content": "With the help of a product strategy, we identify best-fit technologies that help you convert data into revenue opportunities."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/sucessmetric.png",
+      "heading": "Metric of success",
+      "content": "We construct data warehouse & data lake solutions, as well as streamline ETL development, execution, and management tasks by building data pipelines."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/featurefocus.png",
+      "heading": "Feature focus",
+      "content": "Helping you make better & faster decisions by speeding up your time to insights using breakthrough business intelligence tools."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/prrofofconcept.png",
+      "heading": "Proof of concept & UX design",
+      "content": "Gain 360-degree visibility into your data through interactive reports and intuitive dashboards that simplify analytics."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/testablez.png",
+      "heading": "Testable Z",
+      "content": "By developing a tiered access system, we protect your data in adherence to security protocols and also ensure an efficient backup & recovery process."
+    },
+    {
+      "logo": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/validationheart.png",
+      "heading": "Product validation",
+      "content": "A functional prototype with guidelines is provided to the client’s team to conduct a product validation instance with real users."
+    }
+  ],
+  "MediaSection": {
+    "status": "OUR PROCESS",
+    "title": "Constant research and testing",
+    "description": "We definitely agree with the fact that the client knows what’s best for them. Every decision that is made during product discover & development is made in accordance with the client’s requirements as well as the data obtained from market research. This helps us build product that the client feels confident about, and favors the users as well.",
+    "bgImageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png",
+    "imageURL": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/constant-research-cycle.png"
+  }
+}

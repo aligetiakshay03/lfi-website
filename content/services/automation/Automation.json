@@ -1,0 +1,39 @@
+{
+  "heroSectionData": {
+    "heading1": "Automation",
+    "subheading1": "Amplifying business growth with automation",
+    "imagesrc": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automation-banner.png",
+    "status1": "OVERVIEW",
+    "subheading2": "Swifter operations, lesser costs, and higher productivity",
+    "para1": "Designing a broad spectrum of technologies that reduce the requirement of human mediation in operations, freeing up employees for more imaginative tasks that boost productivity.\n",
+    "status2": "WHAT WE OFFER",
+    "subheading3": "Facilitating the expertise required for change",
+    "para2": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future."
+  },
+  "tabItems": [
+    {
+      "title": "Robotic Process Automation",
+      "descriptions": "RPA software uses a combination of integrations, advanced technologies, and cognitive processes, allowing companies to use software robots that perform organizational tasks within an overall business.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA.png",
+      "button": {
+        "link": "/services/automation/robotic-process-automation",
+        "label": "Read more"
+      }
+    },
+    {
+      "title": "Digital Transformation",
+      "descriptions": "Complete renovation of businesses to prepare them for the digital future by equipping organizations with digitally empowered tools.\n",
+      "imageUrl": "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Digital transformation.png",
+      "button": {
+        "link": "/services/automation/digital-transformation",
+        "label": "Read more"
+      }
+    }
+  ],
+  "messageBannerData": {
+    "title": "10x faster operational growth",
+    "url": "/contact-us",
+    "description": "",
+    "urlMessage": "Talk to us"
+  }
+}

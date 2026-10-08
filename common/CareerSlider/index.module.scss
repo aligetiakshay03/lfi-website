@@ -1,0 +1,85 @@
+.outerContainer {
+    padding-bottom: 100px;
+    background: url("/backgroud-images/careerspagebg.png") !important;  
+    background-size: cover;
+    padding-top: 229px;
+
+    .heading {
+        font-size: 96px;
+        line-height: 92.16px;
+        letter-spacing: -1.1px;
+        color: #E6ECED;
+        text-align: center !important;
+        max-width: 1560px;
+        // margin: 229px auto 0px auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+        font-size: 20px;
+        line-height: 23px;
+        color: #E6ECED;
+        margin: 153px auto 98px auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-family: "libre-franklin", sans-serif;
+        font-style: normal;
+        cursor: pointer;
+
+        &:hover,
+        &:focus,
+        &:active {
+            font-size: 20px !important;
+        line-height: 23px !important;
+        color: #E6ECED !important;
+        background-color: transparent !important;
+        // margin: 153px auto 98px auto !important;
+        // margin-left: 50% !important;
+        }
+    }
+    
+
+
+    .container {
+
+        :global {
+            .ant-carousel .slick-list .slick-slide.slick-active {
+                width: unset !important;
+                margin: 0px 10px !important;
+                vertical-align: bottom !important;
+            }
+
+            .ant-carousel .slick-slider .slick-track {
+                display: flex;
+                align-items: flex-end;
+            }
+
+            .ant-carousel .slick-initialized .slick-slide {
+                display: inline-table !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1560px) {
+    .outerContainer {
+    padding-top: 150px;
+
+        .heading {
+            font-size: 56px;
+            line-height: 50px;
+            letter-spacing: -1.1px;
+            // margin: 150px auto 0px auto;
+        }
+
+        .button {
+            font-size: 20px;
+            line-height: 23px;
+            color: #E6ECED;
+            margin: 100px auto 98px auto;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

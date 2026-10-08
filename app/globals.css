@@ -1,0 +1,62 @@
+@import url("./styles/fonts/helvetica/style.css");
+@import url("./styles/modern.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+select {
+  -webkit-appearance: listbox !important;
+}
+
+/* div.ant-tabs-nav {
+  margin-top: 240px;
+  max-width: 610px;
+} */
+
+/* @font-face { */
+/* font-family: "HelveticaNeueSmall"; */
+/* src: url('../public/fonts/HelveticaNeueUltraLight.otf') format("opentype"); */
+/* src: url('../public/fonts/HelveticaNeueLight.otf') format("opentype");  */
+/* src: url('../public/fonts/HelveticaNeue-Regular.otf') format("opentype"); */
+/* src: url('../public/fonts/trail/HelveticaNeueLt.ttf') format("opentype"); */
+/* src: url('../public/fonts/trail/HelveticaNeueBd.ttf') format("opentype"); */
+/* src: url('../public/fonts/HelveticaNeueLight.otf') format("opentype"); */
+/* src: url('../public/fonts/HelveticaNeueMedium.otf') format("opentype"); this one */
+/* src: url('../public/fonts/HelveticaNeueHeavy.otf') format("opentype"); */
+/* src: url('../public/fonts/HelveticaNeueBold.otf') format("opentype"); */
+/* src: url('../public/fonts/HelveticaNeueMedium.otf') format("opentype"); */
+/* font-style: normal; */
+/* font-weight: 300 400 500 600 700; */
+/* } */
+
+.ant-tabs-dropdown .ant-tabs-dropdown-menu {
+  background-color: #141414 !important;
+  font-size: 14px !important;
+}
+
+body {
+  font-family: 'MonsalGothicMedium';
+  background-color: black;
+
+  /* h1 h3 {
+    letter-spacing: 1.1px !important;
+    font-weight: 400 !important;
+  } */
+  /* p {
+    font-family: "HelveticaNeueSmall" !important;
+  } */
+}

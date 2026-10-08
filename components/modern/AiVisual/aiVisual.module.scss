@@ -1,0 +1,191 @@
+.visual {
+  --tone-bg: var(--lf-panel);
+  --tone-fg: #fff;
+  --tone-arc: rgba(255, 255, 255, 0.08);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  background: var(--tone-bg);
+  color: var(--tone-fg);
+  animation: visIn 0.8s var(--lf-ease-out) both;
+}
+
+@keyframes visIn {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+}
+
+/* Brand tones */
+.toneOrange {
+  --tone-bg: linear-gradient(135deg, #ff9a3d 0%, #ff7800 55%, #e66500 100%);
+  --tone-arc: rgba(255, 255, 255, 0.16);
+}
+
+.toneNavy {
+  --tone-bg: linear-gradient(150deg, #0e1526 0%, #16254a 100%);
+  --tone-arc: rgba(255, 120, 0, 0.22);
+}
+
+.toneBlue {
+  --tone-bg: linear-gradient(150deg, #2d58c0 0%, #1b3a86 100%);
+  --tone-arc: rgba(255, 255, 255, 0.14);
+}
+
+.toneCharcoal {
+  --tone-bg: linear-gradient(150deg, #1a1d24 0%, #2a2f3a 100%);
+  --tone-arc: rgba(255, 120, 0, 0.2);
+}
+
+.toneIvory {
+  --tone-bg: linear-gradient(150deg, #fff8f1 0%, #f6e7d6 100%);
+  --tone-fg: #141821;
+  --tone-arc: rgba(255, 120, 0, 0.16);
+}
+
+.toneSand {
+  --tone-bg: linear-gradient(150deg, #ffe7d1 0%, #ffd2ab 100%);
+  --tone-fg: #141821;
+  --tone-arc: rgba(255, 255, 255, 0.6);
+}
+
+/* Soft arcs — the only decoration. */
+.arc,
+.arcSmall {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--tone-arc);
+  transition: transform 1.2s var(--lf-ease-out);
+}
+
+.arc {
+  width: 78%;
+  aspect-ratio: 1;
+  right: -26%;
+  top: -34%;
+  border-width: clamp(18px, 3vw, 40px);
+}
+
+.arcSmall {
+  width: 34%;
+  aspect-ratio: 1;
+  left: -10%;
+  bottom: -14%;
+  border-width: clamp(10px, 1.6vw, 22px);
+}
+
+:global(a:hover) > .visual .arc,
+:hover > .visual .arc {
+  transform: rotate(18deg) scale(1.05);
+}
+
+/* Full product name — typographic tile for products without a logo. */
+.productName {
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 1rem + 2.4vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-align: center;
+  max-width: 82%;
+  padding: 0 4%;
+  text-wrap: balance;
+  opacity: 0.95;
+  animation: monoIn 0.9s var(--lf-ease-out) 0.1s both;
+}
+
+@keyframes monoIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+.caption {
+  position: absolute;
+  left: clamp(16px, 2vw, 26px);
+  bottom: clamp(14px, 1.8vw, 22px);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--lf-font-display);
+  font-weight: 800;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.captionDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.logo {
+  position: relative;
+  width: min(84%, 500px);
+  max-width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 30px 60px -28px rgba(0, 0, 0, 0.55);
+  animation: monoIn 0.9s var(--lf-ease-out) 0.1s both;
+}
+
+/* Premium glass plate for framed logos — keeps the full artwork
+   readable over any brand tone (e.g. the orange hero panel). */
+.logoFramed {
+  background: linear-gradient(135deg, rgba(9, 14, 28, 0.68), rgba(18, 28, 54, 0.46));
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  box-shadow:
+    0 24px 60px -22px rgba(0, 0, 0, 0.6),
+    0 0 90px -24px rgba(255, 120, 0, 0.45);
+}
+
+/* Generous internal padding so the artwork never touches the plate edges. */
+.logoPad {
+  position: absolute;
+  inset: clamp(16px, 3vw, 34px);
+}
+
+/* Contain (never crop) — the full logo is always visible at any size. */
+.logoImg {
+  object-fit: contain;
+}
+
+.compact {
+  .productName {
+    font-size: clamp(1.05rem, 0.85rem + 1.4vw, 1.8rem);
+    max-width: 88%;
+  }
+
+  .logo {
+    width: 78%;
+    border-radius: 14px;
+  }
+
+  .logoPad {
+    inset: clamp(10px, 1.8vw, 20px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .visual,
+  .productName,
+  .logo {
+    animation: none !important;
+  }
+}

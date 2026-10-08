@@ -1,0 +1,67 @@
+.container {
+  position: relative;
+  background: url("/backgroud-images/our-process.jpg");
+  background-size: cover;
+  padding: 100px;
+
+  .header {
+    color: #e6eced;
+    margin-top: 16px;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 130%;
+  }
+
+  .desc {
+    color: #8a8e8f;
+    font-family: "libre-franklin", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 140%;
+    margin-top: 28px;
+    line-height: 39px;
+  }
+}
+
+@media only screen and (max-width: 1560px) {
+  .container {
+    padding: 80px;
+
+    .header {
+      font-size: 32px;
+      margin-top: 16px;
+    }
+    .desc {
+      font-size: 18px;
+      margin-top: 12px;
+      line-height: 28px;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    .header {
+      font-size: 24px;
+    }
+
+    .desc {
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .container {
+    padding: 20px;
+  }
+}

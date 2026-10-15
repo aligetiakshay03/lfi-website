@@ -29,7 +29,7 @@
     "@react-email/render": "^0.0.12",
     "@tinacms/auth": "^1.0.6",
     "@tinacms/cli": "^1.5.52",
-    "@tinacms/datalayer": "^1.2.39",
+    "@tinacms/datalayer": "^3.0.0",
     "@types/react-gtm-module": "^2.0.3",
     "@udecode/plate": "^48.0.5",
     "all": "^0.0.0",

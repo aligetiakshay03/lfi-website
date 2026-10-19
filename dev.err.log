@@ -1,0 +1,7 @@
+Set-Location : A positional parameter cannot be found that accepts argument '1'.
+At line:1 char:1
++ Set-Location C:\Users\Admin-LFI\Desktop\lfi-website-main (1)\lfi-webs ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 

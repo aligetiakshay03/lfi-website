@@ -36,15 +36,36 @@
   position: relative;
   overflow: hidden;
   outline: none;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
   padding-left: max(var(--lf-gutter), calc((100vw - var(--lf-max)) / 2 + var(--lf-gutter)));
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  /* The rail is a keyboard control (arrow keys pan it), so it must show focus. */
+  &:focus-visible {
+    outline: 2px solid var(--lf-orange);
+    outline-offset: -4px;
+    border-radius: 4px;
+  }
 }
 
 .track {
   display: flex;
+  gap: 0;
+  width: max-content;
+  will-change: transform;
+}
+
+.group {
+  display: flex;
+  flex: none;
   gap: 18px;
   width: max-content;
-  padding-right: var(--lf-gutter);
-  will-change: transform;
+  padding-right: 18px;
 }
 
 .card {
@@ -266,26 +287,18 @@
     align-items: flex-start;
   }
   .rail {
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-padding-left: var(--lf-gutter);
+    overflow: hidden;
     padding-left: var(--lf-gutter);
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
+  /* The rail is drag-driven, not a scroll container, so scroll-snap no longer applies. */
   .card,
   .cardActive {
     width: min(78vw, 420px);
     height: min(70vh, 520px);
-    scroll-snap-align: start;
   }
   .endCard {
     width: min(70vw, 340px);
     height: min(70vh, 520px);
-    scroll-snap-align: start;
   }
   .hint {
     display: none;

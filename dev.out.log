@@ -1,0 +1,4 @@
+
+> tina-self-hosted-demo@0.1.0 dev
+> npx --yes -p node@20 node ./node_modules/@tinacms/cli/dist/index.js dev -c "next dev"
+

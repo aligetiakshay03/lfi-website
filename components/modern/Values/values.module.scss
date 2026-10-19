@@ -73,9 +73,10 @@
   background: var(--lf-orange-grad);
   box-shadow: var(--lf-shadow-orange);
 
-  img {
-    object-fit: contain;
-    filter: brightness(0) invert(1);
+  svg {
+    width: 28px;
+    height: 28px;
+    color: var(--lf-white);
   }
 }
 

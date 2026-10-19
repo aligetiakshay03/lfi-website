@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"next dev\"",
-    "dev:prod": "TINA_PUBLIC_IS_LOCAL=false tinacms dev -c \"next dev\"",
-    "build": "tinacms build -c \"next build\"",
+    "dev": "npx --yes -p node@20 node ./node_modules/@tinacms/cli/bin/tinacms dev -c \"next dev\"",
+    "dev:prod": "npx --yes -p node@20 node ./node_modules/@tinacms/cli/bin/tinacms dev -c \"next dev\"",
+    "build": "npx --yes -p node@20 node ./node_modules/@tinacms/cli/bin/tinacms build -c \"next build\"",
     "postbuild": "node sitemap.js",
-    "start": "next start",
-    "start:cms": "tinacms dev -c \"next start\"",
-    "lint": "next lint",
+    "start": "npx --yes -p node@20 node ./node_modules/next/dist/bin/next start",
+    "start:cms": "npx --yes -p node@20 node ./node_modules/@tinacms/cli/bin/tinacms dev -c \"next start\"",
+    "lint": "npx --yes -p node@20 node ./node_modules/next/dist/bin/next lint",
     "email-dev": "email dev --dir components/emails"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
